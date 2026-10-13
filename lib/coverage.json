@@ -1,0 +1,2145 @@
+[
+  {
+    "code": "1.1.1",
+    "topic": "Data representation",
+    "subtopic": "Number systems",
+    "objective": "Understand how and why computers use binary to represent all forms of data",
+    "page": 11,
+    "paper": 1,
+    "lessons": [
+      "Why computers use binary"
+    ],
+    "questions": [
+      "1.1.1-1-40",
+      "1.1.1-written",
+      "1.1.1-2-59",
+      "1.1.1-3-98",
+      "unit1-all-data"
+    ],
+    "assessment": [
+      "Chapter 1 assessment",
+      "Objective knowledge check"
+    ],
+    "status": "Implemented; automated checks passed"
+  },
+  {
+    "code": "1.1.2",
+    "topic": "Data representation",
+    "subtopic": "Number systems",
+    "objective": "(a) Understand the denary, binary and hexadecimal number systems (b) Convert between (i) positive denary and positive binary (ii) positive denary and positive hexadecimal (iii) positive hexadecimal and positive binary",
+    "page": 11,
+    "paper": 1,
+    "lessons": [
+      "Binary, denary & hexadecimal"
+    ],
+    "questions": [
+      "1.1.2-1-34",
+      "1.1.2-2-33",
+      "1.1.2-3-35",
+      "1.1.2-4-50",
+      "1.1.2-5-47",
+      "1.1.2-3-34",
+      "unit1-hex16",
+      "unit1-denary16",
+      "unit1-hex-place",
+      "unit1-denary-hex"
+    ],
+    "assessment": [
+      "Chapter 1 assessment",
+      "Objective knowledge check"
+    ],
+    "status": "Implemented; automated checks passed"
+  },
+  {
+    "code": "1.1.3",
+    "topic": "Data representation",
+    "subtopic": "Number systems",
+    "objective": "Understand how and why hexadecimal is used as a beneficial method of data representation",
+    "page": 11,
+    "paper": 1,
+    "lessons": [
+      "Why hexadecimal is useful"
+    ],
+    "questions": [
+      "1.1.3-2-46",
+      "1.1.3-written",
+      "1.1.3-1-57",
+      "1.1.3-3-45"
+    ],
+    "assessment": [
+      "Chapter 1 assessment",
+      "Objective knowledge check"
+    ],
+    "status": "Implemented; automated checks passed"
+  },
+  {
+    "code": "1.1.4",
+    "topic": "Data representation",
+    "subtopic": "Number systems",
+    "objective": "(a) Add two positive 8-bit binary integers (b) Understand the concept of overflow and why it occurs in binary addition",
+    "page": 11,
+    "paper": 1,
+    "lessons": [
+      "Binary addition & overflow"
+    ],
+    "questions": [
+      "1.1.4-1-24",
+      "1.1.4-2-46",
+      "1.1.4-3-104",
+      "1.1.4-written",
+      "unit1-addition-check",
+      "unit1-overflow-check"
+    ],
+    "assessment": [
+      "Chapter 1 assessment",
+      "Objective knowledge check"
+    ],
+    "status": "Implemented; automated checks passed"
+  },
+  {
+    "code": "1.1.5",
+    "topic": "Data representation",
+    "subtopic": "Number systems",
+    "objective": "Perform a logical binary shift on a positive 8-bit binary integer and understand the effect this has on the positive binary integer",
+    "page": 12,
+    "paper": 1,
+    "lessons": [
+      "Logical binary shifts"
+    ],
+    "questions": [
+      "1.1.5-1-56",
+      "1.1.5-2-59",
+      "1.1.5-3-70",
+      "1.1.5-written",
+      "1.1.5-3-50"
+    ],
+    "assessment": [
+      "Chapter 1 assessment",
+      "Objective knowledge check"
+    ],
+    "status": "Implemented; automated checks passed"
+  },
+  {
+    "code": "1.1.6",
+    "topic": "Data representation",
+    "subtopic": "Number systems",
+    "objective": "Use the two’s complement number system to represent positive and negative 8-bit binary integers",
+    "page": 12,
+    "paper": 1,
+    "lessons": [
+      "Two’s complement"
+    ],
+    "questions": [
+      "1.1.6-1-67",
+      "1.1.6-2-35",
+      "1.1.6-3-58",
+      "1.1.6-4-36",
+      "1.1.6-2-36",
+      "unit1-positive-decode",
+      "unit1-negative-decode"
+    ],
+    "assessment": [
+      "Chapter 1 assessment",
+      "Objective knowledge check"
+    ],
+    "status": "Implemented; automated checks passed"
+  },
+  {
+    "code": "1.2.1",
+    "topic": "Data representation",
+    "subtopic": "Text, sound and images",
+    "objective": "Understand how and why a computer represents text and the use of character sets, including American standard code for information interchange (ASCII) and Unicode",
+    "page": 12,
+    "paper": 1,
+    "lessons": [
+      "Text & character sets"
+    ],
+    "questions": [
+      "1.2.1-2-55",
+      "1.2.1-written",
+      "1.2.1-1-57",
+      "1.2.1-3-62"
+    ],
+    "assessment": [
+      "Chapter 1 assessment",
+      "Objective knowledge check"
+    ],
+    "status": "Implemented; automated checks passed"
+  },
+  {
+    "code": "1.2.2",
+    "topic": "Data representation",
+    "subtopic": "Text, sound and images",
+    "objective": "Understand how and why a computer represents sound, including the effects of the sample rate and sample resolution",
+    "page": 12,
+    "paper": 1,
+    "lessons": [
+      "How sound becomes data"
+    ],
+    "questions": [
+      "1.2.2-1-20",
+      "1.2.2-written",
+      "1.2.2-2-115",
+      "1.2.2-3-64"
+    ],
+    "assessment": [
+      "Chapter 1 assessment",
+      "Objective knowledge check"
+    ],
+    "status": "Implemented; automated checks passed"
+  },
+  {
+    "code": "1.2.3",
+    "topic": "Data representation",
+    "subtopic": "Text, sound and images",
+    "objective": "Understand how and why a computer represents an image, including the effects of the resolution and colour depth",
+    "page": 13,
+    "paper": 1,
+    "lessons": [
+      "Pixels, resolution & colour"
+    ],
+    "questions": [
+      "1.2.3-2-48",
+      "1.2.3-3-42",
+      "1.2.3-written",
+      "1.2.3-1-41"
+    ],
+    "assessment": [
+      "Chapter 1 assessment",
+      "Objective knowledge check"
+    ],
+    "status": "Implemented; automated checks passed"
+  },
+  {
+    "code": "1.3.1",
+    "topic": "Data representation",
+    "subtopic": "Data storage and compression",
+    "objective": "Understand how data storage is measured",
+    "page": 13,
+    "paper": 1,
+    "lessons": [
+      "Bits, bytes & storage units"
+    ],
+    "questions": [
+      "1.3.1-1-30",
+      "1.3.1-2-21",
+      "1.3.1-3-26",
+      "1.3.1-3-21",
+      "1.3.1-4-21"
+    ],
+    "assessment": [
+      "Chapter 1 assessment",
+      "Objective knowledge check"
+    ],
+    "status": "Implemented; automated checks passed"
+  },
+  {
+    "code": "1.3.2",
+    "topic": "Data representation",
+    "subtopic": "Data storage and compression",
+    "objective": "Calculate the file size of an image file and a sound file, using information given",
+    "page": 13,
+    "paper": 1,
+    "lessons": [
+      "Calculate image & sound sizes"
+    ],
+    "questions": [
+      "1.3.2-2-88",
+      "1.3.2-3-86",
+      "1.3.2-4-103",
+      "1.3.2-5-96",
+      "unit1-sound-kib",
+      "unit1-sound-mib",
+      "unit1-image-mib"
+    ],
+    "assessment": [
+      "Chapter 1 assessment",
+      "Objective knowledge check"
+    ],
+    "status": "Implemented; automated checks passed"
+  },
+  {
+    "code": "1.3.3",
+    "topic": "Data representation",
+    "subtopic": "Data storage and compression",
+    "objective": "Understand the purpose of and need for data compression",
+    "page": 13,
+    "paper": 1,
+    "lessons": [
+      "Why compress data?"
+    ],
+    "questions": [
+      "1.3.3-written",
+      "1.3.3-1-43",
+      "1.3.3-3-87",
+      "unit1-compression-storage",
+      "unit1-compression-bandwidth"
+    ],
+    "assessment": [
+      "Chapter 1 assessment",
+      "Objective knowledge check"
+    ],
+    "status": "Implemented; automated checks passed"
+  },
+  {
+    "code": "1.3.4",
+    "topic": "Data representation",
+    "subtopic": "Data storage and compression",
+    "objective": "Understand how files are compressed using lossy and lossless compression methods",
+    "page": 14,
+    "paper": 1,
+    "lessons": [
+      "Lossy, lossless & RLE"
+    ],
+    "questions": [
+      "1.3.4-1-59",
+      "1.3.4-2-29",
+      "1.3.4-written",
+      "1.3.4-3-74"
+    ],
+    "assessment": [
+      "Chapter 1 assessment",
+      "Objective knowledge check"
+    ],
+    "status": "Implemented; automated checks passed"
+  },
+  {
+    "code": "2.1.1",
+    "topic": "Data transmission",
+    "subtopic": "Types and methods of data transmission",
+    "objective": "(a) Understand that data is broken down into packets to be transmitted (b) Describe the structure of a packet (c) Describe the process of packet switching",
+    "page": 14,
+    "paper": 1,
+    "lessons": [
+      "Packets and packet switching"
+    ],
+    "questions": [
+      "tx-packet-header",
+      "tx-packet-router",
+      "tx-packet-order",
+      "tx-2.1.1-written"
+    ],
+    "assessment": [
+      "Chapter 2 assessment",
+      "Objective knowledge check"
+    ],
+    "status": "Implemented; automated checks passed"
+  },
+  {
+    "code": "2.1.2",
+    "topic": "Data transmission",
+    "subtopic": "Types and methods of data transmission",
+    "objective": "(a) Describe how data is transmitted from one device to another using different methods of data transmission (b) Explain the suitability of each method of data transmission, for a given scenario",
+    "page": 14,
+    "paper": 1,
+    "lessons": [
+      "Serial, parallel and transmission directions"
+    ],
+    "questions": [
+      "tx-serial",
+      "tx-simplex",
+      "tx-half",
+      "tx-2.1.2-written"
+    ],
+    "assessment": [
+      "Chapter 2 assessment",
+      "Objective knowledge check"
+    ],
+    "status": "Implemented; automated checks passed"
+  },
+  {
+    "code": "2.1.3",
+    "topic": "Data transmission",
+    "subtopic": "Types and methods of data transmission",
+    "objective": "Understand the universal serial bus (USB) interface and explain how it is used to transmit data",
+    "page": 14,
+    "paper": 1,
+    "lessons": [
+      "How USB connects devices"
+    ],
+    "questions": [
+      "tx-usb-serial",
+      "tx-usb-host",
+      "tx-usb-limit",
+      "tx-2.1.3-written"
+    ],
+    "assessment": [
+      "Chapter 2 assessment",
+      "Objective knowledge check"
+    ],
+    "status": "Implemented; automated checks passed"
+  },
+  {
+    "code": "2.2.1",
+    "topic": "Data transmission",
+    "subtopic": "Methods of error detection",
+    "objective": "Understand the need to check for errors after data transmission and how these errors can occur",
+    "page": 15,
+    "paper": 1,
+    "lessons": [
+      "Why transmitted data needs checking"
+    ],
+    "questions": [
+      "tx-interference",
+      "tx-data-gain",
+      "tx-data-change",
+      "tx-2.2.1-written"
+    ],
+    "assessment": [
+      "Chapter 2 assessment",
+      "Objective knowledge check"
+    ],
+    "status": "Implemented; automated checks passed"
+  },
+  {
+    "code": "2.2.2",
+    "topic": "Data transmission",
+    "subtopic": "Methods of error detection",
+    "objective": "Describe the processes involved in each of the following error detection methods for detecting errors in data after transmission: parity check (odd and even), checksum and echo check",
+    "page": 15,
+    "paper": 1,
+    "lessons": [
+      "Parity, checksums and echo checks"
+    ],
+    "questions": [
+      "tx-parity",
+      "tx-parity-block",
+      "tx-echo",
+      "tx-2.2.2-written"
+    ],
+    "assessment": [
+      "Chapter 2 assessment",
+      "Objective knowledge check"
+    ],
+    "status": "Implemented; automated checks passed"
+  },
+  {
+    "code": "2.2.3",
+    "topic": "Data transmission",
+    "subtopic": "Methods of error detection",
+    "objective": "Describe how a check digit is used to detect errors in data entry and identify examples of when a check digit is used, including international standard book numbers (ISBN) and bar codes",
+    "page": 15,
+    "paper": 1,
+    "lessons": [
+      "Check digits and data entry"
+    ],
+    "questions": [
+      "tx-checkdigit",
+      "tx-checkdigit-compare-v2",
+      "tx-checkdigit-limit",
+      "tx-2.2.3-written"
+    ],
+    "assessment": [
+      "Chapter 2 assessment",
+      "Objective knowledge check"
+    ],
+    "status": "Implemented; automated checks passed"
+  },
+  {
+    "code": "2.2.4",
+    "topic": "Data transmission",
+    "subtopic": "Methods of error detection",
+    "objective": "Describe how an automatic repeat query (ARQ) can be used to establish that data is received without error",
+    "page": 15,
+    "paper": 1,
+    "lessons": [
+      "ARQ: acknowledge or send again"
+    ],
+    "questions": [
+      "tx-ack",
+      "tx-arq-timeout",
+      "tx-arq-lost",
+      "tx-2.2.4-written"
+    ],
+    "assessment": [
+      "Chapter 2 assessment",
+      "Objective knowledge check"
+    ],
+    "status": "Implemented; automated checks passed"
+  },
+  {
+    "code": "2.3.1",
+    "topic": "Data transmission",
+    "subtopic": "Encryption",
+    "objective": "Understand the need for and purpose of encryption when transmitting data",
+    "page": 15,
+    "paper": 1,
+    "lessons": [
+      "Why encrypt transmitted data?"
+    ],
+    "questions": [
+      "tx-ciphertext",
+      "tx-decrypt",
+      "tx-intercept",
+      "tx-2.3.1-written"
+    ],
+    "assessment": [
+      "Chapter 2 assessment",
+      "Objective knowledge check"
+    ],
+    "status": "Implemented; automated checks passed"
+  },
+  {
+    "code": "2.3.2",
+    "topic": "Data transmission",
+    "subtopic": "Encryption",
+    "objective": "Understand how data is encrypted using symmetric and asymmetric encryption",
+    "page": 15,
+    "paper": 1,
+    "lessons": [
+      "Symmetric and asymmetric keys"
+    ],
+    "questions": [
+      "tx-symmetric",
+      "tx-public",
+      "tx-private",
+      "tx-2.3.2-written"
+    ],
+    "assessment": [
+      "Chapter 2 assessment",
+      "Objective knowledge check"
+    ],
+    "status": "Implemented; automated checks passed"
+  },
+  {
+    "code": "3.1.1",
+    "topic": "Hardware",
+    "subtopic": "Computer architecture",
+    "objective": "(a) Understand the role of the central processing unit (CPU) in a computer (b) Understand what is meant by a microprocessor",
+    "page": 16,
+    "paper": 1,
+    "lessons": [
+      "What the CPU does"
+    ],
+    "questions": [
+      "hw-cpu-name",
+      "hw-cpu-work",
+      "hw-microprocessor",
+      "hw-3.1.1-written"
+    ],
+    "assessment": [
+      "Chapter 3 assessment",
+      "Objective knowledge check"
+    ],
+    "status": "Implemented; automated checks passed"
+  },
+  {
+    "code": "3.1.2",
+    "topic": "Hardware",
+    "subtopic": "Computer architecture",
+    "objective": "(a) Understand the purpose of the components in a CPU, in a computer that has a Von Neumann architecture (b) Describe the process of the fetch–decode–execute (FDE) cycle, including the role of each component in the process",
+    "page": 16,
+    "paper": 1,
+    "lessons": [
+      "Follow an instruction inside the CPU"
+    ],
+    "questions": [
+      "hw-3.1.2-1",
+      "hw-3.1.2-2",
+      "hw-3.1.2-3",
+      "hw-3.1.2-written"
+    ],
+    "assessment": [
+      "Chapter 3 assessment",
+      "Objective knowledge check"
+    ],
+    "status": "Implemented; automated checks passed"
+  },
+  {
+    "code": "3.1.3",
+    "topic": "Hardware",
+    "subtopic": "Computer architecture",
+    "objective": "Understand what is meant by a core, cache and clock in a CPU and explain how they can affect the performance of a CPU",
+    "page": 16,
+    "paper": 1,
+    "lessons": [
+      "What makes a CPU faster?"
+    ],
+    "questions": [
+      "hw-3.1.3-1",
+      "hw-3.1.3-2",
+      "hw-3.1.3-3",
+      "hw-3.1.3-written"
+    ],
+    "assessment": [
+      "Chapter 3 assessment",
+      "Objective knowledge check"
+    ],
+    "status": "Implemented; automated checks passed"
+  },
+  {
+    "code": "3.1.4",
+    "topic": "Hardware",
+    "subtopic": "Computer architecture",
+    "objective": "Understand the purpose and use of an instruction set for a CPU",
+    "page": 16,
+    "paper": 1,
+    "lessons": [
+      "The commands a CPU understands"
+    ],
+    "questions": [
+      "hw-3.1.4-1",
+      "hw-3.1.4-2",
+      "hw-3.1.4-3",
+      "hw-3.1.4-written"
+    ],
+    "assessment": [
+      "Chapter 3 assessment",
+      "Objective knowledge check"
+    ],
+    "status": "Implemented; automated checks passed"
+  },
+  {
+    "code": "3.1.5",
+    "topic": "Hardware",
+    "subtopic": "Computer architecture",
+    "objective": "Describe the purpose and characteristics of an embedded system and identify devices in which they are commonly used",
+    "page": 16,
+    "paper": 1,
+    "lessons": [
+      "Computers inside everyday devices"
+    ],
+    "questions": [
+      "hw-3.1.5-1",
+      "hw-3.1.5-2",
+      "hw-3.1.5-3",
+      "hw-3.1.5-written"
+    ],
+    "assessment": [
+      "Chapter 3 assessment",
+      "Objective knowledge check"
+    ],
+    "status": "Implemented; automated checks passed"
+  },
+  {
+    "code": "3.2.1",
+    "topic": "Hardware",
+    "subtopic": "Input and output devices",
+    "objective": "Understand what is meant by an input device and why it is required",
+    "page": 17,
+    "paper": 1,
+    "lessons": [
+      "Getting information into a computer"
+    ],
+    "questions": [
+      "hw-3.2.1-1",
+      "hw-3.2.1-2",
+      "hw-3.2.1-3",
+      "hw-3.2.1-written"
+    ],
+    "assessment": [
+      "Chapter 3 assessment",
+      "Objective knowledge check"
+    ],
+    "status": "Implemented; automated checks passed"
+  },
+  {
+    "code": "3.2.2",
+    "topic": "Hardware",
+    "subtopic": "Input and output devices",
+    "objective": "Understand what is meant by an output device and why it is required",
+    "page": 17,
+    "paper": 1,
+    "lessons": [
+      "Turning results into output"
+    ],
+    "questions": [
+      "hw-3.2.2-1",
+      "hw-3.2.2-2",
+      "hw-3.2.2-3",
+      "hw-3.2.2-written"
+    ],
+    "assessment": [
+      "Chapter 3 assessment",
+      "Objective knowledge check"
+    ],
+    "status": "Implemented; automated checks passed"
+  },
+  {
+    "code": "3.2.3",
+    "topic": "Hardware",
+    "subtopic": "Input and output devices",
+    "objective": "(a) Understand what is meant by a sensor and the purposes of sensors (b) Identify the type of data captured by each sensor and understand when each sensor would be used, including selecting the most suitable sensor for a given context",
+    "page": 17,
+    "paper": 1,
+    "lessons": [
+      "Choose a sensor for the job"
+    ],
+    "questions": [
+      "hw-3.2.3-1",
+      "hw-3.2.3-2",
+      "hw-3.2.3-3",
+      "hw-3.2.3-written"
+    ],
+    "assessment": [
+      "Chapter 3 assessment",
+      "Objective knowledge check"
+    ],
+    "status": "Implemented; automated checks passed"
+  },
+  {
+    "code": "3.3.1",
+    "topic": "Hardware",
+    "subtopic": "Data storage",
+    "objective": "Understand what is meant by primary storage",
+    "page": 18,
+    "paper": 1,
+    "lessons": [
+      "RAM and ROM: what stays when power goes?"
+    ],
+    "questions": [
+      "hw-3.3.1-1",
+      "hw-3.3.1-2",
+      "hw-3.3.1-3",
+      "hw-3.3.1-written"
+    ],
+    "assessment": [
+      "Chapter 3 assessment",
+      "Objective knowledge check"
+    ],
+    "status": "Implemented; automated checks passed"
+  },
+  {
+    "code": "3.3.2",
+    "topic": "Hardware",
+    "subtopic": "Data storage",
+    "objective": "Understand what is meant by secondary storage",
+    "page": 18,
+    "paper": 1,
+    "lessons": [
+      "Save it, switch off, load it again"
+    ],
+    "questions": [
+      "hw-3.3.2-1",
+      "hw-3.3.2-2",
+      "hw-3.3.2-3",
+      "hw-3.3.2-written"
+    ],
+    "assessment": [
+      "Chapter 3 assessment",
+      "Objective knowledge check"
+    ],
+    "status": "Implemented; automated checks passed"
+  },
+  {
+    "code": "3.3.3",
+    "topic": "Hardware",
+    "subtopic": "Data storage",
+    "objective": "Describe the operation of magnetic, optical and solid-state (flash memory) storage and give examples of each",
+    "page": 18,
+    "paper": 1,
+    "lessons": [
+      "Inside magnetic, optical and solid-state storage"
+    ],
+    "questions": [
+      "hw-3.3.3-1",
+      "hw-3.3.3-2",
+      "hw-3.3.3-3",
+      "hw-3.3.3-written"
+    ],
+    "assessment": [
+      "Chapter 3 assessment",
+      "Objective knowledge check"
+    ],
+    "status": "Implemented; automated checks passed"
+  },
+  {
+    "code": "3.3.4",
+    "topic": "Hardware",
+    "subtopic": "Data storage",
+    "objective": "Describe what is meant by virtual memory, how it is created and used and why it is necessary",
+    "page": 18,
+    "paper": 1,
+    "lessons": [
+      "When RAM runs out of room"
+    ],
+    "questions": [
+      "hw-3.3.4-1",
+      "hw-3.3.4-2",
+      "hw-3.3.4-3",
+      "hw-3.3.4-written"
+    ],
+    "assessment": [
+      "Chapter 3 assessment",
+      "Objective knowledge check"
+    ],
+    "status": "Implemented; automated checks passed"
+  },
+  {
+    "code": "3.3.5",
+    "topic": "Hardware",
+    "subtopic": "Data storage",
+    "objective": "Understand what is meant by cloud storage",
+    "page": 18,
+    "paper": 1,
+    "lessons": [
+      "Where does a cloud file actually live?"
+    ],
+    "questions": [
+      "hw-3.3.5-1",
+      "hw-3.3.5-2",
+      "hw-3.3.5-3",
+      "hw-3.3.5-written"
+    ],
+    "assessment": [
+      "Chapter 3 assessment",
+      "Objective knowledge check"
+    ],
+    "status": "Implemented; automated checks passed"
+  },
+  {
+    "code": "3.3.6",
+    "topic": "Hardware",
+    "subtopic": "Data storage",
+    "objective": "Explain the advantages and disadvantages of storing data on the cloud in comparison to storing it locally",
+    "page": 18,
+    "paper": 1,
+    "lessons": [
+      "Cloud or local storage?"
+    ],
+    "questions": [
+      "hw-3.3.6-1",
+      "hw-3.3.6-2",
+      "hw-3.3.6-3",
+      "hw-3.3.6-written"
+    ],
+    "assessment": [
+      "Chapter 3 assessment",
+      "Objective knowledge check"
+    ],
+    "status": "Implemented; automated checks passed"
+  },
+  {
+    "code": "3.4.1",
+    "topic": "Hardware",
+    "subtopic": "Network hardware",
+    "objective": "Understand that a computer needs a network interface card (NIC) to access a network",
+    "page": 19,
+    "paper": 1,
+    "lessons": [
+      "The hardware that joins a network"
+    ],
+    "questions": [
+      "hw-3.4.1-1",
+      "hw-3.4.1-2",
+      "hw-3.4.1-3",
+      "hw-3.4.1-written"
+    ],
+    "assessment": [
+      "Chapter 3 assessment",
+      "Objective knowledge check"
+    ],
+    "status": "Implemented; automated checks passed"
+  },
+  {
+    "code": "3.4.2",
+    "topic": "Hardware",
+    "subtopic": "Network hardware",
+    "objective": "Understand what is meant by, and the purpose of, a media access control (MAC) address, including its structure",
+    "page": 19,
+    "paper": 1,
+    "lessons": [
+      "Read a MAC address"
+    ],
+    "questions": [
+      "hw-3.4.2-1",
+      "hw-3.4.2-2",
+      "hw-3.4.2-3",
+      "hw-3.4.2-written"
+    ],
+    "assessment": [
+      "Chapter 3 assessment",
+      "Objective knowledge check"
+    ],
+    "status": "Implemented; automated checks passed"
+  },
+  {
+    "code": "3.4.3",
+    "topic": "Hardware",
+    "subtopic": "Network hardware",
+    "objective": "(a) Understand what is meant by, and the purpose of, an internet protocol (IP) address (b) Understand that there are different types of IP address",
+    "page": 19,
+    "paper": 1,
+    "lessons": [
+      "Give a device an IP address"
+    ],
+    "questions": [
+      "hw-3.4.3-1",
+      "hw-3.4.3-2",
+      "hw-3.4.3-3",
+      "hw-3.4.3-written"
+    ],
+    "assessment": [
+      "Chapter 3 assessment",
+      "Objective knowledge check"
+    ],
+    "status": "Implemented; automated checks passed"
+  },
+  {
+    "code": "3.4.4",
+    "topic": "Hardware",
+    "subtopic": "Network hardware",
+    "objective": "Describe the role of a router in a network",
+    "page": 19,
+    "paper": 1,
+    "lessons": [
+      "Route data to another network"
+    ],
+    "questions": [
+      "hw-3.4.4-1",
+      "hw-3.4.4-2",
+      "hw-3.4.4-3",
+      "hw-3.4.4-written"
+    ],
+    "assessment": [
+      "Chapter 3 assessment",
+      "Objective knowledge check"
+    ],
+    "status": "Implemented; automated checks passed"
+  },
+  {
+    "code": "4.1.1",
+    "topic": "Software",
+    "subtopic": "Types of software and interrupts",
+    "objective": "Describe the difference between system software and application software and provide examples of each",
+    "page": 19,
+    "paper": 1,
+    "lessons": [
+      "Software for the computer, software for you"
+    ],
+    "questions": [
+      "course-4.1.1-1",
+      "course-4.1.1-2",
+      "course-4.1.1-3",
+      "course-4.1.1-written"
+    ],
+    "assessment": [
+      "Chapter 4 assessment",
+      "Objective knowledge check"
+    ],
+    "status": "Implemented; automated checks passed"
+  },
+  {
+    "code": "4.1.2",
+    "topic": "Software",
+    "subtopic": "Types of software and interrupts",
+    "objective": "Describe the role and basic functions of an operating system",
+    "page": 19,
+    "paper": 1,
+    "lessons": [
+      "What an operating system manages"
+    ],
+    "questions": [
+      "course-4.1.2-1",
+      "course-4.1.2-2",
+      "course-4.1.2-3",
+      "course-4.1.2-written"
+    ],
+    "assessment": [
+      "Chapter 4 assessment",
+      "Objective knowledge check"
+    ],
+    "status": "Implemented; automated checks passed"
+  },
+  {
+    "code": "4.1.3",
+    "topic": "Software",
+    "subtopic": "Types of software and interrupts",
+    "objective": "Understand how hardware, firmware and an operating system are required to run applications software",
+    "page": 20,
+    "paper": 1,
+    "lessons": [
+      "From switching on to opening an app"
+    ],
+    "questions": [
+      "course-4.1.3-1",
+      "course-4.1.3-2",
+      "course-4.1.3-3",
+      "course-4.1.3-written"
+    ],
+    "assessment": [
+      "Chapter 4 assessment",
+      "Objective knowledge check"
+    ],
+    "status": "Implemented; automated checks passed"
+  },
+  {
+    "code": "4.1.4",
+    "topic": "Software",
+    "subtopic": "Types of software and interrupts",
+    "objective": "Describe the role and operation of interrupts",
+    "page": 20,
+    "paper": 1,
+    "lessons": [
+      "Pause for an interrupt, then respond"
+    ],
+    "questions": [
+      "course-4.1.4-1",
+      "course-4.1.4-2",
+      "course-4.1.4-3",
+      "course-4.1.4-written"
+    ],
+    "assessment": [
+      "Chapter 4 assessment",
+      "Objective knowledge check"
+    ],
+    "status": "Implemented; automated checks passed"
+  },
+  {
+    "code": "4.2.1",
+    "topic": "Software",
+    "subtopic": "Types of programming language, translators and integrated development environments ",
+    "objective": "Explain what is meant by a high-level language and a low-level language, including the advantages and disadvantages of each",
+    "page": 20,
+    "paper": 1,
+    "lessons": [
+      "High-level and low-level languages"
+    ],
+    "questions": [
+      "course-4.2.1-1",
+      "course-4.2.1-2",
+      "course-4.2.1-3",
+      "course-4.2.1-written"
+    ],
+    "assessment": [
+      "Chapter 4 assessment",
+      "Objective knowledge check"
+    ],
+    "status": "Implemented; automated checks passed"
+  },
+  {
+    "code": "4.2.2",
+    "topic": "Software",
+    "subtopic": "Types of programming language, translators and integrated development environments ",
+    "objective": "Understand that assembly language is a form of low-level language that uses mnemonics, and that an assembler is needed to translate an assembly language program into machine code",
+    "page": 20,
+    "paper": 1,
+    "lessons": [
+      "Assembly names become machine code"
+    ],
+    "questions": [
+      "course-4.2.2-1",
+      "course-4.2.2-2",
+      "course-4.2.2-3",
+      "course-4.2.2-written"
+    ],
+    "assessment": [
+      "Chapter 4 assessment",
+      "Objective knowledge check"
+    ],
+    "status": "Implemented; automated checks passed"
+  },
+  {
+    "code": "4.2.3",
+    "topic": "Software",
+    "subtopic": "Types of programming language, translators and integrated development environments ",
+    "objective": "Describe the operation of a compiler and an interpreter, including how high-level language is translated by each and how errors are reported",
+    "page": 20,
+    "paper": 1,
+    "lessons": [
+      "Compile a whole program or interpret it line by line"
+    ],
+    "questions": [
+      "course-4.2.3-1",
+      "course-4.2.3-2",
+      "course-4.2.3-3",
+      "course-4.2.3-written"
+    ],
+    "assessment": [
+      "Chapter 4 assessment",
+      "Objective knowledge check"
+    ],
+    "status": "Implemented; automated checks passed"
+  },
+  {
+    "code": "4.2.4",
+    "topic": "Software",
+    "subtopic": "Types of programming language, translators and integrated development environments ",
+    "objective": "Explain the advantages and disadvantages of a compiler and an interpreter",
+    "page": 21,
+    "paper": 1,
+    "lessons": [
+      "Choose a translator for the stage of work"
+    ],
+    "questions": [
+      "course-4.2.4-1",
+      "course-4.2.4-2",
+      "course-4.2.4-3",
+      "course-4.2.4-written"
+    ],
+    "assessment": [
+      "Chapter 4 assessment",
+      "Objective knowledge check"
+    ],
+    "status": "Implemented; automated checks passed"
+  },
+  {
+    "code": "4.2.5",
+    "topic": "Software",
+    "subtopic": "Types of programming language, translators and integrated development environments ",
+    "objective": "Explain the role of an IDE in writing program code and the common functions IDEs provide",
+    "page": 21,
+    "paper": 1,
+    "lessons": [
+      "Tools that help you write programs"
+    ],
+    "questions": [
+      "course-4.2.5-1",
+      "course-4.2.5-2",
+      "course-4.2.5-3",
+      "course-4.2.5-written"
+    ],
+    "assessment": [
+      "Chapter 4 assessment",
+      "Objective knowledge check"
+    ],
+    "status": "Implemented; automated checks passed"
+  },
+  {
+    "code": "5.1.1",
+    "topic": "The internet and its uses",
+    "subtopic": "The internet and the world wide web",
+    "objective": "Understand the difference between the internet and the world wide web",
+    "page": 21,
+    "paper": 1,
+    "lessons": [
+      "The internet is bigger than the web"
+    ],
+    "questions": [
+      "course-5.1.1-1",
+      "course-5.1.1-2",
+      "course-5.1.1-3",
+      "course-5.1.1-written"
+    ],
+    "assessment": [
+      "Chapter 5 assessment",
+      "Objective knowledge check"
+    ],
+    "status": "Implemented; automated checks passed"
+  },
+  {
+    "code": "5.1.2",
+    "topic": "The internet and its uses",
+    "subtopic": "The internet and the world wide web",
+    "objective": "Understand what is meant by a uniform resource locator (URL)",
+    "page": 21,
+    "paper": 1,
+    "lessons": [
+      "Read a web address"
+    ],
+    "questions": [
+      "course-5.1.2-1",
+      "course-5.1.2-2",
+      "course-5.1.2-3",
+      "course-5.1.2-written"
+    ],
+    "assessment": [
+      "Chapter 5 assessment",
+      "Objective knowledge check"
+    ],
+    "status": "Implemented; automated checks passed"
+  },
+  {
+    "code": "5.1.3",
+    "topic": "The internet and its uses",
+    "subtopic": "The internet and the world wide web",
+    "objective": "Describe the purpose and operation of hypertext transfer protocol (HTTP) and hypertext transfer protocol secure (HTTPS)",
+    "page": 21,
+    "paper": 1,
+    "lessons": [
+      "Request a page securely"
+    ],
+    "questions": [
+      "course-5.1.3-1",
+      "course-5.1.3-2",
+      "course-5.1.3-3",
+      "course-5.1.3-written"
+    ],
+    "assessment": [
+      "Chapter 5 assessment",
+      "Objective knowledge check"
+    ],
+    "status": "Implemented; automated checks passed"
+  },
+  {
+    "code": "5.1.4",
+    "topic": "The internet and its uses",
+    "subtopic": "The internet and the world wide web",
+    "objective": "Explain the purpose and functions of a web browser",
+    "page": 21,
+    "paper": 1,
+    "lessons": [
+      "What a browser does with a page"
+    ],
+    "questions": [
+      "course-5.1.4-1",
+      "course-5.1.4-2",
+      "course-5.1.4-3",
+      "course-5.1.4-written"
+    ],
+    "assessment": [
+      "Chapter 5 assessment",
+      "Objective knowledge check"
+    ],
+    "status": "Implemented; automated checks passed"
+  },
+  {
+    "code": "5.1.5",
+    "topic": "The internet and its uses",
+    "subtopic": "The internet and the world wide web",
+    "objective": "Describe how web pages are located, retrieved and displayed on a device when a user enters a URL",
+    "page": 22,
+    "paper": 1,
+    "lessons": [
+      "From a typed URL to a visible page"
+    ],
+    "questions": [
+      "course-5.1.5-1",
+      "course-5.1.5-2",
+      "course-5.1.5-3",
+      "course-5.1.5-written"
+    ],
+    "assessment": [
+      "Chapter 5 assessment",
+      "Objective knowledge check"
+    ],
+    "status": "Implemented; automated checks passed"
+  },
+  {
+    "code": "5.1.6",
+    "topic": "The internet and its uses",
+    "subtopic": "The internet and the world wide web",
+    "objective": "Explain what is meant by cookies and how they are used, including session cookies and persistent cookies",
+    "page": 22,
+    "paper": 1,
+    "lessons": [
+      "What a website remembers with cookies"
+    ],
+    "questions": [
+      "course-5.1.6-1",
+      "course-5.1.6-2",
+      "course-5.1.6-3",
+      "course-5.1.6-written"
+    ],
+    "assessment": [
+      "Chapter 5 assessment",
+      "Objective knowledge check"
+    ],
+    "status": "Implemented; automated checks passed"
+  },
+  {
+    "code": "5.2.1",
+    "topic": "The internet and its uses",
+    "subtopic": "Digital currency",
+    "objective": "Understand the concept of a digital currency and how digital currencies are used",
+    "page": 22,
+    "paper": 1,
+    "lessons": [
+      "Currency that exists electronically"
+    ],
+    "questions": [
+      "course-5.2.1-1",
+      "course-5.2.1-2",
+      "course-5.2.1-3",
+      "course-5.2.1-written"
+    ],
+    "assessment": [
+      "Chapter 5 assessment",
+      "Objective knowledge check"
+    ],
+    "status": "Implemented; automated checks passed"
+  },
+  {
+    "code": "5.2.2",
+    "topic": "The internet and its uses",
+    "subtopic": "Digital currency",
+    "objective": "Understand the process of blockchain and how it is used to track digital currency transactions",
+    "page": 22,
+    "paper": 1,
+    "lessons": [
+      "Follow a transaction through a blockchain"
+    ],
+    "questions": [
+      "course-5.2.2-1",
+      "course-5.2.2-2",
+      "course-5.2.2-3",
+      "course-5.2.2-written"
+    ],
+    "assessment": [
+      "Chapter 5 assessment",
+      "Objective knowledge check"
+    ],
+    "status": "Implemented; automated checks passed"
+  },
+  {
+    "code": "5.3.1",
+    "topic": "The internet and its uses",
+    "subtopic": "Cyber security",
+    "objective": "Describe the processes involved in, and the aim of carrying out, a range of cyber security threats",
+    "page": 22,
+    "paper": 1,
+    "lessons": [
+      "Recognise cyber-security threats"
+    ],
+    "questions": [
+      "course-5.3.1-1",
+      "course-5.3.1-2",
+      "course-5.3.1-3",
+      "course-5.3.1-written"
+    ],
+    "assessment": [
+      "Chapter 5 assessment",
+      "Objective knowledge check"
+    ],
+    "status": "Implemented; automated checks passed"
+  },
+  {
+    "code": "5.3.2",
+    "topic": "The internet and its uses",
+    "subtopic": "Cyber security",
+    "objective": "Explain how a range of solutions are used to help keep data safe from security threats",
+    "page": 23,
+    "paper": 1,
+    "lessons": [
+      "Match protections to the threat"
+    ],
+    "questions": [
+      "course-5.3.2-1",
+      "course-5.3.2-2",
+      "course-5.3.2-3",
+      "course-5.3.2-written"
+    ],
+    "assessment": [
+      "Chapter 5 assessment",
+      "Objective knowledge check"
+    ],
+    "status": "Implemented; automated checks passed"
+  },
+  {
+    "code": "6.1.1",
+    "topic": "Automated and emerging technologies",
+    "subtopic": "Automated systems",
+    "objective": "Describe how sensors, microprocessors and actuators can be used in collaboration to create automated systems",
+    "page": 23,
+    "paper": 1,
+    "lessons": [
+      "Sense, decide, act, repeat"
+    ],
+    "questions": [
+      "course-6.1.1-1",
+      "course-6.1.1-2",
+      "course-6.1.1-3",
+      "course-6.1.1-written"
+    ],
+    "assessment": [
+      "Chapter 6 assessment",
+      "Objective knowledge check"
+    ],
+    "status": "Implemented; automated checks passed"
+  },
+  {
+    "code": "6.1.2",
+    "topic": "Automated and emerging technologies",
+    "subtopic": "Automated systems",
+    "objective": "Describe the advantages and disadvantages of an automated system used for a given scenario",
+    "page": 23,
+    "paper": 1,
+    "lessons": [
+      "When automation helps—and when it causes problems"
+    ],
+    "questions": [
+      "course-6.1.2-1",
+      "course-6.1.2-2",
+      "course-6.1.2-3",
+      "course-6.1.2-written"
+    ],
+    "assessment": [
+      "Chapter 6 assessment",
+      "Objective knowledge check"
+    ],
+    "status": "Implemented; automated checks passed"
+  },
+  {
+    "code": "6.2.1",
+    "topic": "Automated and emerging technologies",
+    "subtopic": "Robotics",
+    "objective": "Understand what is meant by robotics",
+    "page": 24,
+    "paper": 1,
+    "lessons": [
+      "What robotics involves"
+    ],
+    "questions": [
+      "course-6.2.1-1",
+      "course-6.2.1-2",
+      "course-6.2.1-3",
+      "course-6.2.1-written"
+    ],
+    "assessment": [
+      "Chapter 6 assessment",
+      "Objective knowledge check"
+    ],
+    "status": "Implemented; automated checks passed"
+  },
+  {
+    "code": "6.2.2",
+    "topic": "Automated and emerging technologies",
+    "subtopic": "Robotics",
+    "objective": "Describe the characteristics of a robot",
+    "page": 24,
+    "paper": 1,
+    "lessons": [
+      "Build the parts of a robot"
+    ],
+    "questions": [
+      "course-6.2.2-1",
+      "course-6.2.2-2",
+      "course-6.2.2-3",
+      "course-6.2.2-written"
+    ],
+    "assessment": [
+      "Chapter 6 assessment",
+      "Objective knowledge check"
+    ],
+    "status": "Implemented; automated checks passed"
+  },
+  {
+    "code": "6.2.3",
+    "topic": "Automated and emerging technologies",
+    "subtopic": "Robotics",
+    "objective": "Understand the roles that robots can perform and describe the advantages and disadvantages of their use",
+    "page": 24,
+    "paper": 1,
+    "lessons": [
+      "Choose a robot for a real job"
+    ],
+    "questions": [
+      "course-6.2.3-1",
+      "course-6.2.3-2",
+      "course-6.2.3-3",
+      "course-6.2.3-written"
+    ],
+    "assessment": [
+      "Chapter 6 assessment",
+      "Objective knowledge check"
+    ],
+    "status": "Implemented; automated checks passed"
+  },
+  {
+    "code": "6.3.1",
+    "topic": "Automated and emerging technologies",
+    "subtopic": "Artificial intelligence",
+    "objective": "Understand what is meant by artificial intelligence (AI)",
+    "page": 24,
+    "paper": 1,
+    "lessons": [
+      "What artificial intelligence means"
+    ],
+    "questions": [
+      "course-6.3.1-1",
+      "course-6.3.1-2",
+      "course-6.3.1-3",
+      "course-6.3.1-written"
+    ],
+    "assessment": [
+      "Chapter 6 assessment",
+      "Objective knowledge check"
+    ],
+    "status": "Implemented; automated checks passed"
+  },
+  {
+    "code": "6.3.2",
+    "topic": "Automated and emerging technologies",
+    "subtopic": "Artificial intelligence",
+    "objective": "Describe the main characteristics of AI as the collection of data and the rules for using that data, the ability to reason, and it can include the ability to learn and adapt",
+    "page": 24,
+    "paper": 1,
+    "lessons": [
+      "Data, rules, reasoning and learning"
+    ],
+    "questions": [
+      "course-6.3.2-1",
+      "course-6.3.2-2",
+      "course-6.3.2-3",
+      "course-6.3.2-written"
+    ],
+    "assessment": [
+      "Chapter 6 assessment",
+      "Objective knowledge check"
+    ],
+    "status": "Implemented; automated checks passed"
+  },
+  {
+    "code": "6.3.3",
+    "topic": "Automated and emerging technologies",
+    "subtopic": "Artificial intelligence",
+    "objective": "Explain the basic operation and components of AI systems to simulate intelligent behaviour",
+    "page": 24,
+    "paper": 1,
+    "lessons": [
+      "Inside expert systems and machine learning"
+    ],
+    "questions": [
+      "course-6.3.3-1",
+      "course-6.3.3-2",
+      "course-6.3.3-3",
+      "course-6.3.3-written"
+    ],
+    "assessment": [
+      "Chapter 6 assessment",
+      "Objective knowledge check"
+    ],
+    "status": "Implemented; automated checks passed"
+  },
+  {
+    "code": "7.1",
+    "topic": "Algorithm design and problem-solving",
+    "subtopic": "Algorithm design and problem-solving",
+    "objective": "Understand the program development life cycle, limited to: analysis, design, coding and testing",
+    "page": 25,
+    "paper": 2,
+    "lessons": [
+      "From a problem to a tested program"
+    ],
+    "questions": [
+      "course-7.1-1",
+      "course-7.1-2",
+      "course-7.1-3",
+      "course-7.1-written"
+    ],
+    "assessment": [
+      "Chapter 7 assessment",
+      "Objective knowledge check"
+    ],
+    "status": "Implemented; automated checks passed"
+  },
+  {
+    "code": "7.2",
+    "topic": "Algorithm design and problem-solving",
+    "subtopic": "Algorithm design and problem-solving",
+    "objective": "(a) Understand that every computer system is made up of sub-systems, which are made up of further sub-systems (b) Understand how a problem can be decomposed into its component parts (c) Use different methods to design and construct a solution to a problem",
+    "page": 25,
+    "paper": 2,
+    "lessons": [
+      "Break a system into smaller jobs"
+    ],
+    "questions": [
+      "course-7.2-1",
+      "course-7.2-2",
+      "course-7.2-3",
+      "course-7.2-written"
+    ],
+    "assessment": [
+      "Chapter 7 assessment",
+      "Objective knowledge check"
+    ],
+    "status": "Implemented; automated checks passed"
+  },
+  {
+    "code": "7.3",
+    "topic": "Algorithm design and problem-solving",
+    "subtopic": "Algorithm design and problem-solving",
+    "objective": "Explain the purpose of a given algorithm",
+    "page": 25,
+    "paper": 2,
+    "lessons": [
+      "Say what an algorithm is for"
+    ],
+    "questions": [
+      "course-7.3-1",
+      "course-7.3-2",
+      "course-7.3-3",
+      "course-7.3-written"
+    ],
+    "assessment": [
+      "Chapter 7 assessment",
+      "Objective knowledge check"
+    ],
+    "status": "Implemented; automated checks passed"
+  },
+  {
+    "code": "7.4",
+    "topic": "Algorithm design and problem-solving",
+    "subtopic": "Algorithm design and problem-solving",
+    "objective": "Understand standard methods of solution",
+    "page": 26,
+    "paper": 2,
+    "lessons": [
+      "Search, sort and calculate a list"
+    ],
+    "questions": [
+      "course-7.4-1",
+      "course-7.4-2",
+      "course-7.4-3",
+      "course-7.4-written"
+    ],
+    "assessment": [
+      "Chapter 7 assessment",
+      "Objective knowledge check"
+    ],
+    "status": "Implemented; automated checks passed"
+  },
+  {
+    "code": "7.5",
+    "topic": "Algorithm design and problem-solving",
+    "subtopic": "Algorithm design and problem-solving",
+    "objective": "(a) Understand the need for validation checks to be made on input data and the different types of validation check (b) Understand the need for verification checks to be made on input data and the different types of verification check",
+    "page": 26,
+    "paper": 2,
+    "lessons": [
+      "Check input rules and copying accuracy"
+    ],
+    "questions": [
+      "course-7.5-1",
+      "course-7.5-2",
+      "course-7.5-3",
+      "course-7.5-written"
+    ],
+    "assessment": [
+      "Chapter 7 assessment",
+      "Objective knowledge check"
+    ],
+    "status": "Implemented; automated checks passed"
+  },
+  {
+    "code": "7.6",
+    "topic": "Algorithm design and problem-solving",
+    "subtopic": "Algorithm design and problem-solving",
+    "objective": "Suggest and apply suitable test data",
+    "page": 26,
+    "paper": 2,
+    "lessons": [
+      "Test ordinary values and the edges"
+    ],
+    "questions": [
+      "course-7.6-1",
+      "course-7.6-2",
+      "course-7.6-3",
+      "course-7.6-written"
+    ],
+    "assessment": [
+      "Chapter 7 assessment",
+      "Objective knowledge check"
+    ],
+    "status": "Implemented; automated checks passed"
+  },
+  {
+    "code": "7.7",
+    "topic": "Algorithm design and problem-solving",
+    "subtopic": "Algorithm design and problem-solving",
+    "objective": "Complete a trace table to document a dry-run of an algorithm",
+    "page": 26,
+    "paper": 2,
+    "lessons": [
+      "Trace every change"
+    ],
+    "questions": [
+      "course-7.7-1",
+      "course-7.7-2",
+      "course-7.7-3",
+      "course-7.7-written"
+    ],
+    "assessment": [
+      "Chapter 7 assessment",
+      "Objective knowledge check"
+    ],
+    "status": "Implemented; automated checks passed"
+  },
+  {
+    "code": "7.8",
+    "topic": "Algorithm design and problem-solving",
+    "subtopic": "Algorithm design and problem-solving",
+    "objective": "Identify errors in given algorithms and suggest ways of correcting these errors",
+    "page": 26,
+    "paper": 2,
+    "lessons": [
+      "Find the first wrong step"
+    ],
+    "questions": [
+      "course-7.8-1",
+      "course-7.8-2",
+      "course-7.8-3",
+      "course-7.8-written"
+    ],
+    "assessment": [
+      "Chapter 7 assessment",
+      "Objective knowledge check"
+    ],
+    "status": "Implemented; automated checks passed"
+  },
+  {
+    "code": "7.9",
+    "topic": "Algorithm design and problem-solving",
+    "subtopic": "Algorithm design and problem-solving",
+    "objective": "Write and amend algorithms for given problems or scenarios, using: pseudocode, program code and flowcharts",
+    "page": 26,
+    "paper": 2,
+    "lessons": [
+      "Build a precise solution"
+    ],
+    "questions": [
+      "course-7.9-1",
+      "course-7.9-2",
+      "course-7.9-3",
+      "course-7.9-written"
+    ],
+    "assessment": [
+      "Chapter 7 assessment",
+      "Objective knowledge check"
+    ],
+    "status": "Implemented; automated checks passed"
+  },
+  {
+    "code": "8.1.1",
+    "topic": "Programming",
+    "subtopic": "Programming concepts",
+    "objective": "Declare and use variables and constants",
+    "page": 27,
+    "paper": 2,
+    "lessons": [
+      "Named boxes: variables and constants"
+    ],
+    "questions": [
+      "course-8.1.1-1",
+      "course-8.1.1-2",
+      "course-8.1.1-3",
+      "course-8.1.1-written"
+    ],
+    "assessment": [
+      "Chapter 8 assessment",
+      "Objective knowledge check"
+    ],
+    "status": "Implemented; automated checks passed"
+  },
+  {
+    "code": "8.1.2",
+    "topic": "Programming",
+    "subtopic": "Programming concepts",
+    "objective": "Understand and use basic data types",
+    "page": 27,
+    "paper": 2,
+    "lessons": [
+      "Choose the kind of value"
+    ],
+    "questions": [
+      "course-8.1.2-1",
+      "course-8.1.2-2",
+      "course-8.1.2-3",
+      "course-8.1.2-written"
+    ],
+    "assessment": [
+      "Chapter 8 assessment",
+      "Objective knowledge check"
+    ],
+    "status": "Implemented; automated checks passed"
+  },
+  {
+    "code": "8.1.3",
+    "topic": "Programming",
+    "subtopic": "Programming concepts",
+    "objective": "Understand and use input and output",
+    "page": 27,
+    "paper": 2,
+    "lessons": [
+      "Ask for input and show output"
+    ],
+    "questions": [
+      "course-8.1.3-1",
+      "course-8.1.3-2",
+      "course-8.1.3-3",
+      "course-8.1.3-written"
+    ],
+    "assessment": [
+      "Chapter 8 assessment",
+      "Objective knowledge check"
+    ],
+    "status": "Implemented; automated checks passed"
+  },
+  {
+    "code": "8.1.4",
+    "topic": "Programming",
+    "subtopic": "Programming concepts",
+    "objective": "(a) Understand and use the concept of sequence (b) Understand and use the concept of selection (c) Understand and use the concept of iteration (d) Understand and use the concepts of totalling and counting (e) Understand and use the concept of string handling (f) Understand and use arithmetic, relational and logical operators",
+    "page": 27,
+    "paper": 2,
+    "lessons": [
+      "Order, choose, repeat and work with values"
+    ],
+    "questions": [
+      "course-8.1.4-1",
+      "course-8.1.4-2",
+      "course-8.1.4-3",
+      "course-8.1.4-4",
+      "course-8.1.4-5",
+      "course-8.1.4-6",
+      "course-8.1.4-7",
+      "course-8.1.4-8",
+      "course-8.1.4-9",
+      "course-8.1.4-10",
+      "course-8.1.4-11",
+      "course-8.1.4-12",
+      "course-8.1.4-written"
+    ],
+    "assessment": [
+      "Chapter 8 assessment",
+      "Objective knowledge check"
+    ],
+    "status": "Implemented; automated checks passed"
+  },
+  {
+    "code": "8.1.5",
+    "topic": "Programming",
+    "subtopic": "Programming concepts",
+    "objective": "Understand and use nested statements",
+    "page": 28,
+    "paper": 2,
+    "lessons": [
+      "Put one statement inside another"
+    ],
+    "questions": [
+      "course-8.1.5-1",
+      "course-8.1.5-2",
+      "course-8.1.5-3",
+      "course-8.1.5-written"
+    ],
+    "assessment": [
+      "Chapter 8 assessment",
+      "Objective knowledge check"
+    ],
+    "status": "Implemented; automated checks passed"
+  },
+  {
+    "code": "8.1.6",
+    "topic": "Programming",
+    "subtopic": "Programming concepts",
+    "objective": "(a) Understand what is meant by procedures, functions and parameters (b) Define and use procedures and functions, with or without parameters (c) Understand and use local and global variables",
+    "page": 28,
+    "paper": 2,
+    "lessons": [
+      "Reusable routines and the values they use"
+    ],
+    "questions": [
+      "course-8.1.6-1",
+      "course-8.1.6-2",
+      "course-8.1.6-3",
+      "course-8.1.6-written"
+    ],
+    "assessment": [
+      "Chapter 8 assessment",
+      "Objective knowledge check"
+    ],
+    "status": "Implemented; automated checks passed"
+  },
+  {
+    "code": "8.1.7",
+    "topic": "Programming",
+    "subtopic": "Programming concepts",
+    "objective": "Understand and use library routines",
+    "page": 28,
+    "paper": 2,
+    "lessons": [
+      "Use a ready-made routine"
+    ],
+    "questions": [
+      "course-8.1.7-1",
+      "course-8.1.7-2",
+      "course-8.1.7-3",
+      "course-8.1.7-written"
+    ],
+    "assessment": [
+      "Chapter 8 assessment",
+      "Objective knowledge check"
+    ],
+    "status": "Implemented; automated checks passed"
+  },
+  {
+    "code": "8.1.8",
+    "topic": "Programming",
+    "subtopic": "Programming concepts",
+    "objective": "Understand how to create a maintainable program",
+    "page": 29,
+    "paper": 2,
+    "lessons": [
+      "Make a program easier to maintain"
+    ],
+    "questions": [
+      "course-8.1.8-1",
+      "course-8.1.8-2",
+      "course-8.1.8-3",
+      "course-8.1.8-written"
+    ],
+    "assessment": [
+      "Chapter 8 assessment",
+      "Objective knowledge check"
+    ],
+    "status": "Implemented; automated checks passed"
+  },
+  {
+    "code": "8.2.1",
+    "topic": "Programming",
+    "subtopic": "Arrays",
+    "objective": "Declare and use one-dimensional (1D) and two-dimensional (2D) arrays",
+    "page": 29,
+    "paper": 2,
+    "lessons": [
+      "Store values in a row or grid"
+    ],
+    "questions": [
+      "course-8.2.1-1",
+      "course-8.2.1-2",
+      "course-8.2.1-3",
+      "course-8.2.1-written"
+    ],
+    "assessment": [
+      "Chapter 8 assessment",
+      "Objective knowledge check"
+    ],
+    "status": "Implemented; automated checks passed"
+  },
+  {
+    "code": "8.2.2",
+    "topic": "Programming",
+    "subtopic": "Arrays",
+    "objective": "Understand the use of arrays",
+    "page": 29,
+    "paper": 2,
+    "lessons": [
+      "Why use an array?"
+    ],
+    "questions": [
+      "course-8.2.2-1",
+      "course-8.2.2-2",
+      "course-8.2.2-3",
+      "course-8.2.2-written"
+    ],
+    "assessment": [
+      "Chapter 8 assessment",
+      "Objective knowledge check"
+    ],
+    "status": "Implemented; automated checks passed"
+  },
+  {
+    "code": "8.2.3",
+    "topic": "Programming",
+    "subtopic": "Arrays",
+    "objective": "Write values into, and read values from, an array using iteration",
+    "page": 29,
+    "paper": 2,
+    "lessons": [
+      "Visit array cells with loops"
+    ],
+    "questions": [
+      "course-8.2.3-1",
+      "course-8.2.3-2",
+      "course-8.2.3-3",
+      "course-8.2.3-written"
+    ],
+    "assessment": [
+      "Chapter 8 assessment",
+      "Objective knowledge check"
+    ],
+    "status": "Implemented; automated checks passed"
+  },
+  {
+    "code": "8.3.1",
+    "topic": "Programming",
+    "subtopic": "File handling",
+    "objective": "Understand the purpose of storing data in a file to be used by a program",
+    "page": 29,
+    "paper": 2,
+    "lessons": [
+      "Keep program data for the next run"
+    ],
+    "questions": [
+      "course-8.3.1-1",
+      "course-8.3.1-2",
+      "course-8.3.1-3",
+      "course-8.3.1-written"
+    ],
+    "assessment": [
+      "Chapter 8 assessment",
+      "Objective knowledge check"
+    ],
+    "status": "Implemented; automated checks passed"
+  },
+  {
+    "code": "8.3.2",
+    "topic": "Programming",
+    "subtopic": "File handling",
+    "objective": "Open, close and use a file for reading and writing",
+    "page": 29,
+    "paper": 2,
+    "lessons": [
+      "Open, read, write and close a file"
+    ],
+    "questions": [
+      "course-8.3.2-1",
+      "course-8.3.2-2",
+      "course-8.3.2-3",
+      "course-8.3.2-written"
+    ],
+    "assessment": [
+      "Chapter 8 assessment",
+      "Objective knowledge check"
+    ],
+    "status": "Implemented; automated checks passed"
+  },
+  {
+    "code": "9.1",
+    "topic": "Databases",
+    "subtopic": "Databases",
+    "objective": "Define a single-table database from given data storage requirements",
+    "page": 30,
+    "paper": 2,
+    "lessons": [
+      "Design one table of related records"
+    ],
+    "questions": [
+      "course-9.1-1",
+      "course-9.1-2",
+      "course-9.1-3",
+      "course-9.1-written"
+    ],
+    "assessment": [
+      "Chapter 9 assessment",
+      "Objective knowledge check"
+    ],
+    "status": "Implemented; automated checks passed"
+  },
+  {
+    "code": "9.2",
+    "topic": "Databases",
+    "subtopic": "Databases",
+    "objective": "Suggest suitable basic data types",
+    "page": 30,
+    "paper": 2,
+    "lessons": [
+      "Choose database field types"
+    ],
+    "questions": [
+      "course-9.2-1",
+      "course-9.2-2",
+      "course-9.2-3",
+      "course-9.2-written"
+    ],
+    "assessment": [
+      "Chapter 9 assessment",
+      "Objective knowledge check"
+    ],
+    "status": "Implemented; automated checks passed"
+  },
+  {
+    "code": "9.3",
+    "topic": "Databases",
+    "subtopic": "Databases",
+    "objective": "Understand the purpose of a primary key and identify a suitable primary key for a given database table",
+    "page": 30,
+    "paper": 2,
+    "lessons": [
+      "Give every record a unique key"
+    ],
+    "questions": [
+      "course-9.3-1",
+      "course-9.3-2",
+      "course-9.3-3",
+      "course-9.3-written"
+    ],
+    "assessment": [
+      "Chapter 9 assessment",
+      "Objective knowledge check"
+    ],
+    "status": "Implemented; automated checks passed"
+  },
+  {
+    "code": "9.4",
+    "topic": "Databases",
+    "subtopic": "Databases",
+    "objective": "Read, understand and complete structured query language (SQL) scripts to query data stored in a single database table",
+    "page": 30,
+    "paper": 2,
+    "lessons": [
+      "Ask a table a question with SQL"
+    ],
+    "questions": [
+      "course-9.4-1",
+      "course-9.4-2",
+      "course-9.4-3",
+      "course-9.4-4",
+      "course-9.4-5",
+      "course-9.4-written"
+    ],
+    "assessment": [
+      "Chapter 9 assessment",
+      "Objective knowledge check"
+    ],
+    "status": "Implemented; automated checks passed"
+  },
+  {
+    "code": "10.1",
+    "topic": "Boolean logic",
+    "subtopic": "Boolean logic",
+    "objective": "Identify and use the standard symbols for logic gates",
+    "page": 31,
+    "paper": 2,
+    "lessons": [
+      "Read the symbols for logic gates"
+    ],
+    "questions": [
+      "course-10.1-1",
+      "course-10.1-2",
+      "course-10.1-3",
+      "course-10.1-written"
+    ],
+    "assessment": [
+      "Chapter 10 assessment",
+      "Objective knowledge check"
+    ],
+    "status": "Implemented; automated checks passed"
+  },
+  {
+    "code": "10.2",
+    "topic": "Boolean logic",
+    "subtopic": "Boolean logic",
+    "objective": "Define and understand the functions of logic gates",
+    "page": 31,
+    "paper": 2,
+    "lessons": [
+      "Test every gate input"
+    ],
+    "questions": [
+      "course-10.2-1",
+      "course-10.2-2",
+      "course-10.2-3",
+      "course-10.2-4",
+      "course-10.2-5",
+      "course-10.2-written"
+    ],
+    "assessment": [
+      "Chapter 10 assessment",
+      "Objective knowledge check"
+    ],
+    "status": "Implemented; automated checks passed"
+  },
+  {
+    "code": "10.3",
+    "topic": "Boolean logic",
+    "subtopic": "Boolean logic",
+    "objective": "(a) Use logic gates to create given logic circuits from a: (i) problem statement (ii) logic expression (iii) truth table (b) Complete a truth table from a: (i) problem statement (ii) logic expression (iii) logic circuit (c) Write a logic expression from a: (i) problem statement (ii) logic circuit (iii) truth table",
+    "page": 31,
+    "paper": 2,
+    "lessons": [
+      "Connect a statement, circuit and truth table"
+    ],
+    "questions": [
+      "course-10.3-1",
+      "course-10.3-2",
+      "course-10.3-3",
+      "course-10.3-written"
+    ],
+    "assessment": [
+      "Chapter 10 assessment",
+      "Objective knowledge check"
+    ],
+    "status": "Implemented; automated checks passed"
+  }
+]

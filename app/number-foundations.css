@@ -1,0 +1,48 @@
+/* Place-value diagrams use blue for 0, green for 1, and orange for a decision. */
+.number-systems-reader .concept-explanation>div{min-width:0}
+.number-systems-reader .demo-bit-change{font-size:15px;line-height:1.65;border-left:3px solid var(--edu-blue);padding-left:12px;color:var(--blue-text)}
+.number-familiar{margin:18px 0 0;text-align:center}
+.number-familiar-action{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:24px;margin-top:12px}.number-familiar-action .number-change{margin:0!important}.number-familiar-action .text-btn{font-size:14px;min-height:44px}
+.denary-columns{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.denary-columns>div{display:flex;flex-direction:column;align-items:center;gap:8px;padding:18px 12px;background:var(--blue-soft);border-radius:12px;color:var(--blue-text)}
+.denary-columns>div>span{font-size:15px}.denary-columns strong{font-size:36px;line-height:1.1}
+.denary-counter-groups{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;align-items:flex-start;max-width:220px;min-height:48px}
+.number-counters{display:grid;grid-template-columns:repeat(5,7px);gap:3px;min-height:7px;align-content:start}
+.number-counters i{width:7px;height:7px;border-radius:50%;background:var(--blue-text);display:block}
+.denary-counter-groups .number-counters{padding:5px;border:1px solid var(--blue-text);border-radius:4px;min-height:24px}
+.number-familiar figcaption{font-size:16px;line-height:1.65;text-align:left;margin:14px 0 0}
+.number-change{margin:16px 0!important;font-size:18px!important;line-height:1.65!important;overflow-wrap:anywhere}
+.number-foundation{background:var(--secondary);padding:20px}
+.number-foundation .demo-actions{gap:12px;margin:18px 0}.number-foundation .text-btn{font-size:14px}
+.count-comparison{display:grid;grid-template-columns:1fr 1.3fr;gap:18px;align-items:center}
+.count-comparison>div{display:flex;flex-direction:column;gap:12px;align-items:center;text-align:center}
+.count-comparison>div>span,.count-comparison small{font-size:14px;line-height:1.5}
+.count-comparison strong{font-size:32px;color:var(--blue-text)}
+.count-comparison .foundation-columns{min-height:86px}
+.count-comparison .number-counters{grid-template-columns:repeat(4,10px);gap:5px;min-height:25px}
+.count-comparison .number-counters i{width:10px;height:10px}
+.foundation-columns{display:grid;gap:6px;width:100%;text-align:center}
+.foundation-columns.four{grid-template-columns:repeat(4,minmax(0,1fr))}
+.foundation-columns>div{border-radius:8px;padding:10px 3px;display:flex;flex-direction:column;align-items:center;gap:7px}
+.foundation-columns span{font-size:14px;font-weight:600}.foundation-columns b{font-size:26px;font-family:monospace;line-height:1.3}.foundation-columns small{font-size:12px;line-height:1.5}
+.foundation-columns button{font-family:monospace;font-size:24px;font-weight:650;width:100%;min-height:44px;border:0;border-radius:5px;cursor:pointer;color:inherit;background:var(--background)}
+.foundation-columns button:focus-visible{outline:3px solid var(--edu-purple);outline-offset:0}
+.pending-place{background:var(--background);color:var(--muted-foreground);border:1px dashed var(--border)}
+.number-decision{padding:16px;margin:16px 0;background:var(--orange-soft);border-left:3px solid var(--edu-orange);color:var(--orange-text);display:flex;flex-direction:column;gap:8px;font-size:16px;line-height:1.6}
+.number-decision>span{font-size:14px}.number-decision strong{font-weight:600}.number-decision code{font-size:16px}
+.hex-count-pair,.hex-place-check{display:grid;grid-template-columns:1fr 1fr;gap:12px;text-align:center}
+.hex-count-pair>div,.hex-place-check>div{background:var(--purple-soft);color:var(--purple-text);display:flex;flex-direction:column;align-items:center;gap:8px;padding:16px;border-radius:10px}
+.hex-count-pair span,.hex-place-check span,.hex-place-check small{font-size:14px;line-height:1.6}.hex-count-pair strong{font-size:38px;line-height:1.2}.hex-place-check b{font-size:28px}
+.number-foundation .hex-example span{font-size:12px;letter-spacing:.6px}.number-foundation .hex-example small{font-size:14px}.number-foundation .hex-mini-bits small{font-size:13px}
+.number-foundation .hex-letter-key span{font-size:13px}
+.number-padding{border-top:1px solid var(--border);padding:16px 0 0;margin-top:18px;font-size:15px;line-height:1.6}
+.number-padding summary{cursor:pointer;color:var(--blue-text)}.number-padding>code{display:block;font-size:16px;white-space:normal;overflow-wrap:anywhere}.number-padding b{color:var(--orange-text)}
+@media(max-width:600px){
+ .number-foundation{padding:16px}.denary-columns{gap:10px}.denary-columns>div{padding:14px 8px}
+ .count-comparison{grid-template-columns:1fr 1fr;gap:12px}.count-comparison .foundation-columns{max-width:230px}
+ .number-foundation .demo-actions{align-items:flex-start;flex-direction:column}
+ .foundation-columns.four{gap:4px}.foundation-columns.four small{font-size:12px}
+ .number-foundation .hex-example{gap:8px}.number-foundation .hex-example>div{padding:16px 6px}
+ .number-foundation .hex-mini-bits{gap:3px}.number-foundation .hex-mini-bits b{font-size:22px}
+ .number-foundation .hex-letter-key{grid-template-columns:repeat(3,1fr);gap:8px}
+}

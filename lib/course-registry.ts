@@ -1,0 +1,14 @@
+import type {Lesson,Question} from './content';
+import type {TeachingPlan} from './teaching';
+import {softwareEntries} from './course-software';
+import {webEntries} from './course-web';
+import {automationEntries} from './course-automation';
+import {algorithmEntries} from './course-algorithms';
+import {programmingEntries} from './course-programming';
+import {databaseEntries,logicEntries} from './course-data-logic';
+export const courseEntries=[...softwareEntries,...webEntries,...automationEntries,...algorithmEntries,...programmingEntries,...databaseEntries,...logicEntries];
+export const courseById=Object.fromEntries(courseEntries.map(e=>[e.id,e]));
+export const courseLessons:Lesson[]=courseEntries.map(e=>({id:e.id,title:e.title,minutes:e.minutes,goal:e.mission,intro:e.opening,detail:e.sections.map(s=>s[1]),example:e.another,misconception:e.mistake,tip:e.exam,summary:e.takeaways.join(' '),lab:'course'}));
+export const courseTeaching:Record<string,TeachingPlan>=Object.fromEntries(courseEntries.map(e=>[e.id,{hook:e.opening,ideaTitles:e.sections.map(s=>s[0]),bridge:e.mission,worked:e.worked,practice:e.practice,takeaways:e.takeaways}]));
+export const courseHelp=Object.fromEntries(courseEntries.map(e=>[e.id,{terms:e.terms,simple:e.simple,example:e.another}]));
+export const courseQuestions:Question[]=courseEntries.flatMap(e=>[...e.assessment.map((q,i):Question=>({id:`course-${e.id}-${i+1}`,objective:e.id,difficulty:i===0?1:i===1?2:3,prompt:q.prompt,answer:q.answer,options:q.options,model:q.explanation,marks:1,type:'choice',error:'Revisit the demonstration and follow its labelled changes.'})),{id:`course-${e.id}-written`,objective:e.id,difficulty:4,type:'written',prompt:`Explain the key ideas in “${e.title}”, using a suitable example. [3]`,marks:3,points:e.takeaways,model:e.takeaways.join(' '),error:'Compare your explanation with the checklist.'}]);

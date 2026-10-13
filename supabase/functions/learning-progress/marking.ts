@@ -1,0 +1,3 @@
+export type MarkableQuestion={type:string,answer?:string,prompt:string,marks:number};
+export function normalise(s:string){return s.trim().replace(/−/g,'-').replace(/\s/g,'').toUpperCase()}
+export function mark(q:MarkableQuestion,answer:string){if(q.type==='written')throw new Error('Written answers require rubric review');const a=normalise(answer),b=normalise(q.answer!);if(/Convert hexadecimal 3AF/.test(q.prompt))return a===b||a==='0000'+b?q.marks:0;if(q.type==='numeric'&&/^[+-]?\d+(\.\d+)?$/.test(b)&&!/^0\d/.test(b)&&!/Give (?:exactly )?(?:8|16) bits|to (?:8|16)-bit binary|two’s complement\.$|to hexadecimal|padded to eight bits/i.test(q.prompt)){return /^[+-]?\d+(\.\d+)?$/.test(a)&&Number(a)===Number(b)?q.marks:0}return a===b?q.marks:0}

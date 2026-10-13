@@ -1,0 +1,11 @@
+import fs from 'node:fs';
+import ts from 'typescript';
+import {createRequire} from 'node:module';
+const dir='.test-build/edge-source';fs.mkdirSync(dir,{recursive:true});fs.writeFileSync(dir+'/package.json','{"type":"commonjs"}');
+const modules=['content','transmission','hardware','hardware-more','hardware-assessment',...fs.readdirSync('lib').filter(n=>n.startsWith('course-')&&n.endsWith('.ts')).map(n=>n.slice(0,-3))];
+for(const name of modules)fs.writeFileSync(`${dir}/${name}.js`,ts.transpileModule(fs.readFileSync(`lib/${name}.ts`,'utf8'),{compilerOptions:{module:ts.ModuleKind.CommonJS,target:ts.ScriptTarget.ES2022}}).outputText);
+const require=createRequire(import.meta.url),{lessons,questions,archivedQuestions}=require('../'+dir+'/content.js');
+const target='supabase/functions/learning-progress';fs.mkdirSync(target,{recursive:true});
+fs.copyFileSync('lib/marking.ts',target+'/marking.ts');
+fs.writeFileSync(target+'/question-bank.json',JSON.stringify({lessons:lessons.map(l=>l.id),questions:[...questions,...archivedQuestions].map(({id,objective,type,answer,prompt,marks,model})=>({id,objective,type,answer,prompt,marks,model}))})+'\n');
+console.log(`Prepared backend: ${lessons.length} lessons, ${questions.length} active questions, ${archivedQuestions.length} archived questions.`);

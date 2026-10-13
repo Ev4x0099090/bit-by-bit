@@ -1,0 +1,86 @@
+import type {LearningQuestion} from './teaching';
+export type CalculationStep={title:string,reason:string,rows:[string,string][],bits?:string,weights?:number[]};
+export type UnitExample={id:string,objective:string,title:string,prompt:string,steps:CalculationStep[],practice:LearningQuestion,hints:[string,string][][]};
+const step=(title:string,reason:string,rows:[string,string][],bits?:string,weights?:number[]):CalculationStep=>({title,reason,rows,bits,weights});
+const practice=(prompt:string,answer:string,hint:string,explanation:string):LearningQuestion=>({prompt,answer,hint,explanation});
+export const unitOneExamples:UnitExample[]=[
+ {id:'binary-denary',objective:'1.1.2',title:'Binary → denary',prompt:'Convert 10110110₂ to denary.',steps:[
+  step('Put a value above each bit','Start at 1 on the right. Double the value each time you move left.',[['Read from the right','1, 2, 4, 8, 16, 32, 64, 128']],'10110110',[128,64,32,16,8,4,2,1]),
+  step('Keep only the columns with a 1','A 0 means we do not use that column’s value.',[['Use these values','128 + 32 + 16 + 4 + 2'],['Leave these out','64, 8, 1']]),
+  step('Add the values','This gives the same number in our everyday number system.',[['128 + 32','160'],['160 + 16 + 4 + 2','182 denary']])],
+  practice:practice('Convert binary 01011001 to denary.','89','Use only the values under 1 bits.','64 + 16 + 8 + 1 = 89.'),hints:[[['Place values','128  64  32  16  8  4  2  1'],['Bits','0  1  0  1  1  0  0  1']],[['Columns containing 1','64 + 16 + 8 + 1']],[['First add','64 + 16 = 80'],['Then add','80 + 8 + 1 = 89']]]},
+ {id:'denary-binary16',objective:'1.1.2',title:'Denary → binary, up to 16 bits',prompt:'Write denary 300 as a 16-bit binary integer.',steps:[
+  step('Use enough columns','Eight bits only reach 255. The next column is 256. Sixteen columns go from 32768 down to 1.',[['16 column values','32768, 16384, 8192, 4096, 2048, 1024, 512, 256, 128, 64, 32, 16, 8, 4, 2, 1']]),
+  step('Choose the values that fit','Start with the largest. Put 0 in any column that is too big. Put 1 in a column you use, then subtract.',[['300 − 256','44 left'],['44 − 32','12 left'],['12 − 8','4 left'],['4 − 4','0 left']]),
+  step('Read all sixteen bits','The 256, 32, 8 and 4 columns contain 1. Every other column contains 0.',[['Check','256 + 32 + 8 + 4 = 300']],'0000000100101100')],
+  practice:practice('Convert denary 513 to binary. Give exactly 16 bits.','0000001000000001','Choose the 512 and 1 columns.','513 = 512 + 1, so the sixteen-bit pattern is 0000001000000001.'),hints:[[['Largest usable value','512'],['Subtract','513 − 512 = 1']],[['Use','512 and 1'],['All other columns','0']],[['Four-bit groups','0000 | 0010 | 0000 | 0001'],['Join all sixteen bits','0000001000000001']]]},
+ {id:'hex-denary',objective:'1.1.2',title:'Hexadecimal → denary',prompt:'Convert hexadecimal 1A3 to denary.',steps:[
+  step('Name the hex columns','Start with 1 on the right. Each column to the left is worth sixteen times as much.',[['Four hex columns','4096 | 256 | 16 | 1'],['Our three digits','1 × 256 | A × 16 | 3 × 1']]),
+  step('Use the value of each digit','Hex uses A for ten. Multiply each digit’s value by its column value.',[['1 × 256','256'],['A × 16 = 10 × 16','160'],['3 × 1','3']]),
+  step('Add the three parts','The base changes how we write the number, but its value stays the same.',[['256 + 160 + 3','419 denary']])],
+  practice:practice('Convert hexadecimal 2B4 to denary.','692','B has the value eleven; the columns are 256, 16 and 1.','2 × 256 + 11 × 16 + 4 = 512 + 176 + 4 = 692.'),hints:[[['Digits','2 | B | 4'],['Column values','256 | 16 | 1']],[['Replace B with eleven','2 × 256 + 11 × 16 + 4']],[['Add','512 + 176 + 4 = 692']]]},
+ {id:'denary-hex',objective:'1.1.2',title:'Denary → hexadecimal',prompt:'Convert denary 419 directly to hexadecimal.',steps:[
+  step('Choose the 256s digit','4096 is too large. One group of 256 fits into 419; two groups do not.',[['419 − 256','163 left'],['First hex digit','1']]),
+  step('Choose the 16s digit','Ten groups of sixteen use 160. Hex writes ten as A.',[['163 = 10 × 16 + 3','A in the 16s column'],['Remainder','3 in the ones column']]),
+  step('Write the digits in order','Read the 256s, then the 16s, then the ones.',[['Hexadecimal answer','1A3'],['Check','1 × 256 + 10 × 16 + 3 = 419']])],
+  practice:practice('Convert denary 700 to hexadecimal.','2BC','Start with groups of 256, then groups of 16.','700 − 512 = 188; 188 = 11 × 16 + 12. The digits are 2, B and C: 2BC.'),hints:[[['256s column','2 × 256 = 512'],['Remainder','700 − 512 = 188']],[['16s column','11 × 16 = 176'],['Ones column','188 − 176 = 12']],[['Digit values','2 | 11 | 12'],['Hex digits','2 | B | C → 2BC']]]},
+ {id:'binary-hex',objective:'1.1.2',title:'Binary → hexadecimal',prompt:'Convert 101101101₂ to hexadecimal.',steps:[
+  step('Group from the right','Each hex digit matches four bits. Keep the rightmost four together, then the next four.',[['Groups','1 | 0110 | 1101']]),
+  step('Pad the group on the left','Add zeros only on the far left to complete the first group. This does not change the value.',[['Complete groups','0001 | 0110 | 1101']]),
+  step('Translate each group','Within each group, use the values 8, 4, 2 and 1. Thirteen is D.',[['Group values','1 | 6 | 13'],['Hex digits','1 | 6 | D → 16D']])],
+  practice:practice('Convert binary 1110011010100101 to hexadecimal.','E6A5','Group into four bits from the right.','1110 | 0110 | 1010 | 0101 gives E | 6 | A | 5: E6A5.'),hints:[[['Four-bit groups','1110 | 0110 | 1010 | 0101']],[['Values','14 | 6 | 10 | 5']],[['Hex digits','E | 6 | A | 5 → E6A5']]]},
+ {id:'hex-binary',objective:'1.1.2',title:'Hexadecimal → binary',prompt:'Convert hexadecimal B3F0 to sixteen binary bits.',steps:[
+  step('Give each digit four spaces','Four hex digits need four groups of four bits: sixteen bits in total.',[['Digits','B | 3 | F | 0'],['Values','11 | 3 | 15 | 0']]),
+  step('Build each four-bit group','Use the place values 8, 4, 2 and 1. Keep all four bits even for small values.',[['11 = 8 + 2 + 1','1011'],['3 = 2 + 1','0011'],['15 = 8 + 4 + 2 + 1','1111'],['0','0000']]),
+  step('Join in the same order','Do not remove zeros inside the number.',[['B | 3 | F | 0','1011 | 0011 | 1111 | 0000']],'1011001111110000')],
+  practice:practice('Convert hexadecimal A40C to binary. Give exactly 16 bits.','1010010000001100','Use exactly four bits for each hex digit.','A → 1010, 4 → 0100, 0 → 0000, C → 1100. Join them: 1010010000001100.'),hints:[[['Values','10 | 4 | 0 | 12']],[['Four-bit groups','1010 | 0100 | 0000 | 1100']],[['Join in order','1010010000001100']]]},
+ {id:'overflow',objective:'1.1.4',title:'When the sum needs a ninth bit',prompt:'Add 11001000₂ and 01100100₂ in an unsigned eight-bit register.',steps:[
+  step('Find the full sum','These patterns are 200 and 100. Add the bits from right to left, including each carry.',[['Inputs','11001000 + 01100100'],['Full result','1 | 00101100']]),
+  step('Compare the result with the register','The leftmost 1 is a ninth bit. An eight-bit register has no room for it.',[['Full value','300'],['Largest unsigned eight-bit value','255'],['Overflow?','Yes: 300 is greater than 255']]),
+  step('Read only the eight stored bits','If the ninth bit is discarded, the register holds a different, incorrect result for the full sum.',[['Discarded ninth bit','1'],['Stored result','00101100 = 32 + 8 + 4 = 44']],'00101100')],
+  practice:practice('An unsigned eight-bit register adds 240 and 32. Give the denary value left after the ninth bit is discarded.','16','Work out the full sum, then keep the lower eight bits.','240 + 32 = 272 = 1 | 00010000₂. Only 00010000 remains: 16. The full sum overflows.'),hints:[[['Full sum','240 + 32 = 272']],[['Full binary result','1 | 00010000'],['Discard the ninth bit','1 | ← outside the register']],[['Eight stored bits','00010000'],['Denary value','16']]]},
+ {id:'shift-left-multiple',objective:'1.1.5',title:'Two logical left shifts',prompt:'Shift 00110001₂ left by two places in an eight-bit register.',steps:[
+  step('Move once and add zero on the right','The leftmost 0 is lost. Every remaining bit moves one column left.',[['Before','00110001'],['After one place','01100010']],'01100010'),
+  step('Move a second time','Again the lost bit is 0. Put another zero on the right.',[['After one place','01100010'],['After two places','11000100']],'11000100'),
+  step('Check the effect on the value','No 1 bit was lost. Two left shifts multiply by four.',[['Original','49'],['49 × 2 × 2','196'],['Result','11000100₂ = 196']])],
+  practice:practice('Logically shift 00010111 left by two places. Give 8 bits.','01011100','Move every bit twice and fill with zeros on the right.','00010111 → 00101110 → 01011100. No 1 is lost; 23 × 4 = 92.'),hints:[[['First move','00010111 → 00101110']],[['Second move','00101110 → 01011100']],[['Two zeros entered on the right','01011100'],['Check','23 × 4 = 92']]]},
+ {id:'shift-right-multiple',objective:'1.1.5',title:'Two logical right shifts',prompt:'Shift 00110111₂ right by two places.',steps:[
+  step('Move right once','Discard the rightmost bit. Put zero on the left.',[['Before','00110111 = 55'],['After one place','00011011 = 27']],'00011011'),
+  step('Move right again','Discard the new rightmost bit and fill the left with zero.',[['After two places','00001101 = 13'],['Bits discarded','11']],'00001101'),
+  step('Explain the whole-number result','Two right shifts divide by four and leave out the fractional part.',[['55 ÷ 4','13.75'],['Whole-number part','13']])],
+  practice:practice('Logically shift 01001111 right by two places. Give 8 bits.','00010011','Insert zero on the left each time; bits lost on the right are not wrapped around.','01001111 → 00100111 → 00010011. The integer part of 79 ÷ 4 is 19.'),hints:[[['First move','01001111 → 00100111']],[['Second move','00100111 → 00010011']],[['Result','00010011'],['Check','79 ÷ 4 = 19.75 → keep 19']]]},
+ {id:'signed-positive',objective:'1.1.6',title:'Positive numbers in two’s complement',prompt:'Write +37 in eight-bit two’s complement, then read it back.',steps:[
+  step('Check that the value fits','Eight-bit two’s complement covers −128 to +127. Positive 37 fits.',[['Positive range','0 to 127'],['37','32 + 4 + 1']]),
+  step('Write ordinary binary with a leading zero','For a positive value, do not invert the bits or add one.',[['Eight signed column values','−128, 64, 32, 16, 8, 4, 2, 1']],'00100101',[-128,64,32,16,8,4,2,1]),
+  step('Read it back using the signed columns','The first bit is 0, so the −128 column contributes nothing.',[['Used columns','32 + 4 + 1'],['Denary result','+37']])],
+  practice:practice('Write +53 in 8-bit two’s complement.','00110101','A positive value uses ordinary binary with a leading zero.','53 = 32 + 16 + 4 + 1, giving 00110101. Do not invert a positive number.'),hints:[[['Build 53','32 + 16 + 4 + 1']],[['Signed weights','−128  64  32  16  8  4  2  1'],['Bits','0  0  1  1  0  1  0  1']],[['Eight-bit answer','00110101']]]},
+ {id:'signed-read',objective:'1.1.6',title:'Read a negative two’s complement pattern',prompt:'Convert 11011010₂ from eight-bit two’s complement to denary.',steps:[
+  step('Use the negative leftmost weight','The first 1 contributes −128, rather than +128. It is not a separate minus sign.',[['Signed column values','−128, 64, 32, 16, 8, 4, 2, 1']],'11011010',[-128,64,32,16,8,4,2,1]),
+  step('Add the columns with a 1','Ignore the zero columns, just as you did for positive binary.',[['Positive columns used','64 + 16 + 8 + 2 = 90'],['Include the negative column','−128 + 90 = −38']]),
+  step('Check with invert and add one','For a negative pattern, this finds the size without its minus sign.',[['Invert 11011010','00100101'],['Add one','00100110 = 38'],['Original value','−38']])],
+  practice:practice('Read 11101001 as eight-bit two’s complement. Give denary.','-23','Add −128 and the positive weights of the other 1 bits.','−128 + 64 + 32 + 8 + 1 = −23. Invert and add one gives 00010111, or 23, confirming the negative value.'),hints:[[['Leftmost 1','−128'],['Other used weights','64, 32, 8, 1']],[['Add the positive weights','64 + 32 + 8 + 1 = 105']],[['Include the negative weight','−128 + 105 = −23']]]},
+ {id:'units-multiple',objective:'1.3.1',title:'Convert through more than one storage unit',prompt:'Convert 2 GiB to KiB, then check by converting back.',steps:[
+  step('Draw the route','GiB to KiB crosses two unit boundaries. Each step to a smaller unit multiplies by 1024.',[['Route','GiB → MiB → KiB']]),
+  step('Convert one step at a time','Do not stop at MiB when the question asks for KiB.',[['2 GiB × 1024','2048 MiB'],['2048 MiB × 1024','2097152 KiB']]),
+  step('Reverse the route to check','Each step to a larger unit divides by 1024.',[['2097152 KiB ÷ 1024','2048 MiB'],['2048 MiB ÷ 1024','2 GiB']])],
+  practice:practice('Convert 3 GiB to KiB.','3145728','The route is GiB → MiB → KiB.','3 × 1024 × 1024 = 3145728 KiB. Use 1024 at each boundary.'),hints:[[['Route','GiB → MiB → KiB']],[['First boundary','3 × 1024 = 3072 MiB']],[['Second boundary','3072 × 1024 = 3145728 KiB']]]},
+ {id:'sound-kib',objective:'1.3.2',title:'Sound size in KiB',prompt:'A four-second mono recording uses 8000 samples per second and 16 bits per sample. Find its uncompressed size in KiB. Ignore headers.',steps:[
+  step('Count all the samples','Mono means one sound channel. At 8000 samples each second, four seconds contain four groups of 8000.',[['Samples each second','8000'],['8000 × 4','32000 samples']]),
+  step('Multiply by bits per sample','Sample resolution is the number of bits for each measurement.',[['32000 samples × 16 bits/sample','512000 bits']]),
+  step('Change bits to bytes','One byte contains eight bits. Divide the bit count by eight.',[['512000 ÷ 8','64000 bytes']]),
+  step('Change bytes to KiB','One KiB contains 1024 bytes. Leave the final answer in the unit asked for.',[['64000 ÷ 1024','62.5 KiB'],['Check without a calculator','62 × 1024 + 512 = 64000']])],
+  practice:practice('A three-second mono recording uses 8192 samples per second and 16 bits per sample. Calculate its uncompressed size in KiB, ignoring headers.','48','Count samples, multiply by bits, then divide by 8 and 1024.','8192 × 3 = 24576 samples; × 16 = 393216 bits; ÷ 8 = 49152 bytes; ÷ 1024 = 48 KiB.'),hints:[[['Count samples','8192 × 3 = 24576']],[['Count bits','24576 × 16 = 393216 bits'],['Convert to bytes','393216 ÷ 8 = 49152 bytes']],[['Convert to KiB','49152 ÷ 1024 = 48 KiB']]]},
+ {id:'sound-mib',objective:'1.3.2',title:'Sound size with minutes, in MiB',prompt:'A two-minute mono recording uses 8192 samples per second and eight bits per sample. Find its uncompressed size in MiB. Ignore headers.',steps:[
+  step('Change minutes to seconds first','The sample rate is per second, so the duration must be in seconds too.',[['2 minutes × 60','120 seconds']]),
+  step('Count samples and bits','Each of the 120 seconds contains 8192 samples. Each sample uses eight bits.',[['8192 × 120','983040 samples'],['983040 × 8','7864320 bits']]),
+  step('Convert to bytes, then KiB','Dividing by eight undoes the eight bits per sample in this example.',[['7864320 ÷ 8','983040 bytes'],['983040 ÷ 1024','960 KiB']]),
+  step('Finish in MiB','The question asks for MiB, so there is one more division by 1024.',[['960 ÷ 1024 = 15 ÷ 16','0.9375 MiB']])],
+  practice:practice('A 32-second mono recording uses 8192 samples per second and 16 bits per sample. Find its uncompressed size in MiB, ignoring headers.','0.5','The final conversion is bytes ÷ 1024 ÷ 1024.','8192 × 32 × 16 = 4194304 bits; ÷ 8 = 524288 bytes; ÷ 1024 = 512 KiB; ÷ 1024 = 0.5 MiB.'),hints:[[['Count bits','8192 × 32 × 16 = 4194304 bits']],[['Convert to bytes','4194304 ÷ 8 = 524288'],['Then KiB','524288 ÷ 1024 = 512']],[['Then MiB','512 ÷ 1024 = 0.5 MiB']]]},
+ {id:'image-mib',objective:'1.3.2',title:'Image size in MiB',prompt:'A 1024 × 512 bitmap uses 16 bits per pixel. Find its uncompressed size in MiB, ignoring headers.',steps:[
+  step('Count every pixel','Multiply the number across by the number down.',[['1024 × 512','524288 pixels']]),
+  step('Count the bits','Every pixel needs sixteen bits for its colour.',[['524288 × 16','8388608 bits']]),
+  step('Convert bits to bytes','There are eight bits in each byte.',[['8388608 ÷ 8','1048576 bytes']]),
+  step('Cross both unit boundaries','Bytes to MiB needs two divisions by 1024, not just one.',[['1048576 ÷ 1024','1024 KiB'],['1024 ÷ 1024','1 MiB'],['Shorter working','1024 × 512 × (16 ÷ 8) ÷ 1024 ÷ 1024 = 1']])],
+  practice:practice('A 512 × 512 bitmap uses eight bits per pixel. Find its uncompressed size in MiB, ignoring headers.','0.25','Calculate bytes first, then divide by 1024 twice.','512 × 512 × 8 ÷ 8 = 262144 bytes; ÷ 1024 = 256 KiB; ÷ 1024 = 0.25 MiB.'),hints:[[['Pixel count','512 × 512 = 262144'],['Bits','262144 × 8 = 2097152']],[['Bytes','2097152 ÷ 8 = 262144'],['KiB','262144 ÷ 1024 = 256']],[['MiB','256 ÷ 1024 = 0.25 MiB']]]}
+];
+export const binaryStorageNames=[['bit','One binary digit'],['nibble','4 bits'],['byte','8 bits'],['kibibyte (KiB)','1024 bytes'],['mebibyte (MiB)','1024 KiB'],['gibibyte (GiB)','1024 MiB'],['tebibyte (TiB)','1024 GiB'],['pebibyte (PiB)','1024 TiB'],['exbibyte (EiB)','1024 PiB']];

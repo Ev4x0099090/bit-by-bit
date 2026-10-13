@@ -1,0 +1,30 @@
+import fs from 'node:fs';
+import ts from 'typescript';
+import vm from 'node:vm';
+import assert from 'node:assert/strict';
+import {createRequire} from 'node:module';
+const require=createRequire(import.meta.url),{lessons,questions,archivedQuestions}=require('../.test-build/content.js'),{mark}=require('../.test-build/marking.js');
+const output=ts.transpileModule(fs.readFileSync('supabase/functions/learning-progress/handler.ts','utf8'),{compilerOptions:{module:ts.ModuleKind.CommonJS,target:ts.ScriptTarget.ES2022}}).outputText;
+const module={exports:{}};vm.runInNewContext(output,{exports:module.exports,require:()=>({mark}),Response,Request,Map,Set,Number,JSON,Array,Error,console});
+const data=new Map();let clock=0;
+const rows=uid=>{if(!data.has(uid))data.set(uid,{completed:[],attempts:[]});return data.get(uid)};
+const handler=module.exports.progressHandler({authenticate:async token=>['student-a','student-b'].includes(token)?token:null,read:async uid=>rows(uid),complete:async(uid,id)=>{if(!rows(uid).completed.includes(id))rows(uid).completed.push(id)},save:async(uid,q,answer,earned,confidence)=>{const a={id:String(++clock),objective:q.objective,question_id:q.id,answer,earned,possible:q.marks,confidence,at:clock,self:q.type==='written'};rows(uid).attempts.push(a);return a}},lessons.map(l=>l.id),[...questions,...archivedQuestions]);
+const req=(uid,body,extra={})=>new Request('https://example.supabase.co/functions/v1/learning-progress',{method:body?'POST':'GET',headers:{...uid?{Authorization:'Bearer '+uid}:{},...extra},...body?{body:typeof body==='string'?body:JSON.stringify(body)}:{}});
+assert.equal((await handler(req())).status,401);assert.equal((await handler(req('forged',null,{'oai-authenticated-user-id':'student-a'}))).status,401);
+assert.equal((await handler(req(null,{action:'complete',lessonId:'1.1.1'}))).status,401);
+for(let i=0;i<2;i++)assert.equal((await handler(req('student-a',{action:'complete',lessonId:'1.1.1',userId:'student-b'}))).status,200);
+assert.deepEqual((await(await handler(req('student-a'))).json()).completed,['1.1.1']);assert.deepEqual((await(await handler(req('student-b'))).json()).completed,[]);
+assert.equal((await handler(req('student-a',{action:'complete',lessonId:'fake'}))).status,400);
+for(const q of [...questions,...archivedQuestions]){
+ const response=await handler(req('student-a',{action:'answer',questionId:q.id,answer:q.type==='written'?'My explanation':q.answer,confidence:3,...q.type==='written'?{rubric:Array(q.marks).fill(true)}:{},earned:999,userId:'student-b'}));assert.equal(response.status,200,q.id);const body=await response.json();assert.equal(body.attempt.earned,q.marks);assert.equal(body.model,q.model);assert.equal(body.attempt.self,q.type==='written');assert.equal(body.attempt.questionId,q.id);
+}
+const q=questions.find(q=>q.type!=='written');let response=await handler(req('student-a',{action:'answer',questionId:q.id,answer:'wrong',confidence:3,earned:999}));assert.equal((await response.json()).attempt.earned,0);
+for(const body of ['not json','[]','null',{action:'answer',questionId:q.id,answer:'',confidence:3},{action:'answer',questionId:q.id,answer:q.answer,confidence:9},{action:'answer',questionId:'unknown',answer:'x',confidence:3}])assert.equal((await handler(req('student-a',body))).status,400);
+assert.equal((await handler(req('student-a','a'.repeat(16001)))).status,413);
+const written=questions.find(q=>q.type==='written');assert.equal((await handler(req('student-a',{action:'answer',questionId:written.id,answer:'Reason',confidence:3,rubric:Array(written.marks).fill('yes')}))).status,400);
+response=await handler(req('student-a',{action:'answer',questionId:written.id,answer:'Reason',confidence:3,rubric:Array.from({length:written.marks},(_,i)=>i===0)}));assert.equal((await response.json()).attempt.earned,1);
+assert.deepEqual((await(await handler(req('student-b'))).json()).attempts,[]);
+const limiting=module.exports.progressHandler({authenticate:async()=> 'student-a',save:async()=>{throw new Error('attempt_rate_limit')}},[],[q]);assert.equal((await limiting(req('student-a',{action:'answer',questionId:q.id,answer:q.answer,confidence:3}))).status,429);
+assert.equal((await handler(req('student-a'))).headers.get('cache-control'),'private, no-store');
+const sql=fs.readFileSync(fs.readdirSync('supabase/migrations').filter(f=>f.endsWith('_learning_progress.sql')).sort().map(f=>'supabase/migrations/'+f).at(-1),'utf8');assert.match(sql,/enable row level security/g);assert.match(sql,/pg_advisory_xact_lock/);assert.match(sql,/revoke all on function[\s\S]*from public,anon,authenticated/);
+console.log(`PASS: ${questions.length+archivedQuestions.length} backend mark schemes, archived history, verified identity, user isolation, forged score rejection, validation, partial rubric credit, rate-limit response and private caching.`);

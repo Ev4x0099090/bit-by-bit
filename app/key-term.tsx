@@ -1,0 +1,5 @@
+'use client';
+import {glossary,type TermId} from '@/lib/glossary';
+export function KeyTerm({term}:{term:TermId}){const t=glossary[term];return <details className="key-term"><summary>{t.name}<span aria-hidden="true"> +</span></summary><div><p>{t.simple}</p><p className="term-example"><strong>Example:</strong> {t.example}</p><details><summary>More detail</summary><p>{t.more}</p></details></div></details>}
+export function LessonGlossary({terms}:{terms:TermId[]}){return <details className="lesson-glossary"><summary>Key terms in this lesson · {terms.length} words</summary><p>Open any word to see a simple definition and example.</p><div>{terms.map(term=><KeyTerm key={term} term={term}/>)}</div></details>}
+export function LearningHelp({simple,example,steps}:{simple:string,example:string,steps:string[]}){return <div className="learning-help"><details><summary>Explain more simply</summary><p>{simple}</p></details><details><summary>Show another example</summary><p>{example}</p></details><details><summary>Show me how</summary><ol>{steps.map(s=><li key={s}>{s}</li>)}</ol></details></div>}
