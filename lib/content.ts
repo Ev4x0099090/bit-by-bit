@@ -1,6 +1,7 @@
 import {courseLessons,courseQuestions} from './course-registry';
 import {hardwareLessons,hardwareQuestions} from './hardware';
 import {transmissionLessons,transmissionQuestions,transmissionArchivedQuestions} from './transmission';
+import {expandedQuestions} from './course-extra-questions';
 export type Lesson={id:string,title:string,minutes:number,goal:string,intro:string,detail:string[],example:string,misconception:string,tip:string,summary:string,lab:string};
 export const lessons:Lesson[]=[
 {id:'1.1.1',title:'Why computers use binary',minutes:6,goal:'Explain how two-state electronic circuits represent data.',intro:'A computer stores everything as patterns of bits. A bit has one of two values: 0 or 1. The pattern can represent a number, a letter, a pixel or a sample of sound.',detail:['Electronic circuits can reliably tell the difference between low and high voltage states. Voltage is an electrical measurement. These two states represent 0 and 1; a bit does not mean that the whole computer is switched off or on.','Logic gates are small circuits that follow rules to process binary signals. Registers are small temporary stores that hold groups of bits while the processor carries out instructions. Encoding means the agreed rules used to represent information as bits; those rules give a pattern its meaning.'],example:'01000001 is 65 as an unsigned binary number. In ASCII, the same pattern represents the letter A. The stored bits are the same; the rules for reading them give them different meanings.',misconception:'Binary is not only for numbers. Each type of data must be turned into binary before a computer can work with it. This is called encoding.',tip:'Link two reliable electronic states to binary values. Mention processing by logic gates and storage in registers.',summary:'A bit is 0 or 1. Encoding gives bit patterns meaning. Gates process bits and registers store them.',lab:'binary'},
@@ -86,3 +87,4 @@ questions.push(...hardwareQuestions);
 
 lessons.push(...courseLessons);
 questions.push(...courseQuestions);
+questions.push(...expandedQuestions);

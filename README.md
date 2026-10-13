@@ -2,7 +2,7 @@
 
 Computer Science, one idea at a time. By Learning Lab.
 
-An independent Cambridge O Level Computer Science (2210) learning resource with 96 guided lessons, visual activities and practice across studied topics. It is not endorsed by Cambridge.
+An independent Cambridge O Level Computer Science (2210) learning resource with 96 guided lessons, 859 active questions, visual activities and practice across studied topics. It is not endorsed by Cambridge.
 
 ## Stack
 

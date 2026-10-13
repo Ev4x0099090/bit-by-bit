@@ -12,7 +12,7 @@ function add(file){
 function walk(dir){for(const item of fs.readdirSync(dir,{withFileTypes:true})){const file=dir+'/'+item.name;if(item.isDirectory())walk(file);else add(file)}}
 for(const dir of ['app','components','lib','hooks','public','vendor','supabase'])walk(dir);
 for(const file of ['package.json','package-lock.json','tsconfig.json','next.config.ts','proxy.ts','postcss.config.mjs','eslint.config.mjs','vercel.json','.gitignore','.env.example','README.md','AGENTS.md'])add(file);
-for(const file of ['prepare-edge.mjs','test-engine.mjs','test-teaching.mjs','test-progress.mjs','test-api.mjs','export-github-source.mjs'])add('scripts/'+file);
+for(const file of ['prepare-edge.mjs','test-engine.mjs','test-teaching.mjs','test-question-expansion.mjs','test-progress.mjs','test-api.mjs','export-github-source.mjs'])add('scripts/'+file);
 files.sort((a,b)=>a.path.localeCompare(b.path));
 if(new Set(files.map(f=>f.path)).size!==files.length)throw Error('Duplicate paths');
 fs.mkdirSync('tmp',{recursive:true});fs.writeFileSync('tmp/github-tree.json',JSON.stringify(files));
