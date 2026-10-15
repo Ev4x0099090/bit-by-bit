@@ -1,3 +1,5 @@
 project_id = "jxgnmjnrajhrrhiyeixw"
 [functions.learning-progress]
 verify_jwt = false
+[functions.paper-practice]
+verify_jwt = false

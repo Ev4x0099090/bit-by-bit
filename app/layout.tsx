@@ -16,6 +16,7 @@ import "./check-digit.css";
 import "./study-pages.css";
 import "./hardware.css";
 import "./account.css";
+import "./paper2.css";
 
 export const metadata: Metadata = {
   title: "Bit by Bit · Computer Science by Learning Lab",

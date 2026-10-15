@@ -18,7 +18,7 @@ assert.equal((await handler(req('student-a',{action:'complete',lessonId:'fake'})
 for(const q of [...questions,...archivedQuestions]){
  const response=await handler(req('student-a',{action:'answer',questionId:q.id,answer:q.type==='written'?'My explanation':q.answer,confidence:3,...q.type==='written'?{rubric:Array(q.marks).fill(true)}:{},earned:999,userId:'student-b'}));assert.equal(response.status,200,q.id);const body=await response.json();assert.equal(body.attempt.earned,q.marks);assert.equal(body.model,q.model);assert.equal(body.attempt.self,q.type==='written');assert.equal(body.attempt.questionId,q.id);
 }
-const q=questions.find(q=>q.type!=='written');let response=await handler(req('student-a',{action:'answer',questionId:q.id,answer:'wrong',confidence:3,earned:999}));assert.equal((await response.json()).attempt.earned,0);
+const q=questions.find(q=>q.type!=='written');let response=await handler(req('student-a',{action:'answer',questionId:q.id,answer:'wrong',confidence:3,earned:999,selfMark:q.marks}));assert.equal((await response.json()).attempt.earned,0);
 for(const body of ['not json','[]','null',{action:'answer',questionId:q.id,answer:'',confidence:3},{action:'answer',questionId:q.id,answer:q.answer,confidence:9},{action:'answer',questionId:'unknown',answer:'x',confidence:3}])assert.equal((await handler(req('student-a',body))).status,400);
 assert.equal((await handler(req('student-a','a'.repeat(16001)))).status,413);
 const written=questions.find(q=>q.type==='written');assert.equal((await handler(req('student-a',{action:'answer',questionId:written.id,answer:'Reason',confidence:3,rubric:Array(written.marks).fill('yes')}))).status,400);

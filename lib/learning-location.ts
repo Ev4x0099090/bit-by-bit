@@ -1,9 +1,9 @@
 import {lessons} from './content';
-export type LearningView='dashboard'|'chapter'|'learn'|'practice'|'syllabus'|'revision';
+export type LearningView='dashboard'|'chapter'|'learn'|'practice'|'paper2'|'syllabus'|'revision';
 export type LearningLocation={view:LearningView,lesson:number,mode:string,objective?:string};
 export function readLearningLocation(search:string):LearningLocation{
  const params=new URLSearchParams(search),requested=params.get('view');
- let view:LearningView=['dashboard','chapter','learn','practice','syllabus','revision'].includes(requested||'')?requested as LearningView:'dashboard';
+ let view:LearningView=['dashboard','chapter','learn','practice','paper2','syllabus','revision'].includes(requested||'')?requested as LearningView:'dashboard';
  const requestedLesson=lessons.findIndex(l=>l.id===params.get('lesson')),lesson=requestedLesson>=0?requestedLesson:(view!=='learn'?lessons.findIndex(l=>l.id.startsWith((params.get('chapter')||'1')+'.')):-1);if(view==='learn'&&lesson<0)view='chapter';
  const mode=['adaptive','chapter','written'].includes(params.get('mode')||'')?params.get('mode')!:'adaptive';
  const objective=lessons.find(l=>l.id===params.get('objective'))?.id;

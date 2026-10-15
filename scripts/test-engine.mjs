@@ -5,7 +5,7 @@ import {createRequire} from 'node:module';
 import {resolve} from 'node:path';
 fs.mkdirSync('.test-build',{recursive:true});
 fs.writeFileSync('.test-build/package.json','{"type":"commonjs"}');
-for(const name of ['content','engine','marking','learning-config','learning-location','transmission','hardware','hardware-more','hardware-assessment','hardware-models','hardware-catalogue',...fs.readdirSync('lib').filter(n=>n.startsWith('course-')&&n.endsWith('.ts')).map(n=>n.slice(0,-3))]) fs.writeFileSync(`.test-build/${name}.js`,ts.transpileModule(fs.readFileSync(`lib/${name}.ts`,'utf8'),{compilerOptions:{module:ts.ModuleKind.CommonJS,target:ts.ScriptTarget.ES2022}}).outputText);
+for(const name of ['content','engine','marking','learning-config','learning-location','paper-selection','paper-practice-types','paper2-mark-schemes','transmission','hardware','hardware-more','hardware-assessment','hardware-models','hardware-catalogue',...fs.readdirSync('lib').filter(n=>n.startsWith('course-')&&n.endsWith('.ts')).map(n=>n.slice(0,-3))]) fs.writeFileSync(`.test-build/${name}.js`,ts.transpileModule(fs.readFileSync(`lib/${name}.ts`,'utf8'),{compilerOptions:{module:ts.ModuleKind.CommonJS,target:ts.ScriptTarget.ES2022}}).outputText);
 const require=createRequire(import.meta.url);const {lessons,questions}=require(resolve('.test-build/content.js'));const e=require(resolve('.test-build/engine.js'));
 const coverage=JSON.parse(fs.readFileSync('lib/coverage.json'));
 assert.equal(lessons.length,96);assert.equal(lessons.filter(l=>l.id.startsWith('1.')).length,13);assert.equal(lessons.filter(l=>l.id.startsWith('2.')).length,9);assert.equal(lessons.filter(l=>l.id.startsWith('3.')).length,18);assert.equal(coverage.length,96);

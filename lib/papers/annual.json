@@ -1,0 +1,4141 @@
+[
+  {
+    "id": "2210-w24-23",
+    "year": 2024,
+    "title": "October / November 2024",
+    "code": "2210/23",
+    "minutes": 105,
+    "marks": 75,
+    "thresholds": [
+      {
+        "grade": "A",
+        "minimum": 44
+      },
+      {
+        "grade": "B",
+        "minimum": 33
+      },
+      {
+        "grade": "C",
+        "minimum": 23
+      },
+      {
+        "grade": "D",
+        "minimum": 19
+      },
+      {
+        "grade": "E",
+        "minimum": 16
+      }
+    ],
+    "thresholdSource": "https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/2210_w24_gt.pdf",
+    "source": "https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/2210_w24_qp_23.pdf",
+    "legacy": false,
+    "tasks": [
+      {
+        "id": "paper2-w24-23-1",
+        "question": 1,
+        "part": "",
+        "objective": "7.5",
+        "title": "Which check validates data when it is entered",
+        "kind": "choice",
+        "prompt": "Which check validates data when it is entered?",
+        "requires": [
+          "7.5"
+        ],
+        "hints": [],
+        "checklist": [],
+        "model": "Type check.",
+        "examMarks": 1,
+        "choices": [
+          "checksum",
+          "double entry check",
+          "type check",
+          "visual check"
+        ]
+      },
+      {
+        "id": "paper2-w24-23-2",
+        "question": 2,
+        "part": "",
+        "objective": "7.2",
+        "title": "Which method is used to construct a solution to a problem",
+        "kind": "choice",
+        "prompt": "Which method is used to construct a solution to a problem?",
+        "requires": [
+          "7.2"
+        ],
+        "hints": [],
+        "checklist": [],
+        "model": "Structure diagram.",
+        "examMarks": 1,
+        "choices": [
+          "abstraction",
+          "structure diagram",
+          "test data",
+          "variable"
+        ]
+      },
+      {
+        "id": "paper2-w24-23-3",
+        "question": 3,
+        "part": "",
+        "objective": "10.1",
+        "title": "Match AND, NAND, NOR and XOR to the five symbols shown",
+        "kind": "written",
+        "prompt": "Match AND, NAND, NOR and XOR to the five symbols shown. Refer to the symbols from top to bottom as 1 to 5. One symbol is unused.",
+        "requires": [
+          "10.1"
+        ],
+        "hints": [],
+        "checklist": [],
+        "model": "AND → 5\nNAND → 4\nNOR → 3\nXOR → 1\nSymbol 2 is OR.",
+        "examMarks": 4,
+        "figure": "/diagrams/papers/24-q3.svg",
+        "figureAlt": "Five original logic gate symbols, numbered by their order from top to bottom."
+      },
+      {
+        "id": "paper2-w24-23-4",
+        "question": 4,
+        "part": "",
+        "objective": "9.1",
+        "title": "Fill the six blanks using terms from the list",
+        "kind": "trace",
+        "prompt": "Fill the six blanks using terms from the list. Terms may be reused; some are not needed.",
+        "requires": [
+          "9.1"
+        ],
+        "hints": [],
+        "checklist": [],
+        "model": "Rows and columns (or the equivalent records and fields); records; columns; scripts; primary key.",
+        "examMarks": 6,
+        "context": "Terms: fields, comments, columns, constant, key, table, primary key, program, records, rows, scripts, database, validation, variable.",
+        "table": {
+          "headings": [
+            "Sentence",
+            "Term"
+          ],
+          "rows": [
+            [
+              "Database tables consist of ___",
+              ""
+            ],
+            [
+              "and ___.",
+              ""
+            ],
+            [
+              "Rows are ___.",
+              ""
+            ],
+            [
+              "___ are fields.",
+              ""
+            ],
+            [
+              "SQL ___ are used to query data.",
+              ""
+            ],
+            [
+              "A ___ uniquely identifies a record.",
+              ""
+            ]
+          ]
+        }
+      },
+      {
+        "id": "paper2-w24-23-5",
+        "question": 5,
+        "part": "",
+        "objective": "7.1",
+        "title": "Analysis is one stage of the program development life cycle",
+        "kind": "written",
+        "prompt": "Analysis is one stage of the program development life cycle. Name and describe two other stages.",
+        "requires": [
+          "7.1"
+        ],
+        "hints": [],
+        "checklist": [],
+        "model": "Design: construct the solution, for example using flowcharts.\nCoding: write the program and test it as it is developed.\nTesting is another valid choice: look for errors and check the program meets its requirements.",
+        "examMarks": 6
+      },
+      {
+        "id": "paper2-w24-23-6a",
+        "question": 6,
+        "part": "a",
+        "objective": "8.2.2",
+        "title": "Complete lines 06, 08 and 11",
+        "kind": "code",
+        "prompt": "Complete lines 06, 08 and 11.",
+        "requires": [
+          "8.2.2"
+        ],
+        "hints": [],
+        "checklist": [],
+        "model": "06 C ← 1\n08 W ← W + A[C]\n11 X ← W / (C - 1)",
+        "examMarks": 3,
+        "context": "An array contains non-zero values starting at A[1]. The first zero marks the end of the stored values. This algorithm counts the values and finds their average.",
+        "code": "01 DECLARE A : ARRAY[1:50] OF INTEGER\n02 DECLARE C : INTEGER\n03 DECLARE W : INTEGER\n04 DECLARE X : INTEGER\n05 W ← 0\n06 C ← ___\n07 WHILE A[C] <> 0\n08     W ← ___\n09     C ← C + 1\n10 ENDWHILE\n11 X ← ___"
+      },
+      {
+        "id": "paper2-w24-23-6b",
+        "question": 6,
+        "part": "b",
+        "objective": "8.1.3",
+        "title": "Add pseudocode to output the number of stored values and their average, with suitable messages",
+        "kind": "code",
+        "prompt": "Add pseudocode to output the number of stored values and their average, with suitable messages.",
+        "requires": [
+          "8.1.3"
+        ],
+        "hints": [],
+        "checklist": [],
+        "model": "OUTPUT \"Number of values: \", C - 1\nOUTPUT \"Average: \", X",
+        "examMarks": 3,
+        "context": "An array contains non-zero values starting at A[1]. The first zero marks the end of the stored values. This algorithm counts the values and finds their average.",
+        "code": "01 DECLARE A : ARRAY[1:50] OF INTEGER\n02 DECLARE C : INTEGER\n03 DECLARE W : INTEGER\n04 DECLARE X : INTEGER\n05 W ← 0\n06 C ← ___\n07 WHILE A[C] <> 0\n08     W ← ___\n09     C ← C + 1\n10 ENDWHILE\n11 X ← ___"
+      },
+      {
+        "id": "paper2-w24-23-6c",
+        "question": 6,
+        "part": "c",
+        "objective": "8.1.8",
+        "title": "Suggest meaningful names for A, C, X and W",
+        "kind": "written",
+        "prompt": "Suggest meaningful names for A, C, X and W.",
+        "requires": [
+          "8.1.8"
+        ],
+        "hints": [],
+        "checklist": [],
+        "model": "A → Values\nC → Index\nX → Average\nW → Total",
+        "examMarks": 3,
+        "context": "An array contains non-zero values starting at A[1]. The first zero marks the end of the stored values. This algorithm counts the values and finds their average.",
+        "code": "01 DECLARE A : ARRAY[1:50] OF INTEGER\n02 DECLARE C : INTEGER\n03 DECLARE W : INTEGER\n04 DECLARE X : INTEGER\n05 W ← 0\n06 C ← ___\n07 WHILE A[C] <> 0\n08     W ← ___\n09     C ← C + 1\n10 ENDWHILE\n11 X ← ___"
+      },
+      {
+        "id": "paper2-w24-23-7",
+        "question": 7,
+        "part": "",
+        "objective": "7.6",
+        "title": "A range check accepts positive values from 1 to 100 inclusive",
+        "kind": "written",
+        "prompt": "A range check accepts positive values from 1 to 100 inclusive. Give three different types of test data. For each, give the test value(s) and expected outcome.",
+        "requires": [
+          "7.6"
+        ],
+        "hints": [],
+        "checklist": [],
+        "model": "Normal: 25, accepted.\nExtreme: 1 or 100, accepted.\nAbnormal: 125, rejected.\nBoundary is also valid: 0 and 1, with 0 rejected and 1 accepted.",
+        "examMarks": 9
+      },
+      {
+        "id": "paper2-w24-23-8",
+        "question": 8,
+        "part": "",
+        "objective": "10.3",
+        "title": "Complete W for every row",
+        "kind": "trace",
+        "prompt": "Complete W for every row.",
+        "requires": [
+          "10.3"
+        ],
+        "hints": [],
+        "checklist": [],
+        "model": "W, from top to bottom: 0, 0, 1, 0, 0, 0, 0, 0.",
+        "examMarks": 4,
+        "context": "A window W opens when temperature T is too high, heater H is off and air conditioning A is off. For A and H: 0 = off, 1 = on. For T: 0 = not too high, 1 = too high. For W: 0 = closed, 1 = open.",
+        "table": {
+          "headings": [
+            "A",
+            "T",
+            "H",
+            "W"
+          ],
+          "rows": [
+            [
+              "0",
+              "0",
+              "0",
+              ""
+            ],
+            [
+              "0",
+              "0",
+              "1",
+              ""
+            ],
+            [
+              "0",
+              "1",
+              "0",
+              ""
+            ],
+            [
+              "0",
+              "1",
+              "1",
+              ""
+            ],
+            [
+              "1",
+              "0",
+              "0",
+              ""
+            ],
+            [
+              "1",
+              "0",
+              "1",
+              ""
+            ],
+            [
+              "1",
+              "1",
+              "0",
+              ""
+            ],
+            [
+              "1",
+              "1",
+              "1",
+              ""
+            ]
+          ]
+        }
+      },
+      {
+        "id": "paper2-w24-23-9",
+        "question": 9,
+        "part": "",
+        "objective": "7.8",
+        "title": "Identify four errors in the flowchart and give a correction for each",
+        "kind": "written",
+        "prompt": "Identify four errors in the flowchart and give a correction for each.",
+        "requires": [
+          "7.8"
+        ],
+        "hints": [],
+        "checklist": [],
+        "model": "Swap Yes and No on the first decision.\nChange OR to AND in the second decision.\nChange the A → B flow line to an assignment A ← B.\nUse a rectangular process symbol for A ← C and B ← C.",
+        "examMarks": 4,
+        "context": "The flowchart should check whether A, B and C are identical. If they are different, it should store the highest value in all three variables.",
+        "figure": "/diagrams/papers/24-q9.svg",
+        "figureAlt": "Original faulty flowchart comparing A, B and C. Deliberate errors are retained."
+      },
+      {
+        "id": "paper2-w24-23-10a",
+        "question": 10,
+        "part": "a",
+        "objective": "7.7",
+        "title": "Complete a separate trace for each input: MYWORD, M",
+        "kind": "trace",
+        "prompt": "Complete a separate trace for each input: MYWORD, M!word, My!Hidden. Record changes to Password, Accept, Index, Found and OUTPUT.",
+        "requires": [
+          "7.7"
+        ],
+        "hints": [],
+        "checklist": [],
+        "model": "MYWORD: Password=MYWORD; Accept TRUE then FALSE; Index=1; Found=FALSE; output Rejected.\nM!word: Password=M!word; Accept TRUE then FALSE; Index=1; Found=FALSE; output Rejected.\nMy!Hidden: Accept TRUE; Index 1,2,3,4; Found FALSE until the ! at position 3, then TRUE; output Accepted.",
+        "examMarks": 6,
+        "code": "01 OUTPUT \"Please enter password \"\n02 INPUT Password\n03 Accept ← TRUE\n04 IF LENGTH(Password) < 8 OR LENGTH(Password) > 20\n05 THEN\n06     Accept ← FALSE\n07 ENDIF\n08 IF LCASE(Password) = Password OR UCASE(Password) = Password\n09 THEN\n10     Accept ← FALSE\n11 ENDIF\n12 Index ← 1\n13 Found ← FALSE\n14 WHILE NOT Found AND Accept AND Index < LENGTH(Password)\n15     IF SUBSTRING(Password, Index, 1) = '!'\n16     THEN\n17         Found ← TRUE\n18     ENDIF\n19     Index ← Index + 1\n20 ENDWHILE\n21 IF NOT Found\n22 THEN\n23     Accept ← FALSE\n24 ENDIF\n25 IF Accept\n26 THEN\n27     OUTPUT \"Accepted\"\n28 ELSE\n29     OUTPUT \"Rejected\"\n30 ENDIF",
+        "table": {
+          "headings": [
+            "Password",
+            "Accept",
+            "Index",
+            "Found",
+            "OUTPUT"
+          ],
+          "rows": [
+            [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          ]
+        },
+        "context": "Use rows 1–6 for MYWORD, 7–12 for M!word and 13–18 for My!Hidden. These row groups only organise your three answers."
+      },
+      {
+        "id": "paper2-w24-23-10b",
+        "question": 10,
+        "part": "b",
+        "objective": "7.7",
+        "title": "State the password rules checked by this algorithm",
+        "kind": "written",
+        "prompt": "State the password rules checked by this algorithm.",
+        "requires": [
+          "7.7"
+        ],
+        "hints": [],
+        "checklist": [],
+        "model": "Between 8 and 20 characters inclusive; a mixture of upper-case and lower-case characters; contains an exclamation mark (!).",
+        "examMarks": 3,
+        "code": "01 OUTPUT \"Please enter password \"\n02 INPUT Password\n03 Accept ← TRUE\n04 IF LENGTH(Password) < 8 OR LENGTH(Password) > 20\n05 THEN\n06     Accept ← FALSE\n07 ENDIF\n08 IF LCASE(Password) = Password OR UCASE(Password) = Password\n09 THEN\n10     Accept ← FALSE\n11 ENDIF\n12 Index ← 1\n13 Found ← FALSE\n14 WHILE NOT Found AND Accept AND Index < LENGTH(Password)\n15     IF SUBSTRING(Password, Index, 1) = '!'\n16     THEN\n17         Found ← TRUE\n18     ENDIF\n19     Index ← Index + 1\n20 ENDWHILE\n21 IF NOT Found\n22 THEN\n23     Accept ← FALSE\n24 ENDIF\n25 IF Accept\n26 THEN\n27     OUTPUT \"Accepted\"\n28 ELSE\n29     OUTPUT \"Rejected\"\n30 ENDIF"
+      },
+      {
+        "id": "paper2-w24-23-11a",
+        "question": 11,
+        "part": "a",
+        "objective": "9.4",
+        "title": "Give the output from this SQL query",
+        "kind": "written",
+        "prompt": "Give the output from this SQL query.",
+        "requires": [
+          "9.4"
+        ],
+        "hints": [],
+        "checklist": [],
+        "model": "MT12  Pebbles large\nMT06  Cobbles",
+        "examMarks": 3,
+        "readingTables": [
+          {
+            "headings": [
+              "MtNo",
+              "Name",
+              "InStock",
+              "WeightKg",
+              "PricePerBag",
+              "NumberBags"
+            ],
+            "rows": [
+              [
+                "MT01",
+                "Builders sand",
+                "Yes",
+                "50",
+                "4.50",
+                "50"
+              ],
+              [
+                "MT02",
+                "Sharp sand",
+                "Yes",
+                "25",
+                "3.50",
+                "21"
+              ],
+              [
+                "MT03",
+                "Red sand",
+                "No",
+                "50",
+                "2.75",
+                "0"
+              ],
+              [
+                "MT04",
+                "Cement",
+                "No",
+                "25",
+                "6.85",
+                "0"
+              ],
+              [
+                "MT05",
+                "Chippings",
+                "Yes",
+                "50",
+                "35.00",
+                "50"
+              ],
+              [
+                "MT06",
+                "Cobbles",
+                "No",
+                "75",
+                "67.35",
+                "0"
+              ],
+              [
+                "MT07",
+                "Pebbles small",
+                "Yes",
+                "50",
+                "34.50",
+                "3"
+              ],
+              [
+                "MT08",
+                "Pebbles medium",
+                "Yes",
+                "25",
+                "25.50",
+                "10"
+              ],
+              [
+                "MT12",
+                "Pebbles large",
+                "Yes",
+                "75",
+                "62.75",
+                "20"
+              ],
+              [
+                "MT15",
+                "Washed gravel",
+                "Yes",
+                "50",
+                "12.75",
+                "12"
+              ],
+              [
+                "MT16",
+                "Pea gravel",
+                "Yes",
+                "100",
+                "15.95",
+                "24"
+              ]
+            ]
+          }
+        ],
+        "code": "SELECT MtNo, Name\nFROM BuildStock\nWHERE WeightKg = 75\nORDER BY PricePerBag;"
+      },
+      {
+        "id": "paper2-w24-23-11bi",
+        "question": 11,
+        "part": "bi",
+        "objective": "9.4",
+        "title": "Write SQL to display only the names of materials that are out of stock",
+        "kind": "sql",
+        "prompt": "Write SQL to display only the names of materials that are out of stock.",
+        "requires": [
+          "9.4"
+        ],
+        "hints": [],
+        "checklist": [],
+        "model": "SELECT Name\nFROM BuildStock\nWHERE InStock = 'No';",
+        "examMarks": 2,
+        "readingTables": [
+          {
+            "headings": [
+              "MtNo",
+              "Name",
+              "InStock",
+              "WeightKg",
+              "PricePerBag",
+              "NumberBags"
+            ],
+            "rows": [
+              [
+                "MT01",
+                "Builders sand",
+                "Yes",
+                "50",
+                "4.50",
+                "50"
+              ],
+              [
+                "MT02",
+                "Sharp sand",
+                "Yes",
+                "25",
+                "3.50",
+                "21"
+              ],
+              [
+                "MT03",
+                "Red sand",
+                "No",
+                "50",
+                "2.75",
+                "0"
+              ],
+              [
+                "MT04",
+                "Cement",
+                "No",
+                "25",
+                "6.85",
+                "0"
+              ],
+              [
+                "MT05",
+                "Chippings",
+                "Yes",
+                "50",
+                "35.00",
+                "50"
+              ],
+              [
+                "MT06",
+                "Cobbles",
+                "No",
+                "75",
+                "67.35",
+                "0"
+              ],
+              [
+                "MT07",
+                "Pebbles small",
+                "Yes",
+                "50",
+                "34.50",
+                "3"
+              ],
+              [
+                "MT08",
+                "Pebbles medium",
+                "Yes",
+                "25",
+                "25.50",
+                "10"
+              ],
+              [
+                "MT12",
+                "Pebbles large",
+                "Yes",
+                "75",
+                "62.75",
+                "20"
+              ],
+              [
+                "MT15",
+                "Washed gravel",
+                "Yes",
+                "50",
+                "12.75",
+                "12"
+              ],
+              [
+                "MT16",
+                "Pea gravel",
+                "Yes",
+                "100",
+                "15.95",
+                "24"
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "paper2-w24-23-11bii",
+        "question": 11,
+        "part": "bii",
+        "objective": "9.4",
+        "title": "Explain how a different field could be used in another SQL statement to display the same information",
+        "kind": "written",
+        "prompt": "Explain how a different field could be used in another SQL statement to display the same information.",
+        "requires": [
+          "9.4"
+        ],
+        "hints": [],
+        "checklist": [],
+        "model": "Check NumberBags = 0 instead of checking InStock for No (or vice versa if that was your first query).",
+        "examMarks": 2,
+        "readingTables": [
+          {
+            "headings": [
+              "MtNo",
+              "Name",
+              "InStock",
+              "WeightKg",
+              "PricePerBag",
+              "NumberBags"
+            ],
+            "rows": [
+              [
+                "MT01",
+                "Builders sand",
+                "Yes",
+                "50",
+                "4.50",
+                "50"
+              ],
+              [
+                "MT02",
+                "Sharp sand",
+                "Yes",
+                "25",
+                "3.50",
+                "21"
+              ],
+              [
+                "MT03",
+                "Red sand",
+                "No",
+                "50",
+                "2.75",
+                "0"
+              ],
+              [
+                "MT04",
+                "Cement",
+                "No",
+                "25",
+                "6.85",
+                "0"
+              ],
+              [
+                "MT05",
+                "Chippings",
+                "Yes",
+                "50",
+                "35.00",
+                "50"
+              ],
+              [
+                "MT06",
+                "Cobbles",
+                "No",
+                "75",
+                "67.35",
+                "0"
+              ],
+              [
+                "MT07",
+                "Pebbles small",
+                "Yes",
+                "50",
+                "34.50",
+                "3"
+              ],
+              [
+                "MT08",
+                "Pebbles medium",
+                "Yes",
+                "25",
+                "25.50",
+                "10"
+              ],
+              [
+                "MT12",
+                "Pebbles large",
+                "Yes",
+                "75",
+                "62.75",
+                "20"
+              ],
+              [
+                "MT15",
+                "Washed gravel",
+                "Yes",
+                "50",
+                "12.75",
+                "12"
+              ],
+              [
+                "MT16",
+                "Pea gravel",
+                "Yes",
+                "100",
+                "15.95",
+                "24"
+              ]
+            ]
+          }
+        ],
+        "context": "The previous part asks for names of materials that are out of stock."
+      },
+      {
+        "id": "paper2-w24-23-12",
+        "question": 12,
+        "part": "",
+        "objective": "8.2.2",
+        "title": "Write a program that inputs and validates pick weights; sorts PickedWeight[] and PickerName[] together from highest weight to lowest; outputs the top two names and weights as “Best in Group” and “Second best in Group”; stores names of members whose weight is over 3 kg in PickerCertificate[]; and outputs the number of certificates",
+        "kind": "code",
+        "prompt": "Write a program that inputs and validates pick weights; sorts PickedWeight[] and PickerName[] together from highest weight to lowest; outputs the top two names and weights as “Best in Group” and “Second best in Group”; stores names of members whose weight is over 3 kg in PickerCertificate[]; and outputs the number of certificates. Use pseudocode or program code, comments and suitable input/output messages. Arrays and variables are already declared; PickerName[] is already filled.",
+        "requires": [
+          "8.2.2"
+        ],
+        "hints": [],
+        "checklist": [],
+        "model": "// GroupSize is the number of members\nFOR Index ← 1 TO GroupSize\n    REPEAT\n        OUTPUT \"Pick weight for \", PickerName[Index]\n        INPUT PickedWeight[Index]\n    UNTIL PickedWeight[Index] > 0\nNEXT Index\n// Keep each name with its weight while sorting\nFOR Pass ← 1 TO GroupSize - 1\n    FOR Index ← 1 TO GroupSize - Pass\n        IF PickedWeight[Index] < PickedWeight[Index + 1] THEN\n            TempWeight ← PickedWeight[Index]\n            PickedWeight[Index] ← PickedWeight[Index + 1]\n            PickedWeight[Index + 1] ← TempWeight\n            TempName ← PickerName[Index]\n            PickerName[Index] ← PickerName[Index + 1]\n            PickerName[Index + 1] ← TempName\n        ENDIF\n    NEXT Index\nNEXT Pass\nOUTPUT \"Best in Group: \", PickerName[1], PickedWeight[1]\nOUTPUT \"Second best in Group: \", PickerName[2], PickedWeight[2]\nCount ← 0\nFOR Index ← 1 TO GroupSize\n    IF PickedWeight[Index] > 3 THEN\n        Count ← Count + 1\n        PickerCertificate[Count] ← PickerName[Index]\n    ENDIF\nNEXT Index\nOUTPUT \"Certificates to print: \", Count",
+        "examMarks": 15,
+        "context": "Members of a litter picking group record their monthly pick. PickerName[] holds the names and PickedWeight[] holds weights in kg to one decimal place, such as 8.4. Matching indexes refer to the same member. The two heaviest picks win prizes. Every pick over 3 kg earns a certificate.",
+        "languages": [
+          "Pseudocode",
+          "Python",
+          "Java",
+          "Visual Basic"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2210-w23-23",
+    "year": 2023,
+    "title": "October / November 2023",
+    "code": "2210/23",
+    "minutes": 105,
+    "marks": 75,
+    "thresholds": [
+      {
+        "grade": "A",
+        "minimum": 44
+      },
+      {
+        "grade": "B",
+        "minimum": 34
+      },
+      {
+        "grade": "C",
+        "minimum": 25
+      },
+      {
+        "grade": "D",
+        "minimum": 20
+      },
+      {
+        "grade": "E",
+        "minimum": 15
+      }
+    ],
+    "thresholdSource": "https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/2210_w23_gt.pdf",
+    "source": "https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/2210_w23_qp_23.pdf",
+    "legacy": false,
+    "tasks": [
+      {
+        "id": "paper2-w23-23-1",
+        "question": 1,
+        "part": "",
+        "objective": "7.5",
+        "title": "Which is a verification check",
+        "kind": "choice",
+        "prompt": "Which is a verification check?",
+        "requires": [
+          "7.5"
+        ],
+        "hints": [],
+        "checklist": [],
+        "model": "Double entry check.",
+        "examMarks": 1,
+        "choices": [
+          "Double entry check",
+          "Format check",
+          "Length check",
+          "Presence check"
+        ]
+      },
+      {
+        "id": "paper2-w23-23-2",
+        "question": 2,
+        "part": "",
+        "objective": "8.1.7",
+        "title": "Which library routine returns the remainder of a division",
+        "kind": "choice",
+        "prompt": "Which library routine returns the remainder of a division?",
+        "requires": [
+          "8.1.7"
+        ],
+        "hints": [],
+        "checklist": [],
+        "model": "MOD.",
+        "examMarks": 1,
+        "choices": [
+          "DIV",
+          "MOD",
+          "RANDOM",
+          "ROUND"
+        ]
+      },
+      {
+        "id": "paper2-w23-23-3a",
+        "question": 3,
+        "part": "a",
+        "objective": "8.3.2",
+        "title": "Match each description to its pseudocode keyword",
+        "kind": "matching",
+        "prompt": "Match each description to its pseudocode keyword. One keyword is not used.",
+        "requires": [
+          "8.3.2"
+        ],
+        "hints": [],
+        "checklist": [],
+        "model": "WRITE; READ; OUTPUT; INPUT. OPEN is unused.",
+        "examMarks": 4,
+        "choices": [
+          "OUTPUT",
+          "WRITE",
+          "READ",
+          "OPEN",
+          "INPUT"
+        ],
+        "table": {
+          "headings": [
+            "Description",
+            "Keyword"
+          ],
+          "rows": [
+            [
+              "Stores data in a file",
+              ""
+            ],
+            [
+              "Retrieves data from a file",
+              ""
+            ],
+            [
+              "Displays data on a screen",
+              ""
+            ],
+            [
+              "Enters data from a keyboard",
+              ""
+            ]
+          ]
+        }
+      },
+      {
+        "id": "paper2-w23-23-3b",
+        "question": 3,
+        "part": "b",
+        "objective": "8.3.1",
+        "title": "Give two reasons for storing data in a file",
+        "kind": "written",
+        "prompt": "Give two reasons for storing data in a file.",
+        "requires": [
+          "8.3.1"
+        ],
+        "hints": [],
+        "checklist": [],
+        "model": "Keep the data permanently after the program ends; move it to another computer. Making a backup is another valid reason.",
+        "examMarks": 2
+      },
+      {
+        "id": "paper2-w23-23-4a",
+        "question": 4,
+        "part": "a",
+        "objective": "7.5",
+        "title": "Name the two required validation checks",
+        "kind": "written",
+        "prompt": "Name the two required validation checks.",
+        "requires": [
+          "7.5"
+        ],
+        "hints": [],
+        "checklist": [],
+        "model": "Type check and range check.",
+        "examMarks": 2,
+        "context": "A theatre booking program must accept only whole numbers from 1 to 6 inclusive."
+      },
+      {
+        "id": "paper2-w23-23-4b",
+        "question": 4,
+        "part": "b",
+        "objective": "7.5",
+        "title": "Complete the pseudocode so it performs both validation checks",
+        "kind": "code",
+        "prompt": "Complete the pseudocode so it performs both validation checks.",
+        "requires": [
+          "7.5"
+        ],
+        "hints": [],
+        "checklist": [],
+        "model": "WHILE Seats < 1 OR Seats > 6 OR Seats <> ROUND(Seats, 0) DO\n    OUTPUT \"Please enter a valid whole number from 1 to 6\"\n    INPUT Seats\nENDWHILE",
+        "examMarks": 5,
+        "context": "A theatre booking program must accept only whole numbers from 1 to 6 inclusive.",
+        "code": "OUTPUT \"Please enter the number of seats you want to book \"\nINPUT Seats"
+      },
+      {
+        "id": "paper2-w23-23-4c",
+        "question": 4,
+        "part": "c",
+        "objective": "7.6",
+        "title": "Give one test value and explain why you chose it",
+        "kind": "written",
+        "prompt": "Give one test value and explain why you chose it.",
+        "requires": [
+          "7.6"
+        ],
+        "hints": [],
+        "checklist": [],
+        "model": "7: abnormal data, to check that a value above the allowed range is rejected.",
+        "examMarks": 2,
+        "context": "A theatre booking program must accept only whole numbers from 1 to 6 inclusive."
+      },
+      {
+        "id": "paper2-w23-23-5a",
+        "question": 5,
+        "part": "a",
+        "objective": "7.8",
+        "title": "Find three errors in the pseudocode and give a correction for each",
+        "kind": "written",
+        "prompt": "Find three errors in the pseudocode and give a correction for each.",
+        "requires": [
+          "7.8"
+        ],
+        "hints": [],
+        "checklist": [],
+        "model": "Line 06: use NewPassword, not Password.\nLine 11: use OR, not AND.\nLine 16: use OUTPUT, not INPUT.",
+        "examMarks": 3,
+        "context": "OldList[] holds previously used passwords. If a new password is not found, it is stored at the end of the list, replacing the marker \"XXXX\".",
+        "code": "01 OUTPUT \"Enter your new password \"\n02 INPUT NewPassword\n03 Posn ← 1\n04 Found ← FALSE\n05 REPEAT\n06     IF Password = OldList[Posn]\n07     THEN\n08         Found ← TRUE\n09     ELSE Posn ← Posn + 1\n10     ENDIF\n11 UNTIL Found AND OldList[Posn] = \"XXXX\"\n12 IF Found\n13 THEN\n14     OUTPUT \"Password has been used before\"\n15 ELSE\n16     INPUT \"New password accepted\"\n17     OldList[Posn] ← NewPassword\n18 ENDIF"
+      },
+      {
+        "id": "paper2-w23-23-5b",
+        "question": 5,
+        "part": "b",
+        "objective": "7.9",
+        "title": "Complete a flowchart for the corrected algorithm",
+        "kind": "diagram",
+        "prompt": "Complete a flowchart for the corrected algorithm. START and STOP are given.",
+        "requires": [
+          "7.9"
+        ],
+        "hints": [],
+        "checklist": [],
+        "model": "Use an input/output symbol to prompt for and input NewPassword; a process for Posn ← 1 and Found ← FALSE; a decision for NewPassword = OldList[Posn]; set Found TRUE on Yes and increment Posn on No; repeat until Found OR OldList[Posn] = \"XXXX\"; decide Found; output the used-password message on Yes; otherwise output the accepted message and assign OldList[Posn] ← NewPassword; then STOP. Use directed arrows and labelled decision branches.",
+        "examMarks": 6,
+        "context": "OldList[] holds previously used passwords. If a new password is not found, it is stored at the end of the list, replacing the marker \"XXXX\".",
+        "code": "01 OUTPUT \"Enter your new password \"\n02 INPUT NewPassword\n03 Posn ← 1\n04 Found ← FALSE\n05 REPEAT\n06     IF Password = OldList[Posn]\n07     THEN\n08         Found ← TRUE\n09     ELSE Posn ← Posn + 1\n10     ENDIF\n11 UNTIL Found AND OldList[Posn] = \"XXXX\"\n12 IF Found\n13 THEN\n14     OUTPUT \"Password has been used before\"\n15 ELSE\n16     INPUT \"New password accepted\"\n17     OldList[Posn] ← NewPassword\n18 ENDIF",
+        "diagramMode": "flowchart"
+      },
+      {
+        "id": "paper2-w23-23-6a",
+        "question": 6,
+        "part": "a",
+        "objective": "10.2",
+        "title": "Name the gate and complete its truth table",
+        "kind": "trace",
+        "prompt": "Name the gate and complete its truth table.",
+        "requires": [
+          "10.2"
+        ],
+        "hints": [],
+        "checklist": [],
+        "model": "AND. X outputs from top to bottom: 0, 0, 0, 1.",
+        "examMarks": 2,
+        "context": "The output is 1 only when both inputs are 1.",
+        "table": {
+          "headings": [
+            "A",
+            "B",
+            "X"
+          ],
+          "rows": [
+            [
+              "0",
+              "0",
+              ""
+            ],
+            [
+              "0",
+              "1",
+              ""
+            ],
+            [
+              "1",
+              "0",
+              ""
+            ],
+            [
+              "1",
+              "1",
+              ""
+            ]
+          ]
+        }
+      },
+      {
+        "id": "paper2-w23-23-6b",
+        "question": 6,
+        "part": "b",
+        "objective": "10.2",
+        "title": "Name the gate and complete its truth table",
+        "kind": "trace",
+        "prompt": "Name the gate and complete its truth table.",
+        "requires": [
+          "10.2"
+        ],
+        "hints": [],
+        "checklist": [],
+        "model": "XOR. X outputs from top to bottom: 0, 1, 1, 0.",
+        "examMarks": 2,
+        "context": "The output is 1 when the two inputs are different.",
+        "table": {
+          "headings": [
+            "A",
+            "B",
+            "X"
+          ],
+          "rows": [
+            [
+              "0",
+              "0",
+              ""
+            ],
+            [
+              "0",
+              "1",
+              ""
+            ],
+            [
+              "1",
+              "0",
+              ""
+            ],
+            [
+              "1",
+              "1",
+              ""
+            ]
+          ]
+        }
+      },
+      {
+        "id": "paper2-w23-23-6c",
+        "question": 6,
+        "part": "c",
+        "objective": "10.2",
+        "title": "Name the gate and complete its truth table",
+        "kind": "trace",
+        "prompt": "Name the gate and complete its truth table.",
+        "requires": [
+          "10.2"
+        ],
+        "hints": [],
+        "checklist": [],
+        "model": "NOR. X outputs from top to bottom: 1, 0, 0, 0.",
+        "examMarks": 2,
+        "context": "The output is 1 only when both inputs are 0.",
+        "table": {
+          "headings": [
+            "A",
+            "B",
+            "X"
+          ],
+          "rows": [
+            [
+              "0",
+              "0",
+              ""
+            ],
+            [
+              "0",
+              "1",
+              ""
+            ],
+            [
+              "1",
+              "0",
+              ""
+            ],
+            [
+              "1",
+              "1",
+              ""
+            ]
+          ]
+        }
+      },
+      {
+        "id": "paper2-w23-23-6d",
+        "question": 6,
+        "part": "d",
+        "objective": "10.3",
+        "title": "Draw the circuit for X = (NOT A OR NOT B) OR NOT C",
+        "kind": "diagram",
+        "prompt": "Draw the circuit for X = (NOT A OR NOT B) OR NOT C. Every gate may have at most two inputs. Do not simplify the expression.",
+        "requires": [
+          "10.3"
+        ],
+        "hints": [],
+        "checklist": [],
+        "model": "NOT gate on A → nA; NOT gate on B → nB; OR gate taking nA and nB → p; NOT gate on C → nC; OR gate taking p and nC → X.",
+        "examMarks": 5,
+        "diagramMode": "circuit"
+      },
+      {
+        "id": "paper2-w23-23-7",
+        "question": 7,
+        "part": "",
+        "objective": "8.1.6",
+        "title": "Describe two differences between local and global variables",
+        "kind": "written",
+        "prompt": "Describe two differences between local and global variables.",
+        "requires": [
+          "8.1.6"
+        ],
+        "hints": [],
+        "checklist": [],
+        "model": "A local variable can be used only within its own block or subroutine; a global variable can be used throughout the program. A local value cannot be changed elsewhere in the program; a global value can be changed from elsewhere in the program.",
+        "examMarks": 4
+      },
+      {
+        "id": "paper2-w23-23-8a",
+        "question": 8,
+        "part": "a",
+        "objective": "7.7",
+        "title": "Complete the trace using Y, Y, Y, N, Y, Y, Y, Y, N, Y, Y, Y, Y",
+        "kind": "trace",
+        "prompt": "Complete the trace using Y, Y, Y, N, Y, Y, Y, Y, N, Y, Y, Y, Y.",
+        "requires": [
+          "7.7"
+        ],
+        "hints": [],
+        "checklist": [],
+        "model": "Initial Accept=0, Reject=0. Accept rises to 1,2,3; first N makes Reject=1; Accept then rises to 4,5,6,7; second N makes Reject=2; Accept then rises to 8,9,10. Stop after the 12th input, leaving the final Y unused. Error=2/10*100=20. Output: Too many rejected 20% error.",
+        "examMarks": 5,
+        "context": "Trace the supplied manufacturing algorithm exactly. Stop when its flowchart stops, even if input data remains.",
+        "figure": "/diagrams/papers/23-q8.svg",
+        "figureAlt": "Original flowchart counting acceptable and rejected manufactured parts.",
+        "table": {
+          "headings": [
+            "Accept",
+            "Reject",
+            "PartOK",
+            "Error",
+            "OUTPUT"
+          ],
+          "rows": [
+            [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          ]
+        }
+      },
+      {
+        "id": "paper2-w23-23-8b",
+        "question": 8,
+        "part": "b",
+        "objective": "7.9",
+        "title": "Describe how to change the flowchart so either Y or y counts as a successfully manufactured part",
+        "kind": "written",
+        "prompt": "Describe how to change the flowchart so either Y or y counts as a successfully manufactured part.",
+        "requires": [
+          "7.9"
+        ],
+        "hints": [],
+        "checklist": [],
+        "model": "After INPUT PartOK and before the first decision, add a process box setting PartOK ← UCASE(PartOK). Alternatively change that decision to PartOK = \"Y\" OR PartOK = \"y\".",
+        "examMarks": 3,
+        "figure": "/diagrams/papers/23-q8.svg",
+        "figureAlt": "Original manufacturing flowchart."
+      },
+      {
+        "id": "paper2-w23-23-9a",
+        "question": 9,
+        "part": "a",
+        "objective": "9.1",
+        "title": "State the number of records and fields shown in PheasantList",
+        "kind": "written",
+        "prompt": "State the number of records and fields shown in PheasantList.",
+        "requires": [
+          "9.1"
+        ],
+        "hints": [],
+        "checklist": [],
+        "model": "14 records; 5 fields.",
+        "examMarks": 2,
+        "readingTables": [
+          {
+            "headings": [
+              "Species",
+              "Description",
+              "NumberBirds",
+              "Breeding",
+              "Young"
+            ],
+            "rows": [
+              [
+                "Edwards",
+                "blue-black with white tail",
+                "5",
+                "Yes",
+                "0"
+              ],
+              [
+                "Japanese green",
+                "dark green with pale grey tail",
+                "2",
+                "Yes",
+                "2"
+              ],
+              [
+                "Reeves",
+                "golden, white and red scaled plumage",
+                "4",
+                "Yes",
+                "1"
+              ],
+              [
+                "Crawfords Kalij",
+                "glossy blue-black plumage",
+                "4",
+                "No",
+                "0"
+              ],
+              [
+                "Crested fireback",
+                "blue-black with black tail",
+                "3",
+                "No",
+                "0"
+              ],
+              [
+                "True silver",
+                "white laced top half and black lower half",
+                "7",
+                "Yes",
+                "1"
+              ],
+              [
+                "Siamese fireback",
+                "grey plumage with crimson legs and feet",
+                "5",
+                "No",
+                "0"
+              ],
+              [
+                "Mikado",
+                "iridescent plumage with white striped wings",
+                "3",
+                "Yes",
+                "4"
+              ],
+              [
+                "Red junglefowl",
+                "many colours",
+                "2",
+                "Yes",
+                "0"
+              ],
+              [
+                "Himalayan monal",
+                "many colours with metallic green crest",
+                "3",
+                "Yes",
+                "2"
+              ],
+              [
+                "White eared",
+                "white with ear tufts",
+                "5",
+                "Yes",
+                "3"
+              ],
+              [
+                "Brown eared",
+                "brown with ear tufts",
+                "9",
+                "Yes",
+                "1"
+              ],
+              [
+                "Ring necked",
+                "long tail with white ring neck",
+                "2",
+                "Yes",
+                "2"
+              ],
+              [
+                "Golden",
+                "rainbow coloured",
+                "3",
+                "Yes",
+                "4"
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "paper2-w23-23-9bi",
+        "question": 9,
+        "part": "bi",
+        "objective": "9.3",
+        "title": "Name a field that could be the primary key",
+        "kind": "written",
+        "prompt": "Name a field that could be the primary key.",
+        "requires": [
+          "9.3"
+        ],
+        "hints": [],
+        "checklist": [],
+        "model": "Species (Description is also accepted).",
+        "examMarks": 1,
+        "readingTables": [
+          {
+            "headings": [
+              "Species",
+              "Description",
+              "NumberBirds",
+              "Breeding",
+              "Young"
+            ],
+            "rows": [
+              [
+                "Edwards",
+                "blue-black with white tail",
+                "5",
+                "Yes",
+                "0"
+              ],
+              [
+                "Japanese green",
+                "dark green with pale grey tail",
+                "2",
+                "Yes",
+                "2"
+              ],
+              [
+                "Reeves",
+                "golden, white and red scaled plumage",
+                "4",
+                "Yes",
+                "1"
+              ],
+              [
+                "Crawfords Kalij",
+                "glossy blue-black plumage",
+                "4",
+                "No",
+                "0"
+              ],
+              [
+                "Crested fireback",
+                "blue-black with black tail",
+                "3",
+                "No",
+                "0"
+              ],
+              [
+                "True silver",
+                "white laced top half and black lower half",
+                "7",
+                "Yes",
+                "1"
+              ],
+              [
+                "Siamese fireback",
+                "grey plumage with crimson legs and feet",
+                "5",
+                "No",
+                "0"
+              ],
+              [
+                "Mikado",
+                "iridescent plumage with white striped wings",
+                "3",
+                "Yes",
+                "4"
+              ],
+              [
+                "Red junglefowl",
+                "many colours",
+                "2",
+                "Yes",
+                "0"
+              ],
+              [
+                "Himalayan monal",
+                "many colours with metallic green crest",
+                "3",
+                "Yes",
+                "2"
+              ],
+              [
+                "White eared",
+                "white with ear tufts",
+                "5",
+                "Yes",
+                "3"
+              ],
+              [
+                "Brown eared",
+                "brown with ear tufts",
+                "9",
+                "Yes",
+                "1"
+              ],
+              [
+                "Ring necked",
+                "long tail with white ring neck",
+                "2",
+                "Yes",
+                "2"
+              ],
+              [
+                "Golden",
+                "rainbow coloured",
+                "3",
+                "Yes",
+                "4"
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "paper2-w23-23-9bii",
+        "question": 9,
+        "part": "bii",
+        "objective": "9.3",
+        "title": "Why might the sanctuary decide against using the field from the previous part as its primary key",
+        "kind": "written",
+        "prompt": "Why might the sanctuary decide against using the field from the previous part as its primary key?",
+        "requires": [
+          "9.3"
+        ],
+        "hints": [],
+        "checklist": [],
+        "model": "A long species name could be misspelt, and species names or descriptions might be repeated.",
+        "examMarks": 1,
+        "readingTables": [
+          {
+            "headings": [
+              "Species",
+              "Description",
+              "NumberBirds",
+              "Breeding",
+              "Young"
+            ],
+            "rows": [
+              [
+                "Edwards",
+                "blue-black with white tail",
+                "5",
+                "Yes",
+                "0"
+              ],
+              [
+                "Japanese green",
+                "dark green with pale grey tail",
+                "2",
+                "Yes",
+                "2"
+              ],
+              [
+                "Reeves",
+                "golden, white and red scaled plumage",
+                "4",
+                "Yes",
+                "1"
+              ],
+              [
+                "Crawfords Kalij",
+                "glossy blue-black plumage",
+                "4",
+                "No",
+                "0"
+              ],
+              [
+                "Crested fireback",
+                "blue-black with black tail",
+                "3",
+                "No",
+                "0"
+              ],
+              [
+                "True silver",
+                "white laced top half and black lower half",
+                "7",
+                "Yes",
+                "1"
+              ],
+              [
+                "Siamese fireback",
+                "grey plumage with crimson legs and feet",
+                "5",
+                "No",
+                "0"
+              ],
+              [
+                "Mikado",
+                "iridescent plumage with white striped wings",
+                "3",
+                "Yes",
+                "4"
+              ],
+              [
+                "Red junglefowl",
+                "many colours",
+                "2",
+                "Yes",
+                "0"
+              ],
+              [
+                "Himalayan monal",
+                "many colours with metallic green crest",
+                "3",
+                "Yes",
+                "2"
+              ],
+              [
+                "White eared",
+                "white with ear tufts",
+                "5",
+                "Yes",
+                "3"
+              ],
+              [
+                "Brown eared",
+                "brown with ear tufts",
+                "9",
+                "Yes",
+                "1"
+              ],
+              [
+                "Ring necked",
+                "long tail with white ring neck",
+                "2",
+                "Yes",
+                "2"
+              ],
+              [
+                "Golden",
+                "rainbow coloured",
+                "3",
+                "Yes",
+                "4"
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "paper2-w23-23-9biii",
+        "question": 9,
+        "part": "biii",
+        "objective": "9.3",
+        "title": "A new field SpeciesID stores a six-character code such as Ph0001",
+        "kind": "written",
+        "prompt": "A new field SpeciesID stores a six-character code such as Ph0001. Why would this be a better primary key?",
+        "requires": [
+          "9.3"
+        ],
+        "hints": [],
+        "checklist": [],
+        "model": "It can always be unique, and its fixed format is easy to validate.",
+        "examMarks": 1
+      },
+      {
+        "id": "paper2-w23-23-9c",
+        "question": 9,
+        "part": "c",
+        "objective": "9.4",
+        "title": "Give the output of this SQL statement",
+        "kind": "written",
+        "prompt": "Give the output of this SQL statement.",
+        "requires": [
+          "9.4"
+        ],
+        "hints": [],
+        "checklist": [],
+        "model": "True silver | white laced top half and black lower half\nBrown eared | brown with ear tufts",
+        "examMarks": 2,
+        "readingTables": [
+          {
+            "headings": [
+              "Species",
+              "Description",
+              "NumberBirds",
+              "Breeding",
+              "Young"
+            ],
+            "rows": [
+              [
+                "Edwards",
+                "blue-black with white tail",
+                "5",
+                "Yes",
+                "0"
+              ],
+              [
+                "Japanese green",
+                "dark green with pale grey tail",
+                "2",
+                "Yes",
+                "2"
+              ],
+              [
+                "Reeves",
+                "golden, white and red scaled plumage",
+                "4",
+                "Yes",
+                "1"
+              ],
+              [
+                "Crawfords Kalij",
+                "glossy blue-black plumage",
+                "4",
+                "No",
+                "0"
+              ],
+              [
+                "Crested fireback",
+                "blue-black with black tail",
+                "3",
+                "No",
+                "0"
+              ],
+              [
+                "True silver",
+                "white laced top half and black lower half",
+                "7",
+                "Yes",
+                "1"
+              ],
+              [
+                "Siamese fireback",
+                "grey plumage with crimson legs and feet",
+                "5",
+                "No",
+                "0"
+              ],
+              [
+                "Mikado",
+                "iridescent plumage with white striped wings",
+                "3",
+                "Yes",
+                "4"
+              ],
+              [
+                "Red junglefowl",
+                "many colours",
+                "2",
+                "Yes",
+                "0"
+              ],
+              [
+                "Himalayan monal",
+                "many colours with metallic green crest",
+                "3",
+                "Yes",
+                "2"
+              ],
+              [
+                "White eared",
+                "white with ear tufts",
+                "5",
+                "Yes",
+                "3"
+              ],
+              [
+                "Brown eared",
+                "brown with ear tufts",
+                "9",
+                "Yes",
+                "1"
+              ],
+              [
+                "Ring necked",
+                "long tail with white ring neck",
+                "2",
+                "Yes",
+                "2"
+              ],
+              [
+                "Golden",
+                "rainbow coloured",
+                "3",
+                "Yes",
+                "4"
+              ]
+            ]
+          }
+        ],
+        "code": "SELECT Species, Description\nFROM PheasantList\nWHERE NumberBirds > 6;"
+      },
+      {
+        "id": "paper2-w23-23-9d",
+        "question": 9,
+        "part": "d",
+        "objective": "9.4",
+        "title": "Write SQL to display all species whose birds are breeding and have had no young born this year",
+        "kind": "sql",
+        "prompt": "Write SQL to display all species whose birds are breeding and have had no young born this year.",
+        "requires": [
+          "9.4"
+        ],
+        "hints": [],
+        "checklist": [],
+        "model": "SELECT Species\nFROM PheasantList\nWHERE Breeding = 'Yes' AND Young = 0;",
+        "examMarks": 4,
+        "readingTables": [
+          {
+            "headings": [
+              "Species",
+              "Description",
+              "NumberBirds",
+              "Breeding",
+              "Young"
+            ],
+            "rows": [
+              [
+                "Edwards",
+                "blue-black with white tail",
+                "5",
+                "Yes",
+                "0"
+              ],
+              [
+                "Japanese green",
+                "dark green with pale grey tail",
+                "2",
+                "Yes",
+                "2"
+              ],
+              [
+                "Reeves",
+                "golden, white and red scaled plumage",
+                "4",
+                "Yes",
+                "1"
+              ],
+              [
+                "Crawfords Kalij",
+                "glossy blue-black plumage",
+                "4",
+                "No",
+                "0"
+              ],
+              [
+                "Crested fireback",
+                "blue-black with black tail",
+                "3",
+                "No",
+                "0"
+              ],
+              [
+                "True silver",
+                "white laced top half and black lower half",
+                "7",
+                "Yes",
+                "1"
+              ],
+              [
+                "Siamese fireback",
+                "grey plumage with crimson legs and feet",
+                "5",
+                "No",
+                "0"
+              ],
+              [
+                "Mikado",
+                "iridescent plumage with white striped wings",
+                "3",
+                "Yes",
+                "4"
+              ],
+              [
+                "Red junglefowl",
+                "many colours",
+                "2",
+                "Yes",
+                "0"
+              ],
+              [
+                "Himalayan monal",
+                "many colours with metallic green crest",
+                "3",
+                "Yes",
+                "2"
+              ],
+              [
+                "White eared",
+                "white with ear tufts",
+                "5",
+                "Yes",
+                "3"
+              ],
+              [
+                "Brown eared",
+                "brown with ear tufts",
+                "9",
+                "Yes",
+                "1"
+              ],
+              [
+                "Ring necked",
+                "long tail with white ring neck",
+                "2",
+                "Yes",
+                "2"
+              ],
+              [
+                "Golden",
+                "rainbow coloured",
+                "3",
+                "Yes",
+                "4"
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "paper2-w23-23-10",
+        "question": 10,
+        "part": "",
+        "objective": "8.2.3",
+        "title": "Write a program to find and output the maximum, minimum and average temperature for each day, including the day’s name",
+        "kind": "code",
+        "prompt": "Write a program to find and output the maximum, minimum and average temperature for each day, including the day’s name. Then find and output the maximum, minimum and average for the whole week. Round every output temperature to two decimal places. Use pseudocode or program code with comments and suitable messages. Arrays and variables are already declared and Temperatures[] already contains the data.",
+        "requires": [
+          "8.2.3"
+        ],
+        "hints": [],
+        "checklist": [],
+        "model": "// Hours are rows 1..24; days are columns 1..7\nMaxWeek ← Temperatures[1,1]\nMinWeek ← Temperatures[1,1]\nWeekTotal ← 0\nDayName ← [\"Monday\", \"Tuesday\", \"Wednesday\", \"Thursday\", \"Friday\", \"Saturday\", \"Sunday\"]\nFOR Day ← 1 TO 7\n    MaxDay ← Temperatures[1,Day]\n    MinDay ← Temperatures[1,Day]\n    DayTotal ← 0\n    FOR Hour ← 1 TO 24\n        Value ← Temperatures[Hour,Day]\n        DayTotal ← DayTotal + Value\n        IF Value > MaxDay THEN MaxDay ← Value ENDIF\n        IF Value < MinDay THEN MinDay ← Value ENDIF\n    NEXT Hour\n    AvDay ← DayTotal / 24\n    OUTPUT DayName[Day], \" Maximum: \", ROUND(MaxDay,2), \" Minimum: \", ROUND(MinDay,2), \" Average: \", ROUND(AvDay,2)\n    IF MaxDay > MaxWeek THEN MaxWeek ← MaxDay ENDIF\n    IF MinDay < MinWeek THEN MinWeek ← MinDay ENDIF\n    WeekTotal ← WeekTotal + DayTotal\nNEXT Day\nAvWeek ← WeekTotal / 168\nOUTPUT \"Week maximum: \", ROUND(MaxWeek,2), \" minimum: \", ROUND(MinWeek,2), \" average: \", ROUND(AvWeek,2)",
+        "examMarks": 15,
+        "context": "A weather station records temperature hourly for a week. Temperatures[] is a 2D array with seven columns, Monday to Sunday, and 24 readings per column from 00:00 to 23:00. MaxDay, MinDay and AvDay hold daily results; MaxWeek, MinWeek and AvWeek hold weekly results.",
+        "languages": [
+          "Pseudocode",
+          "Python",
+          "Java",
+          "Visual Basic"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2210-w22-23",
+    "year": 2022,
+    "title": "October / November 2022",
+    "code": "2210/23",
+    "minutes": 105,
+    "marks": 50,
+    "thresholds": [
+      {
+        "grade": "A",
+        "minimum": 29
+      },
+      {
+        "grade": "B",
+        "minimum": 23
+      },
+      {
+        "grade": "C",
+        "minimum": 17
+      },
+      {
+        "grade": "D",
+        "minimum": 14
+      },
+      {
+        "grade": "E",
+        "minimum": 11
+      }
+    ],
+    "thresholdSource": "https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/2210_w22_gt.pdf",
+    "source": "https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/2210_w22_qp_23.pdf",
+    "legacy": true,
+    "scenario": {
+      "title": "Pre-release scenario · window cleaning",
+      "text": "Store each customer’s name and address in a one-dimensional array. Its index is the bill number. Use a separate array for each service, storing the customer’s choices at that same index. Display available services and costs, read and validate a customer’s details and choices, calculate an itemised bill with its number, and repeat as needed. For statistics, exclude the basic clean and additional windows; find the most and least popular remaining service and show each count as a percentage of all stored bills. Apply the charges in the table’s order. Six windows over three floors cost (10 + 5) × 1.15 = $17.25.",
+      "table": {
+        "headings": [
+          "Service",
+          "Cost"
+        ],
+        "rows": [
+          [
+            "Basic outside clean, one floor, up to five windows",
+            "$10.00"
+          ],
+          [
+            "Each additional group of up to five windows",
+            "$5.00"
+          ],
+          [
+            "Two floors",
+            "10% extra"
+          ],
+          [
+            "Three floors",
+            "15% extra"
+          ],
+          [
+            "Inside as well",
+            "25% extra"
+          ],
+          [
+            "Polish all cleaned windows",
+            "5% extra"
+          ],
+          [
+            "Solar panel clean",
+            "$20.00"
+          ]
+        ]
+      }
+    },
+    "tasks": [
+      {
+        "id": "paper2-w22-23-1ai",
+        "question": 1,
+        "part": "ai",
+        "objective": "8.1.1",
+        "title": "Identify a constant you could use in Task 1, give its value and explain why it is a constant rather than a variable",
+        "kind": "written",
+        "prompt": "Identify a constant you could use in Task 1, give its value and explain why it is a constant rather than a variable.",
+        "requires": [
+          "8.1.1"
+        ],
+        "hints": [],
+        "checklist": [],
+        "model": "BasicCost = 10.00. The basic-clean cost stays the same while the program runs.",
+        "examMarks": 3
+      },
+      {
+        "id": "paper2-w22-23-1aii",
+        "question": 1,
+        "part": "aii",
+        "objective": "8.2.1",
+        "title": "Describe the Task 1 array used to store customer details",
+        "kind": "written",
+        "prompt": "Describe the Task 1 array used to store customer details. Include its name, data type and sample data.",
+        "requires": [
+          "8.2.1"
+        ],
+        "hints": [],
+        "checklist": [],
+        "model": "NameAddress is a STRING array. For example, NameAddress[1] could hold \"Mrs Singh, Park View\".",
+        "examMarks": 3
+      },
+      {
+        "id": "paper2-w22-23-1b",
+        "question": 1,
+        "part": "b",
+        "objective": "8.1.4",
+        "title": "Explain how your program would allow the customer to choose two floors or three floors, but never both",
+        "kind": "written",
+        "prompt": "Explain how your program would allow the customer to choose two floors or three floors, but never both.",
+        "requires": [
+          "8.1.4"
+        ],
+        "hints": [],
+        "checklist": [],
+        "model": "Input a single floor count and check that it is 1, 2 or 3. Use selection to apply the corresponding service; reject other values with an error message. One valid count cannot select both two and three floors.",
+        "examMarks": 3
+      },
+      {
+        "id": "paper2-w22-23-1c",
+        "question": 1,
+        "part": "c",
+        "objective": "8.1.4",
+        "title": "Write the Task 2 algorithm that calculates the bill total",
+        "kind": "code",
+        "prompt": "Write the Task 2 algorithm that calculates the bill total. The customer’s details and selected services have already been entered. Use pseudocode or programming statements.",
+        "requires": [
+          "8.1.4"
+        ],
+        "hints": [],
+        "checklist": [],
+        "model": "Total ← 10\nIF Windows > 5 THEN\n    Total ← Total + (DIV(Windows - 6, 5) + 1) * 5\nENDIF\nIF Floors = 2 THEN Total ← Total * 1.10 ENDIF\nIF Floors = 3 THEN Total ← Total * 1.15 ENDIF\nIF Inside THEN Total ← Total * 1.25 ENDIF\nIF Polish THEN Total ← Total * 1.05 ENDIF\nIF Solar THEN Total ← Total + 20 ENDIF",
+        "examMarks": 6,
+        "languages": [
+          "Pseudocode",
+          "Python",
+          "Java",
+          "Visual Basic"
+        ]
+      },
+      {
+        "id": "paper2-w22-23-1d",
+        "question": 1,
+        "part": "d",
+        "objective": "8.2.2",
+        "title": "Explain how your program would complete Task 3",
+        "kind": "written",
+        "prompt": "Explain how your program would complete Task 3. Fully explain any code included.",
+        "requires": [
+          "8.2.2"
+        ],
+        "hints": [],
+        "checklist": [],
+        "model": "Count the bills selecting each eligible service, excluding basic cleaning and extra windows. Compare the counts to find the largest and smallest. Divide each of those counts by the total number of bills and multiply by 100. Output the service names, most/least labels and percentages.",
+        "examMarks": 5
+      },
+      {
+        "id": "paper2-w22-23-2a",
+        "question": 2,
+        "part": "a",
+        "objective": "8.2.2",
+        "title": "Complete the six blanks in the pseudocode",
+        "kind": "code",
+        "prompt": "Complete the six blanks in the pseudocode.",
+        "requires": [
+          "8.2.2"
+        ],
+        "hints": [],
+        "checklist": [],
+        "model": "01: 50\n08: Value > 50\n12: Reading[Value] + 1\n18: INPUT Value\n23: Reading[Count]\n24: Count + 1",
+        "examMarks": 6,
+        "context": "Reading[1:50] starts at zero. Input values from 35 to 50 inclusive, reject other values, and count the frequency of each valid reading. Stop after 50 valid inputs or input -1. Finally output frequencies from lowest value to highest.",
+        "code": "01 FOR Count ← 1 TO ___\n02     Reading[Count] ← 0\n03 NEXT Count\n04 Count ← 1\n05 OUTPUT \"Please enter next reading \"\n06 INPUT Value\n07 REPEAT\n08     IF Value < 35 OR ___\n09     THEN\n10         OUTPUT \"Reading out of range\"\n11     ELSE\n12         Reading[Value] ← ___\n13         Count = Count + 1\n14     ENDIF\n15     IF Count <= 50\n16     THEN\n17         OUTPUT \"Please enter next reading \"\n18         ___\n19     ENDIF\n20 UNTIL Value = -1 OR Count > 50\n21 Count ← 35\n22 REPEAT\n23     OUTPUT \"There are \", ___, \" readings of \", Count\n24     Count ← ___\n25 UNTIL Count > 50"
+      },
+      {
+        "id": "paper2-w22-23-2b",
+        "question": 2,
+        "part": "b",
+        "objective": "8.1.4",
+        "title": "Describe the changes needed to output the frequencies from highest value to lowest",
+        "kind": "written",
+        "prompt": "Describe the changes needed to output the frequencies from highest value to lowest.",
+        "requires": [
+          "8.1.4"
+        ],
+        "hints": [],
+        "checklist": [],
+        "model": "Line 21: Count ← 50.\nLine 24: Count ← Count - 1.\nLine 25: UNTIL Count < 35 (or Count = 34).",
+        "examMarks": 3,
+        "context": "Reading[1:50] starts at zero. Input values from 35 to 50 inclusive, reject other values, and count the frequency of each valid reading. Stop after 50 valid inputs or input -1. Finally output frequencies from lowest value to highest.",
+        "code": "01 FOR Count ← 1 TO ___\n02     Reading[Count] ← 0\n03 NEXT Count\n04 Count ← 1\n05 OUTPUT \"Please enter next reading \"\n06 INPUT Value\n07 REPEAT\n08     IF Value < 35 OR ___\n09     THEN\n10         OUTPUT \"Reading out of range\"\n11     ELSE\n12         Reading[Value] ← ___\n13         Count = Count + 1\n14     ENDIF\n15     IF Count <= 50\n16     THEN\n17         OUTPUT \"Please enter next reading \"\n18         ___\n19     ENDIF\n20 UNTIL Value = -1 OR Count > 50\n21 Count ← 35\n22 REPEAT\n23     OUTPUT \"There are \", ___, \" readings of \", Count\n24     Count ← ___\n25 UNTIL Count > 50"
+      },
+      {
+        "id": "paper2-w22-23-3ai",
+        "question": 3,
+        "part": "ai",
+        "objective": "7.5",
+        "title": "Calculate the check digit for 69321",
+        "kind": "written",
+        "prompt": "Calculate the check digit for 69321.",
+        "requires": [
+          "7.5"
+        ],
+        "hints": [],
+        "checklist": [],
+        "model": "6 + 9 + 3 + 2 + 1 = 21. The remainder after division by 10 is 1.",
+        "examMarks": 1,
+        "context": "An identification number has five data digits followed by a check digit. Add the five digits and take the remainder after division by 10. For example, 51243 has check digit 5, giving 512435."
+      },
+      {
+        "id": "paper2-w22-23-3aii",
+        "question": 3,
+        "part": "aii",
+        "objective": "7.5",
+        "title": "Which numbers have incorrect check digits",
+        "kind": "written",
+        "prompt": "Which numbers have incorrect check digits? A: 123455; B: 691400; C: 722855; D: 231200.",
+        "requires": [
+          "7.5"
+        ],
+        "hints": [],
+        "checklist": [],
+        "model": "C and D.",
+        "examMarks": 2,
+        "context": "An identification number has five data digits followed by a check digit. Add the five digits and take the remainder after division by 10. For example, 51243 has check digit 5, giving 512435."
+      },
+      {
+        "id": "paper2-w22-23-3bi",
+        "question": 3,
+        "part": "bi",
+        "objective": "7.5",
+        "title": "Describe an input error that this check-digit method would miss",
+        "kind": "written",
+        "prompt": "Describe an input error that this check-digit method would miss.",
+        "requires": [
+          "7.5"
+        ],
+        "hints": [],
+        "checklist": [],
+        "model": "Two or more digits being transposed: swapping their order does not change their sum.",
+        "examMarks": 2,
+        "context": "An identification number has five data digits followed by a check digit. Add the five digits and take the remainder after division by 10. For example, 51243 has check digit 5, giving 512435."
+      },
+      {
+        "id": "paper2-w22-23-3bii",
+        "question": 3,
+        "part": "bii",
+        "objective": "7.5",
+        "title": "Describe a more suitable algorithm for calculating this check digit",
+        "kind": "written",
+        "prompt": "Describe a more suitable algorithm for calculating this check digit.",
+        "requires": [
+          "7.5"
+        ],
+        "hints": [],
+        "checklist": [],
+        "model": "Multiply each digit by a different weight, then add the weighted values and divide by a chosen number to find the remainder.",
+        "examMarks": 2,
+        "context": "An identification number has five data digits followed by a check digit. Add the five digits and take the remainder after division by 10. For example, 51243 has check digit 5, giving 512435."
+      },
+      {
+        "id": "paper2-w22-23-3c",
+        "question": 3,
+        "part": "c",
+        "objective": "7.5",
+        "title": "Name two other validation checks suitable for entering this identification number",
+        "kind": "written",
+        "prompt": "Name two other validation checks suitable for entering this identification number.",
+        "requires": [
+          "7.5"
+        ],
+        "hints": [],
+        "checklist": [],
+        "model": "Length check and type check. Presence or format checks are also valid.",
+        "examMarks": 2,
+        "context": "An identification number has five data digits followed by a check digit. Add the five digits and take the remainder after division by 10. For example, 51243 has check digit 5, giving 512435."
+      },
+      {
+        "id": "paper2-w22-23-4a",
+        "question": 4,
+        "part": "a",
+        "objective": "7.7",
+        "title": "Complete the trace for Y, Y, Y, Y, Y, Y, N",
+        "kind": "trace",
+        "prompt": "Complete the trace for Y, Y, Y, Y, Y, Y, N.",
+        "requires": [
+          "7.7"
+        ],
+        "hints": [],
+        "checklist": [],
+        "model": "Initially Stock=10, Total=0. After the six Y inputs: (Stock,Total)=(9,1),(8,2),(7,3),(6,4),(5,5),(14,6). On the sixth sale Stock briefly becomes 4, output Add new stock, then Stock becomes 14. On N, output 6 and stop.",
+        "examMarks": 4,
+        "figure": "/diagrams/papers/22-q4.svg",
+        "figureAlt": "Original wheelbarrow stock-control flowchart.",
+        "table": {
+          "headings": [
+            "Stock",
+            "Total",
+            "Sale",
+            "OUTPUT"
+          ],
+          "rows": [
+            [
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "",
+              "",
+              ""
+            ]
+          ]
+        }
+      },
+      {
+        "id": "paper2-w22-23-4b",
+        "question": 4,
+        "part": "b",
+        "objective": "8.1.4",
+        "title": "Explain how to extend the algorithm to sell more than one wheelbarrow at a time",
+        "kind": "written",
+        "prompt": "Explain how to extend the algorithm to sell more than one wheelbarrow at a time.",
+        "requires": [
+          "8.1.4"
+        ],
+        "hints": [],
+        "checklist": [],
+        "model": "After checking the user has not entered N, input the quantity and check enough stock is available. Subtract that quantity from Stock and add it to Total.",
+        "examMarks": 3,
+        "figure": "/diagrams/papers/22-q4.svg",
+        "figureAlt": "Original wheelbarrow flowchart."
+      },
+      {
+        "id": "paper2-w22-23-5a",
+        "question": 5,
+        "part": "a",
+        "objective": "9.3",
+        "title": "Choose the primary-key field and give a reason",
+        "kind": "written",
+        "prompt": "Choose the primary-key field and give a reason.",
+        "requires": [
+          "9.3"
+        ],
+        "hints": [],
+        "checklist": [],
+        "model": "ItemCode, because it uniquely identifies each item.",
+        "examMarks": 2,
+        "context": "MUSEUM fields: ItemCode (e.g. ART0005); Description (e.g. gold coin); InStore (Y or N); Century (e.g. 18); Country (e.g. China)."
+      },
+      {
+        "id": "paper2-w22-23-5b",
+        "question": 5,
+        "part": "b",
+        "objective": "9.4",
+        "title": "Complete the query-by-example grid to show only Description and Country for items not in store",
+        "kind": "trace",
+        "prompt": "Complete the query-by-example grid to show only Description and Country for items not in store.",
+        "requires": [
+          "9.4"
+        ],
+        "hints": [],
+        "checklist": [],
+        "model": "Field: Description | Country | InStore\nTable: MUSEUM | MUSEUM | MUSEUM\nSort: blank | blank | blank\nShow: Yes | Yes | No\nCriteria: blank | blank | =\"N\"\nor: blank",
+        "examMarks": 3,
+        "context": "MUSEUM fields: ItemCode (e.g. ART0005); Description (e.g. gold coin); InStore (Y or N); Century (e.g. 18); Country (e.g. China).",
+        "table": {
+          "headings": [
+            "Row",
+            "Column 1",
+            "Column 2",
+            "Column 3"
+          ],
+          "rows": [
+            [
+              "Field",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Table",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Sort",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Show",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Criteria",
+              "",
+              "",
+              ""
+            ],
+            [
+              "or",
+              "",
+              "",
+              ""
+            ]
+          ]
+        },
+        "legacySkill": "Query-by-example is part of this older paper’s syllabus."
+      }
+    ]
+  },
+  {
+    "id": "2210-w21-22",
+    "year": 2021,
+    "title": "October / November 2021",
+    "code": "2210/22",
+    "minutes": 105,
+    "marks": 50,
+    "thresholds": [
+      {
+        "grade": "A",
+        "minimum": 31
+      },
+      {
+        "grade": "B",
+        "minimum": 23
+      },
+      {
+        "grade": "C",
+        "minimum": 16
+      },
+      {
+        "grade": "D",
+        "minimum": 13
+      },
+      {
+        "grade": "E",
+        "minimum": 11
+      }
+    ],
+    "thresholdSource": "https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/2210_w21_gt.pdf",
+    "source": "https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/2210_w21_qp_22.pdf",
+    "legacy": true,
+    "scenario": {
+      "title": "Pre-release scenario · journey booking",
+      "text": "A passenger travels home → start station → end station → destination. Each stage has a code and price. Add the three prices for the full journey. A start time after 10:00 earns a 40% discount. Task 1: set up arrays for stage codes/prices, passenger accounts (unique number and name), and bookings (passenger number, start time, three stage codes and unique booking number); store the stage prices. Task 2: let passengers open accounts with generated unique numbers, check account numbers when booking, generate a unique booking number and store the journey’s undiscounted price and details. Task 3: apply the time discount, display the price and booking details, then let the passenger confirm or start again. Validate entries, use meaningful names and clear prompts/messages.",
+      "table": {
+        "headings": [
+          "Home → start code",
+          "$",
+          "Station → station code",
+          "$",
+          "End → destination code",
+          "$"
+        ],
+        "rows": [
+          [
+            "C1",
+            "1.50",
+            "M1",
+            "5.75",
+            "F1",
+            "1.50"
+          ],
+          [
+            "C2",
+            "3.00",
+            "M2",
+            "12.50",
+            "F2",
+            "3.00"
+          ],
+          [
+            "C3",
+            "4.50",
+            "M3",
+            "22.25",
+            "F3",
+            "4.50"
+          ],
+          [
+            "C4",
+            "6.00",
+            "M4",
+            "34.50",
+            "F4",
+            "6.00"
+          ],
+          [
+            "C5",
+            "8.00",
+            "M5",
+            "45.00",
+            "F5",
+            "8.00"
+          ]
+        ]
+      }
+    },
+    "tasks": [
+      {
+        "id": "paper2-w21-22-1ai",
+        "question": 1,
+        "part": "ai",
+        "objective": "8.1.1",
+        "title": "Name one variable you could use for Task 2 and state its use",
+        "kind": "written",
+        "prompt": "Name one variable you could use for Task 2 and state its use.",
+        "requires": [
+          "8.1.1"
+        ],
+        "hints": [],
+        "checklist": [],
+        "model": "PassengerID stores the unique account number entered by the passenger.",
+        "examMarks": 2
+      },
+      {
+        "id": "paper2-w21-22-1aii",
+        "question": 1,
+        "part": "aii",
+        "objective": "8.2.1",
+        "title": "Describe the arrays you could use in Task 1",
+        "kind": "written",
+        "prompt": "Describe the arrays you could use in Task 1. Give each array’s name, data type, use and sample data.",
+        "requires": [
+          "8.2.1"
+        ],
+        "hints": [],
+        "checklist": [],
+        "model": "JourneyStage1: STRING, stores home-to-start codes, e.g. \"C1\".\nPriceStage1: REAL, stores matching prices, e.g. 1.50.\nEquivalent arrays store the other stages, passenger accounts and bookings.",
+        "examMarks": 5
+      },
+      {
+        "id": "paper2-w21-22-1b",
+        "question": 1,
+        "part": "b",
+        "objective": "7.5",
+        "title": "Describe how to validate the journey-stage codes entered in Task 2",
+        "kind": "written",
+        "prompt": "Describe how to validate the journey-stage codes entered in Task 2.",
+        "requires": [
+          "7.5"
+        ],
+        "hints": [],
+        "checklist": [],
+        "model": "Check that each entered code exists in the appropriate stage-code array. Use selection to detect an invalid code, show an error and ask for another entry until a valid code is entered.",
+        "examMarks": 3
+      },
+      {
+        "id": "paper2-w21-22-1c",
+        "question": 1,
+        "part": "c",
+        "objective": "8.1.4",
+        "title": "Write the Task 3 algorithm using pseudocode or programming statements",
+        "kind": "code",
+        "prompt": "Write the Task 3 algorithm using pseudocode or programming statements. Assume Tasks 1 and 2 are complete.",
+        "requires": [
+          "8.1.4"
+        ],
+        "hints": [],
+        "checklist": [],
+        "model": "IF StartTime > \"10:00\" THEN\n    TotalPrice ← TotalPrice * 0.60\nENDIF\nOUTPUT \"Journey price: \", TotalPrice\nOUTPUT \"Booking details: \", PassengerID, StartTime, StartCode, MiddleCode, EndCode, BookingID\nOUTPUT \"Are these details correct? Y/N\"\nINPUT Confirm\nWHILE Confirm <> \"Y\"\n    // Repeat the booking-entry process, including validation and price calculation\n    CALL EnterJourney\n    IF StartTime > \"10:00\" THEN TotalPrice ← TotalPrice * 0.60 ENDIF\n    OUTPUT \"Journey price: \", TotalPrice\n    OUTPUT \"Booking details: \", PassengerID, StartTime, StartCode, MiddleCode, EndCode, BookingID\n    OUTPUT \"Are these details correct? Y/N\"\n    INPUT Confirm\nENDWHILE",
+        "examMarks": 6,
+        "languages": [
+          "Pseudocode",
+          "Python",
+          "Java",
+          "Visual Basic"
+        ]
+      },
+      {
+        "id": "paper2-w21-22-1d",
+        "question": 1,
+        "part": "d",
+        "objective": "8.2.2",
+        "title": "Explain how to count and store each passenger’s bookings, then give an extra 10% discount on every future booking after the passenger has made ten bookings",
+        "kind": "written",
+        "prompt": "Explain how to count and store each passenger’s bookings, then give an extra 10% discount on every future booking after the passenger has made ten bookings. Explain any code used.",
+        "requires": [
+          "8.2.2"
+        ],
+        "hints": [],
+        "checklist": [],
+        "model": "Store a booking counter for each passenger. Increase it whenever that passenger completes a booking. Check whether ten bookings have already been made; if so multiply the price of the next booking by 0.9. Keep updating the counter so later bookings also receive the discount.",
+        "examMarks": 4
+      },
+      {
+        "id": "paper2-w21-22-2",
+        "question": 2,
+        "part": "",
+        "objective": "7.5",
+        "title": "Classify each statement as validation, verification or neither",
+        "kind": "matching",
+        "prompt": "Classify each statement as validation, verification or neither.",
+        "requires": [
+          "7.5"
+        ],
+        "hints": [],
+        "checklist": [],
+        "model": "Verification; Validation; Validation; Neither.",
+        "examMarks": 3,
+        "choices": [
+          "Validation",
+          "Verification",
+          "Neither"
+        ],
+        "table": {
+          "headings": [
+            "Statement",
+            "Classification"
+          ],
+          "rows": [
+            [
+              "Re-enter data to check no errors were introduced during entry",
+              ""
+            ],
+            [
+              "Automatically check that the entered data has the right number of characters",
+              ""
+            ],
+            [
+              "Check that entered data is sensible",
+              ""
+            ],
+            [
+              "Check that entered data is correct",
+              ""
+            ]
+          ]
+        }
+      },
+      {
+        "id": "paper2-w21-22-3",
+        "question": 3,
+        "part": "",
+        "objective": "7.6",
+        "title": "The program accepts numbers from 1 to 100 inclusive",
+        "kind": "written",
+        "prompt": "The program accepts numbers from 1 to 100 inclusive. Give normal, extreme and erroneous test data, with a reason for each.",
+        "requires": [
+          "7.6"
+        ],
+        "hints": [],
+        "checklist": [],
+        "model": "Normal: 50, within range and should be accepted.\nExtreme: 1 or 100, an accepted endpoint.\nErroneous: 300, outside the range and should be rejected.",
+        "examMarks": 6
+      },
+      {
+        "id": "paper2-w21-22-4a",
+        "question": 4,
+        "part": "a",
+        "objective": "7.8",
+        "title": "Find five errors and give a correction for each so this calculator works",
+        "kind": "written",
+        "prompt": "Find five errors and give a correction for each so this calculator works.",
+        "requires": [
+          "7.8"
+        ],
+        "hints": [],
+        "checklist": [],
+        "model": "One valid set: line 01 Continue ← 0; line 08 INPUT Value2; line 09 CASE OF Operator; line 15 output Answer instead of Value1; line 22 ENDWHILE. Other consistent loop repairs are accepted.",
+        "examMarks": 5,
+        "code": "01 Continue ← 1\n02 WHILE Continue = 0\n03     OUTPUT \"Enter 1 for +, 2 for -, 3 for * or 4 for /\"\n04     INPUT Operator\n05     OUTPUT \"Enter the first value\"\n06     INPUT Value1\n07     OUTPUT \"Enter the second value\"\n08     OUTPUT Value2\n09     IF Operator\n10         1: Answer ← Value1 + Value2\n11         2: Answer ← Value1 - Value2\n12         3: Answer ← Value1 * Value2\n13         4: Answer ← Value1 / Value2\n14     ENDCASE\n15     OUTPUT \"The answer is \", Value1\n16     OUTPUT \"Do you wish to enter more values (Yes or No)?\"\n17     INPUT MoreValues\n18     IF MoreValues = \"No\"\n19     THEN\n20         Continue ← 1\n21     ENDIF\n22 UNTIL Continue = 0"
+      },
+      {
+        "id": "paper2-w21-22-4b",
+        "question": 4,
+        "part": "b",
+        "objective": "7.5",
+        "title": "Write pseudocode allowing only 1, 2, 3 or 4 for Operator",
+        "kind": "code",
+        "prompt": "Write pseudocode allowing only 1, 2, 3 or 4 for Operator. State where it should go.",
+        "requires": [
+          "7.5"
+        ],
+        "hints": [],
+        "checklist": [],
+        "model": "// Insert after line 04\nWHILE Operator < 1 OR Operator > 4 DO\n    OUTPUT \"Enter 1, 2, 3 or 4\"\n    INPUT Operator\nENDWHILE",
+        "examMarks": 5,
+        "code": "01 Continue ← 1\n02 WHILE Continue = 0\n03     OUTPUT \"Enter 1 for +, 2 for -, 3 for * or 4 for /\"\n04     INPUT Operator\n05     OUTPUT \"Enter the first value\"\n06     INPUT Value1\n07     OUTPUT \"Enter the second value\"\n08     OUTPUT Value2\n09     IF Operator\n10         1: Answer ← Value1 + Value2\n11         2: Answer ← Value1 - Value2\n12         3: Answer ← Value1 * Value2\n13         4: Answer ← Value1 / Value2\n14     ENDCASE\n15     OUTPUT \"The answer is \", Value1\n16     OUTPUT \"Do you wish to enter more values (Yes or No)?\"\n17     INPUT MoreValues\n18     IF MoreValues = \"No\"\n19     THEN\n20         Continue ← 1\n21     ENDIF\n22 UNTIL Continue = 0"
+      },
+      {
+        "id": "paper2-w21-22-5",
+        "question": 5,
+        "part": "",
+        "objective": "7.7",
+        "title": "Complete the trace for inputs 2, 77, 2, 16, 1, 35, 2, -7, 5, 18, 1, 11, 1, 12, 2, 20, -1, 18",
+        "kind": "trace",
+        "prompt": "Complete the trace for inputs 2, 77, 2, 16, 1, 35, 2, -7, 5, 18, 1, 11, 1, 12, 2, 20, -1, 18.",
+        "requires": [
+          "7.7"
+        ],
+        "hints": [],
+        "checklist": [],
+        "model": "Start List1=0, List2=0.\n(2,77): List2=77\n(2,16): List2=93\n(1,35): List1=35\n(2,-7): List2=86\n(5,18): output Input Error; totals unchanged\n(1,11): List1=46\n(1,12): List1=58\n(2,20): List2=106\nList=-1: stop without reading the final 18. Output List 1 = 58, List 2 = 106, List 2 is greatest.",
+        "examMarks": 5,
+        "figure": "/diagrams/papers/21-q5.svg",
+        "figureAlt": "Original flowchart adding values to List1 or List2 and stopping on List = -1.",
+        "table": {
+          "headings": [
+            "List",
+            "Value",
+            "List1",
+            "List2",
+            "OUTPUT"
+          ],
+          "rows": [
+            [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          ]
+        }
+      },
+      {
+        "id": "paper2-w21-22-6ai",
+        "question": 6,
+        "part": "ai",
+        "objective": "9.2",
+        "title": "Which field could have a Boolean data type",
+        "kind": "written",
+        "prompt": "Which field could have a Boolean data type?",
+        "requires": [
+          "9.2"
+        ],
+        "hints": [],
+        "checklist": [],
+        "model": "InStock.",
+        "examMarks": 1,
+        "context": "STOCK fields: ProductID (product code), ProductName, ProductDescription, Animal (e.g. cat, bird, horse), ProductType (e.g. food, toy, medicine), InStock."
+      },
+      {
+        "id": "paper2-w21-22-6aii",
+        "question": 6,
+        "part": "aii",
+        "objective": "9.3",
+        "title": "Which field should be the primary key",
+        "kind": "written",
+        "prompt": "Which field should be the primary key?",
+        "requires": [
+          "9.3"
+        ],
+        "hints": [],
+        "checklist": [],
+        "model": "ProductID.",
+        "examMarks": 1,
+        "context": "STOCK fields: ProductID (product code), ProductName, ProductDescription, Animal (e.g. cat, bird, horse), ProductType (e.g. food, toy, medicine), InStock."
+      },
+      {
+        "id": "paper2-w21-22-6b",
+        "question": 6,
+        "part": "b",
+        "objective": "9.4",
+        "title": "Complete a query-by-example grid for products intended for a cat that are in stock",
+        "kind": "trace",
+        "prompt": "Complete a query-by-example grid for products intended for a cat that are in stock. Show only ProductID and ProductName, sorted by ProductID.",
+        "requires": [
+          "9.4"
+        ],
+        "hints": [],
+        "checklist": [],
+        "model": "Field: ProductID | ProductName | Animal | InStock\nTable: STOCK | STOCK | STOCK | STOCK\nSort: Ascending | blank | blank | blank\nShow: Yes | Yes | No | No\nCriteria: blank | blank | =\"cat\" | =Yes\nor: blank",
+        "examMarks": 4,
+        "context": "STOCK fields: ProductID (product code), ProductName, ProductDescription, Animal (e.g. cat, bird, horse), ProductType (e.g. food, toy, medicine), InStock.",
+        "table": {
+          "headings": [
+            "Row",
+            "Column 1",
+            "Column 2",
+            "Column 3",
+            "Column 4"
+          ],
+          "rows": [
+            [
+              "Field",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Table",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Sort",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Show",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Criteria",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "or",
+              "",
+              "",
+              "",
+              ""
+            ]
+          ]
+        },
+        "legacySkill": "Query-by-example is part of this older paper’s syllabus."
+      }
+    ]
+  },
+  {
+    "id": "2210-w20-22",
+    "year": 2020,
+    "title": "October / November 2020",
+    "code": "2210/22",
+    "minutes": 105,
+    "marks": 50,
+    "thresholds": [
+      {
+        "grade": "A",
+        "minimum": 32
+      },
+      {
+        "grade": "B",
+        "minimum": 27
+      },
+      {
+        "grade": "C",
+        "minimum": 22
+      },
+      {
+        "grade": "D",
+        "minimum": 17
+      },
+      {
+        "grade": "E",
+        "minimum": 13
+      }
+    ],
+    "thresholdSource": "https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/2210_w20_gt.pdf",
+    "source": "https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/2210_w20_qp_22.pdf",
+    "legacy": true,
+    "scenario": {
+      "title": "Pre-release scenario · computer shop",
+      "text": "A customised computer starts with $200 of basic components. It must also include one case, one RAM option and one main hard disk. Other categories are optional, including the operating system. Task 1: store item codes, descriptions and prices in arrays; let the customer choose the three main items; calculate, store and output the selections and total. Task 2: let the customer add optional items, then store/output the extra selections and updated total. Task 3: give 5% off for exactly one additional item, or 10% off for two or more; output the saving and final price. Validate entries and use meaningful names, prompts and clear messages.",
+      "table": {
+        "headings": [
+          "Category",
+          "Code",
+          "Description",
+          "Price ($)"
+        ],
+        "rows": [
+          [
+            "Case",
+            "A1",
+            "Compact",
+            "75.00"
+          ],
+          [
+            "Case",
+            "A2",
+            "Tower",
+            "150.00"
+          ],
+          [
+            "RAM",
+            "B1",
+            "8 GB",
+            "79.99"
+          ],
+          [
+            "RAM",
+            "B2",
+            "16 GB",
+            "149.99"
+          ],
+          [
+            "RAM",
+            "B3",
+            "32 GB",
+            "299.99"
+          ],
+          [
+            "Main hard disk",
+            "C1",
+            "1 TB HDD",
+            "49.99"
+          ],
+          [
+            "Main hard disk",
+            "C2",
+            "2 TB HDD",
+            "89.99"
+          ],
+          [
+            "Main hard disk",
+            "C3",
+            "4 TB HDD",
+            "129.99"
+          ],
+          [
+            "Solid state drive",
+            "D1",
+            "240 GB SSD",
+            "59.99"
+          ],
+          [
+            "Solid state drive",
+            "D2",
+            "480 GB SSD",
+            "119.99"
+          ],
+          [
+            "Second hard disk",
+            "E1",
+            "1 TB HDD",
+            "49.99"
+          ],
+          [
+            "Second hard disk",
+            "E2",
+            "2 TB HDD",
+            "89.99"
+          ],
+          [
+            "Second hard disk",
+            "E3",
+            "4 TB HDD",
+            "129.99"
+          ],
+          [
+            "Optical drive",
+            "F1",
+            "DVD/Blu-Ray Player",
+            "50.00"
+          ],
+          [
+            "Optical drive",
+            "F2",
+            "DVD/Blu-Ray Re-writer",
+            "100.00"
+          ],
+          [
+            "Operating system",
+            "G1",
+            "Standard Version",
+            "100.00"
+          ],
+          [
+            "Operating system",
+            "G2",
+            "Professional Version",
+            "175.00"
+          ]
+        ]
+      }
+    },
+    "tasks": [
+      {
+        "id": "paper2-w20-22-1ai",
+        "question": 1,
+        "part": "ai",
+        "objective": "8.2.1",
+        "title": "Name an array you could use for Task 1 and state its purpose",
+        "kind": "written",
+        "prompt": "Name an array you could use for Task 1 and state its purpose.",
+        "requires": [
+          "8.2.1"
+        ],
+        "hints": [],
+        "checklist": [],
+        "model": "ComponentCode stores each available item code, such as A1 and B1.",
+        "examMarks": 2
+      },
+      {
+        "id": "paper2-w20-22-1aii",
+        "question": 1,
+        "part": "aii",
+        "objective": "8.1.1",
+        "title": "Name a variable you could use for Task 2 and state its purpose",
+        "kind": "written",
+        "prompt": "Name a variable you could use for Task 2 and state its purpose.",
+        "requires": [
+          "8.1.1"
+        ],
+        "hints": [],
+        "checklist": [],
+        "model": "ExtraCost stores the total cost of the optional items selected.",
+        "examMarks": 2
+      },
+      {
+        "id": "paper2-w20-22-1aiii",
+        "question": 1,
+        "part": "aiii",
+        "objective": "8.1.1",
+        "title": "Name a constant you could use for Task 3 and state its purpose",
+        "kind": "written",
+        "prompt": "Name a constant you could use for Task 3 and state its purpose.",
+        "requires": [
+          "8.1.1"
+        ],
+        "hints": [],
+        "checklist": [],
+        "model": "OneItemDiscount = 0.05 stores the fixed 5% rate for one additional item.",
+        "examMarks": 2
+      },
+      {
+        "id": "paper2-w20-22-1b",
+        "question": 1,
+        "part": "b",
+        "objective": "8.1.2",
+        "title": "Explain the benefits of storing Price using a real data type",
+        "kind": "written",
+        "prompt": "Explain the benefits of storing Price using a real data type.",
+        "requires": [
+          "8.1.2"
+        ],
+        "hints": [],
+        "checklist": [],
+        "model": "It stores decimal places, so prices such as 79.99 are preserved. It can also be used directly in arithmetic calculations.",
+        "examMarks": 2
+      },
+      {
+        "id": "paper2-w20-22-1c",
+        "question": 1,
+        "part": "c",
+        "objective": "8.1.4",
+        "title": "Write the Task 1 algorithm",
+        "kind": "code",
+        "prompt": "Write the Task 1 algorithm. You do not need to show array setup or initialisation. Use pseudocode or programming statements.",
+        "requires": [
+          "8.1.4"
+        ],
+        "hints": [],
+        "checklist": [],
+        "model": "// Arrays already contain the codes, descriptions and prices\nREPEAT\n    OUTPUT \"Choose case code A1 or A2\"\n    INPUT CaseCode\nUNTIL CaseCode = \"A1\" OR CaseCode = \"A2\"\nREPEAT\n    OUTPUT \"Choose RAM code B1, B2 or B3\"\n    INPUT RAMCode\nUNTIL RAMCode = \"B1\" OR RAMCode = \"B2\" OR RAMCode = \"B3\"\nREPEAT\n    OUTPUT \"Choose main disk code C1, C2 or C3\"\n    INPUT DiskCode\nUNTIL DiskCode = \"C1\" OR DiskCode = \"C2\" OR DiskCode = \"C3\"\n// Look up each chosen item in the supplied arrays\nFOR Index ← 1 TO 17\n    IF ComponentCode[Index] = CaseCode THEN CaseIndex ← Index ENDIF\n    IF ComponentCode[Index] = RAMCode THEN RAMIndex ← Index ENDIF\n    IF ComponentCode[Index] = DiskCode THEN DiskIndex ← Index ENDIF\nNEXT Index\nTotalPrice ← 200 + ComponentPrice[CaseIndex] + ComponentPrice[RAMIndex] + ComponentPrice[DiskIndex]\nOUTPUT \"Selected items: \", Description[CaseIndex], Description[RAMIndex], Description[DiskIndex]\nOUTPUT \"Computer price: $\", TotalPrice",
+        "examMarks": 6,
+        "languages": [
+          "Pseudocode",
+          "Python",
+          "Java",
+          "Visual Basic"
+        ]
+      },
+      {
+        "id": "paper2-w20-22-1d",
+        "question": 1,
+        "part": "d",
+        "objective": "8.1.4",
+        "title": "Explain how your program completes Task 3",
+        "kind": "written",
+        "prompt": "Explain how your program completes Task 3. Fully explain any code used.",
+        "requires": [
+          "8.1.4"
+        ],
+        "hints": [],
+        "checklist": [],
+        "model": "Count and store the number of additional items. If it is one, calculate Saving = TotalPrice * 0.05; if it is two or more, use 0.10. With no extras the saving is zero. Subtract Saving from TotalPrice and output both the saving and discounted price.",
+        "examMarks": 4
+      },
+      {
+        "id": "paper2-w20-22-1e",
+        "question": 1,
+        "part": "e",
+        "objective": "8.1.4",
+        "title": "Describe how to change your program so a customer can buy more than one computer",
+        "kind": "written",
+        "prompt": "Describe how to change your program so a customer can buy more than one computer.",
+        "requires": [
+          "8.1.4"
+        ],
+        "hints": [],
+        "checklist": [],
+        "model": "Ask how many computers are required (or whether to buy another), use a suitable loop to repeat the ordering process, and store each computer’s selections separately.",
+        "examMarks": 2
+      },
+      {
+        "id": "paper2-w20-22-2",
+        "question": 2,
+        "part": "",
+        "objective": "8.1.6",
+        "title": "Mark each statement about subroutines True or False",
+        "kind": "matching",
+        "prompt": "Mark each statement about subroutines True or False.",
+        "requires": [
+          "8.1.6"
+        ],
+        "hints": [],
+        "checklist": [],
+        "model": "True; True; True; False.",
+        "examMarks": 2,
+        "choices": [
+          "True",
+          "False"
+        ],
+        "table": {
+          "headings": [
+            "Statement",
+            "True or False"
+          ],
+          "rows": [
+            [
+              "A subroutine is called from within a program.",
+              ""
+            ],
+            [
+              "A subroutine is not a complete program.",
+              ""
+            ],
+            [
+              "A subroutine is a self-contained piece of code.",
+              ""
+            ],
+            [
+              "A subroutine must return a value to the code that called it.",
+              ""
+            ]
+          ]
+        }
+      },
+      {
+        "id": "paper2-w20-22-3",
+        "question": 3,
+        "part": "",
+        "objective": "7.6",
+        "title": "Give three different types of test data for this validation algorithm",
+        "kind": "written",
+        "prompt": "Give three different types of test data for this validation algorithm. For each type, give a test value and explain your choice.",
+        "requires": [
+          "7.6"
+        ],
+        "hints": [],
+        "checklist": [],
+        "model": "Normal: 2500, within range and accepted.\nExtreme: 5000, the highest accepted value.\nErroneous/abnormal: 5001, outside the range and rejected.",
+        "examMarks": 6,
+        "code": "PRINT \"Input a number from 1 to 5000\"\nREPEAT\n    INPUT Number\n    IF Number < 1 OR Number > 5000 THEN\n        PRINT \"Invalid number, please try again\"\n    ENDIF\nUNTIL Number >= 1 AND Number <= 5000\nPRINT Number, \" is within the correct range\""
+      },
+      {
+        "id": "paper2-w20-22-4",
+        "question": 4,
+        "part": "",
+        "objective": "8.2.2",
+        "title": "Extend and rewrite the algorithm to count how many stored numbers are greater than 500 using Higher",
+        "kind": "code",
+        "prompt": "Extend and rewrite the algorithm to count how many stored numbers are greater than 500 using Higher. Output Higher once, with a suitable message.",
+        "requires": [
+          "8.2.2"
+        ],
+        "hints": [],
+        "checklist": [],
+        "model": "Higher ← 0\nFOR Count ← 1 TO 5000\n    INPUT Number[Count]\n    IF Number[Count] > 500 THEN\n        Higher ← Higher + 1\n    ENDIF\nNEXT Count\nOUTPUT \"Numbers greater than 500: \", Higher",
+        "examMarks": 6,
+        "context": "This algorithm inputs 5000 numbers into Number[].",
+        "code": "FOR Count ← 1 TO 5000\n    INPUT Number[Count]\nNEXT Count"
+      },
+      {
+        "id": "paper2-w20-22-5a",
+        "question": 5,
+        "part": "a",
+        "objective": "7.7",
+        "title": "Complete the trace, starting with Num = [45, 56, 30, 12, 15], indexed from 0 to 4",
+        "kind": "trace",
+        "prompt": "Complete the trace, starting with Num = [45, 56, 30, 12, 15], indexed from 0 to 4.",
+        "requires": [
+          "7.7"
+        ],
+        "hints": [],
+        "checklist": [],
+        "model": "First pass: Flag=0; Count=0 swaps 45 and 56, Store=45, Flag=1; Count=1 and 2 make no swap; Count=3 swaps 12 and 15, Store=12. The array is now [56,45,30,15,12]. Second pass: Flag=0; Count=0,1,2,3 make no swaps; stop. Store stays 12.",
+        "examMarks": 5,
+        "code": "REPEAT\n    Flag ← 0\n    FOR Count ← 0 TO 3\n        IF Num[Count] < Num[Count + 1]\n        THEN\n            Store ← Num[Count]\n            Num[Count] ← Num[Count + 1]\n            Num[Count + 1] ← Store\n            Flag ← 1\n        ENDIF\n    NEXT Count\nUNTIL Flag = 0",
+        "table": {
+          "headings": [
+            "Flag",
+            "Count",
+            "Num[0]",
+            "Num[1]",
+            "Num[2]",
+            "Num[3]",
+            "Num[4]",
+            "Store"
+          ],
+          "rows": [
+            [
+              "",
+              "",
+              "45",
+              "56",
+              "30",
+              "12",
+              "15",
+              ""
+            ],
+            [
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          ]
+        }
+      },
+      {
+        "id": "paper2-w20-22-5b",
+        "question": 5,
+        "part": "b",
+        "objective": "7.4",
+        "title": "Describe the purpose of this algorithm",
+        "kind": "written",
+        "prompt": "Describe the purpose of this algorithm.",
+        "requires": [
+          "7.4"
+        ],
+        "hints": [],
+        "checklist": [],
+        "model": "It sorts the numbers into descending order, from largest to smallest.",
+        "examMarks": 2,
+        "code": "REPEAT\n    Flag ← 0\n    FOR Count ← 0 TO 3\n        IF Num[Count] < Num[Count + 1]\n        THEN\n            Store ← Num[Count]\n            Num[Count] ← Num[Count + 1]\n            Num[Count + 1] ← Store\n            Flag ← 1\n        ENDIF\n    NEXT Count\nUNTIL Flag = 0"
+      },
+      {
+        "id": "paper2-w20-22-6",
+        "question": 6,
+        "part": "",
+        "objective": "7.9",
+        "title": "Draw an Input/Output flowchart symbol and a Decision symbol",
+        "kind": "diagram",
+        "prompt": "Draw an Input/Output flowchart symbol and a Decision symbol.",
+        "requires": [
+          "7.9"
+        ],
+        "hints": [],
+        "checklist": [],
+        "model": "Input/Output: a parallelogram.\nDecision: a diamond.",
+        "examMarks": 2,
+        "diagramMode": "symbols"
+      },
+      {
+        "id": "paper2-w20-22-7a",
+        "question": 7,
+        "part": "a",
+        "objective": "9.1",
+        "title": "How many records are shown in AUDIOPARTS",
+        "kind": "written",
+        "prompt": "How many records are shown in AUDIOPARTS?",
+        "requires": [
+          "9.1"
+        ],
+        "hints": [],
+        "checklist": [],
+        "model": "17.",
+        "examMarks": 1,
+        "readingTables": [
+          {
+            "headings": [
+              "PartNum",
+              "Description",
+              "Cost",
+              "Quantity"
+            ],
+            "rows": [
+              [
+                "A01",
+                "Compact Amplifier Case",
+                "50.00",
+                "15"
+              ],
+              [
+                "A02",
+                "Deluxe Amplifier Case",
+                "75.00",
+                "1"
+              ],
+              [
+                "A03",
+                "Amplifier Standard",
+                "79.99",
+                "48"
+              ],
+              [
+                "A04",
+                "Amplifier Midrange",
+                "149.99",
+                "50"
+              ],
+              [
+                "A05",
+                "Amplifier Megablaster",
+                "299.99",
+                "48"
+              ],
+              [
+                "S01",
+                "Tweeter",
+                "59.99",
+                "10"
+              ],
+              [
+                "S02",
+                "Midrange Woofer",
+                "99.99",
+                "0"
+              ],
+              [
+                "S03",
+                "Subwoofer",
+                "139.99",
+                "16"
+              ],
+              [
+                "S04",
+                "Tower Speaker Basic",
+                "159.99",
+                "25"
+              ],
+              [
+                "S05",
+                "Tower Speaker Skyscraper",
+                "219.99",
+                "9"
+              ],
+              [
+                "S06",
+                "Centre Speaker",
+                "149.99",
+                "25"
+              ],
+              [
+                "S07",
+                "Soundbar",
+                "89.99",
+                "2"
+              ],
+              [
+                "S20",
+                "Soundbar",
+                "129.99",
+                "0"
+              ],
+              [
+                "S21",
+                "Ceiling Surround Speaker",
+                "75.00",
+                "15"
+              ],
+              [
+                "S22",
+                "Ceiling Full Range Speaker",
+                "100.00",
+                "1"
+              ],
+              [
+                "S25",
+                "Surround Speaker",
+                "100.00",
+                "60"
+              ],
+              [
+                "T19",
+                "Speaker Stands (Pair)",
+                "75.00",
+                "60"
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "paper2-w20-22-7b",
+        "question": 7,
+        "part": "b",
+        "objective": "9.3",
+        "title": "Choose the most suitable primary key and explain your choice",
+        "kind": "written",
+        "prompt": "Choose the most suitable primary key and explain your choice.",
+        "requires": [
+          "9.3"
+        ],
+        "hints": [],
+        "checklist": [],
+        "model": "PartNum, because its value is unique for every record.",
+        "examMarks": 2,
+        "readingTables": [
+          {
+            "headings": [
+              "PartNum",
+              "Description",
+              "Cost",
+              "Quantity"
+            ],
+            "rows": [
+              [
+                "A01",
+                "Compact Amplifier Case",
+                "50.00",
+                "15"
+              ],
+              [
+                "A02",
+                "Deluxe Amplifier Case",
+                "75.00",
+                "1"
+              ],
+              [
+                "A03",
+                "Amplifier Standard",
+                "79.99",
+                "48"
+              ],
+              [
+                "A04",
+                "Amplifier Midrange",
+                "149.99",
+                "50"
+              ],
+              [
+                "A05",
+                "Amplifier Megablaster",
+                "299.99",
+                "48"
+              ],
+              [
+                "S01",
+                "Tweeter",
+                "59.99",
+                "10"
+              ],
+              [
+                "S02",
+                "Midrange Woofer",
+                "99.99",
+                "0"
+              ],
+              [
+                "S03",
+                "Subwoofer",
+                "139.99",
+                "16"
+              ],
+              [
+                "S04",
+                "Tower Speaker Basic",
+                "159.99",
+                "25"
+              ],
+              [
+                "S05",
+                "Tower Speaker Skyscraper",
+                "219.99",
+                "9"
+              ],
+              [
+                "S06",
+                "Centre Speaker",
+                "149.99",
+                "25"
+              ],
+              [
+                "S07",
+                "Soundbar",
+                "89.99",
+                "2"
+              ],
+              [
+                "S20",
+                "Soundbar",
+                "129.99",
+                "0"
+              ],
+              [
+                "S21",
+                "Ceiling Surround Speaker",
+                "75.00",
+                "15"
+              ],
+              [
+                "S22",
+                "Ceiling Full Range Speaker",
+                "100.00",
+                "1"
+              ],
+              [
+                "S25",
+                "Surround Speaker",
+                "100.00",
+                "60"
+              ],
+              [
+                "T19",
+                "Speaker Stands (Pair)",
+                "75.00",
+                "60"
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "paper2-w20-22-7c",
+        "question": 7,
+        "part": "c",
+        "objective": "9.4",
+        "title": "Complete a query-by-example grid showing all fields for items with fewer than 10 in stock",
+        "kind": "trace",
+        "prompt": "Complete a query-by-example grid showing all fields for items with fewer than 10 in stock. Sort by Cost in descending order.",
+        "requires": [
+          "9.4"
+        ],
+        "hints": [],
+        "checklist": [],
+        "model": "Field: PartNum | Description | Cost | Quantity\nTable: AUDIOPARTS | AUDIOPARTS | AUDIOPARTS | AUDIOPARTS\nSort: blank | blank | Descending | blank\nShow: Yes | Yes | Yes | Yes\nCriteria: blank | blank | blank | <10\nor: blank",
+        "examMarks": 4,
+        "readingTables": [
+          {
+            "headings": [
+              "PartNum",
+              "Description",
+              "Cost",
+              "Quantity"
+            ],
+            "rows": [
+              [
+                "A01",
+                "Compact Amplifier Case",
+                "50.00",
+                "15"
+              ],
+              [
+                "A02",
+                "Deluxe Amplifier Case",
+                "75.00",
+                "1"
+              ],
+              [
+                "A03",
+                "Amplifier Standard",
+                "79.99",
+                "48"
+              ],
+              [
+                "A04",
+                "Amplifier Midrange",
+                "149.99",
+                "50"
+              ],
+              [
+                "A05",
+                "Amplifier Megablaster",
+                "299.99",
+                "48"
+              ],
+              [
+                "S01",
+                "Tweeter",
+                "59.99",
+                "10"
+              ],
+              [
+                "S02",
+                "Midrange Woofer",
+                "99.99",
+                "0"
+              ],
+              [
+                "S03",
+                "Subwoofer",
+                "139.99",
+                "16"
+              ],
+              [
+                "S04",
+                "Tower Speaker Basic",
+                "159.99",
+                "25"
+              ],
+              [
+                "S05",
+                "Tower Speaker Skyscraper",
+                "219.99",
+                "9"
+              ],
+              [
+                "S06",
+                "Centre Speaker",
+                "149.99",
+                "25"
+              ],
+              [
+                "S07",
+                "Soundbar",
+                "89.99",
+                "2"
+              ],
+              [
+                "S20",
+                "Soundbar",
+                "129.99",
+                "0"
+              ],
+              [
+                "S21",
+                "Ceiling Surround Speaker",
+                "75.00",
+                "15"
+              ],
+              [
+                "S22",
+                "Ceiling Full Range Speaker",
+                "100.00",
+                "1"
+              ],
+              [
+                "S25",
+                "Surround Speaker",
+                "100.00",
+                "60"
+              ],
+              [
+                "T19",
+                "Speaker Stands (Pair)",
+                "75.00",
+                "60"
+              ]
+            ]
+          }
+        ],
+        "table": {
+          "headings": [
+            "Row",
+            "Column 1",
+            "Column 2",
+            "Column 3",
+            "Column 4"
+          ],
+          "rows": [
+            [
+              "Field",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Table",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Sort",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Show",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Criteria",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "or",
+              "",
+              "",
+              "",
+              ""
+            ]
+          ]
+        },
+        "legacySkill": "Query-by-example is part of this older paper’s syllabus."
+      }
+    ]
+  }
+]

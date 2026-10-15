@@ -1,0 +1,10 @@
+import fs from 'node:fs';import ts from 'typescript';import {createRequire} from 'node:module';import assert from 'node:assert/strict';
+const require=createRequire(import.meta.url),React=require('react'),{renderToStaticMarkup}=require('react-dom/server');
+fs.writeFileSync('.test-build/question-text.js',ts.transpileModule(fs.readFileSync('app/question-text.tsx','utf8'),{compilerOptions:{module:ts.ModuleKind.CommonJS,target:ts.ScriptTarget.ES2022,jsx:ts.JsxEmit.ReactJSX}}).outputText);
+const {QuestionText}=require('../.test-build/question-text.js'),render=(text,names)=>renderToStaticMarkup(React.createElement(QuestionText,{text,identifiers:names}));
+assert(!render('Name the field most appropriate as the primary key.',['Name']).includes('question-identifier'));
+assert(!render('Count the items and describe the name of each.',['Count','Name']).includes('question-identifier'));
+assert(render('Read Name and Age.', ['Name','Age']).includes('question-identifier'));
+assert(!render('Name and Age are ordinary words here.', []).includes('question-identifier'));
+assert.match(render('Use `ClassList = [Henil, Sven, Ella, Asia, Ridwan]`, indexed from 1 to 5.'),/question-statement[^>]*>ClassList = \[Henil, Sven, Ella, Asia, Ridwan\]/);
+console.log('PASS: context-bound identifiers; Name/Count instructions remain plain; whole array assignment highlighted.');

@@ -1,0 +1,1032 @@
+{
+  "paper2-w24-23-1": {
+    "points": [
+      {
+        "id": 1,
+        "marks": 1,
+        "criterion": "Choose type check."
+      }
+    ],
+    "instructions": "Correct option C: type check. Award one mark for this option.",
+    "page": 4,
+    "source": "https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/2210_w24_ms_23.pdf"
+  },
+  "paper2-w24-23-2": {
+    "points": [
+      {
+        "id": 1,
+        "marks": 1,
+        "criterion": "Choose structure diagram."
+      }
+    ],
+    "instructions": "Correct option B: structure diagram. Award one mark for this option.",
+    "page": 4,
+    "source": "https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/2210_w24_ms_23.pdf"
+  },
+  "paper2-w24-23-3": {
+    "points": [
+      {
+        "id": 1,
+        "marks": 4,
+        "criterion": "Match AND, NAND, NOR and XOR to the five symbols shown. Refer to the symbols from top to bottom as 1 to 5. One symbol is unused."
+      }
+    ],
+    "instructions": "One mark for each correct line\nLogic gate Logic gate symbol\nAND\nNAND\nNOR\nXOR\nThe original five symbols from top to bottom are XOR, OR, NOR, NAND, AND. One mark per correct match.",
+    "page": 4,
+    "source": "https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/2210_w24_ms_23.pdf"
+  },
+  "paper2-w24-23-4": {
+    "points": [
+      {
+        "id": 1,
+        "marks": 6,
+        "criterion": "Fill the six blanks using terms from the list. Terms may be reused; some are not needed."
+      }
+    ],
+    "instructions": "One mark for each correct term\nDatabase tables consist of rows/columns/fields/records and columns/rows/fields/records\nRows are records.\ncolumns are fields.\nStructured Query Language (SQL) scripts are used to query data.\nA primary key uniquely identifies a record.",
+    "page": 5,
+    "source": "https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/2210_w24_ms_23.pdf"
+  },
+  "paper2-w24-23-5": {
+    "points": [
+      {
+        "id": 1,
+        "marks": 6,
+        "criterion": "Analysis is one stage of the program development life cycle. Name and describe two other stages."
+      }
+    ],
+    "instructions": "One mark for stage, one mark for matching description and one mark for matching expansion (max six)\nFor example:\n• design (1) construction of a solution (1) using standard methods e.g. flowcharts (1)\n• coding (1) program is written (1) iterative testing takes place (1)\n• testing (1) program is tested for errors (1) program is tested that it meets its requirements (1)",
+    "page": 5,
+    "source": "https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/2210_w24_ms_23.pdf"
+  },
+  "paper2-w24-23-6a": {
+    "points": [
+      {
+        "id": 1,
+        "marks": 3,
+        "criterion": "Complete lines 06, 08 and 11."
+      }
+    ],
+    "instructions": "One mark for each point\n• 06 C ← 1\n• 08 W ← W + A[C]\n• 11 X ← W / (C – 1) // ROUND(W / (C – 1),0)",
+    "page": 5,
+    "source": "https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/2210_w24_ms_23.pdf"
+  },
+  "paper2-w24-23-6b": {
+    "points": [
+      {
+        "id": 1,
+        "marks": 3,
+        "criterion": "Add pseudocode to output the number of stored values and their average, with suitable messages."
+      }
+    ],
+    "instructions": "One mark for outputting X\nOne mark for outputting C - 1\nOne mark for suitable messages\nExample:\n12 OUTPUT \"Number of values stored in the array is \", C - 1\n13 OUTPUT \"Average of non-zero elements in the array is \", X",
+    "page": 5,
+    "source": "https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/2210_w24_ms_23.pdf"
+  },
+  "paper2-w24-23-6c": {
+    "points": [
+      {
+        "id": 1,
+        "marks": 3,
+        "criterion": "Suggest meaningful names for A, C, X and W."
+      }
+    ],
+    "instructions": "One mark for meaningful identifier for the array\nA Values\nTwo marks for 3 meaningful identifiers for the variables\nor\nOne mark for 1 to 2 meaningful identifiers for the variables\nC Index\nX Average\nW Total",
+    "page": 6,
+    "source": "https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/2210_w24_ms_23.pdf"
+  },
+  "paper2-w24-23-7": {
+    "points": [
+      {
+        "id": 1,
+        "marks": 9,
+        "criterion": "A range check accepts positive values from 1 to 100 inclusive. Give three different types of test data. For each, give the test value(s) and expected outcome."
+      }
+    ],
+    "instructions": "One mark for test data type, one mark for matching example and one mark for matching outcome (Max nine)\n• normal (1) e.g. 25 (1) accepted (1)\n• extreme (1) 1/100 (1) accepted (1)\n• abnormal (1) e.g. 125 (1) rejected (1)\n• boundary (1) 1 and 0 // 100 and 101 (1) first value is accepted, and second value rejected (1)",
+    "page": 6,
+    "source": "https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/2210_w24_ms_23.pdf"
+  },
+  "paper2-w24-23-8": {
+    "points": [
+      {
+        "id": 1,
+        "marks": 4,
+        "criterion": "Complete W for every row."
+      }
+    ],
+    "instructions": "4 marks for 8 correct outputs\n3 marks for 6/7 correct outputs\n2 marks for 4/5 correct outputs\n1 mark for 2/3 correct outputs\nA T H W\n0 0 0 0\n0 0 1 0\n0 1 0 1\n0 1 1 0\n1 0 0 0\n1 0 1 0\n1 1 0 0\n1 1 1 0",
+    "page": 7,
+    "source": "https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/2210_w24_ms_23.pdf"
+  },
+  "paper2-w24-23-9": {
+    "points": [
+      {
+        "id": 1,
+        "marks": 4,
+        "criterion": "Identify four errors in the flowchart and give a correction for each."
+      }
+    ],
+    "instructions": "One mark for each error identified and correction\n• first decision box flow line labels Yes should be No and vice versa\n• second decision box OR should be AND\n• Flow line from A to B should be should A ← B\n• Flowchart symbol for A ← C should be a process box / rectangle",
+    "page": 7,
+    "source": "https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/2210_w24_ms_23.pdf"
+  },
+  "paper2-w24-23-10a": {
+    "points": [
+      {
+        "id": 1,
+        "marks": 6,
+        "criterion": "Complete a separate trace for each input: MYWORD, M!word, My!Hidden. Record changes to Password, Accept, Index, Found and OUTPUT."
+      }
+    ],
+    "instructions": "MYWORD\nPassword Accept Index Found OUTPUT\nMYWORD TRUE (Please enter\npassword)\nFALSE\nFALSE\n1 FALSE\nFALSE Rejected\nM!word\nPassword Accept Index Found OUTPUT\nM!word TRUE (Please enter\npassword)\nFALSE\n1 FALSE\nFALSE Rejected\nMy!Hidden\nPassword Accept Index Found OUTPUT\nMy!Hidden TRUE (Please enter\npassword)\n1 FALSE\n2 FALSE\n3 TRUE\n4\nAccepted\nFor each trace table, one mark Password and output, one mark Accept, Index and Found columns\nAssess the three separate traces independently. Each receives one mark for Password and output, and one mark for Accept/Index/Found. Ignore the app’s row grouping and do not require unchanged values to be repeated.",
+    "page": 8,
+    "source": "https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/2210_w24_ms_23.pdf"
+  },
+  "paper2-w24-23-10b": {
+    "points": [
+      {
+        "id": 1,
+        "marks": 3,
+        "criterion": "State the password rules checked by this algorithm."
+      }
+    ],
+    "instructions": "One mark for each correct point\n• maximum length 20 characters and minimum length 8 characters\n• cannot be all upper-case letters or all lower-case letters // must contain upper-case and lower-case letters\n• must contain an !",
+    "page": 9,
+    "source": "https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/2210_w24_ms_23.pdf"
+  },
+  "paper2-w24-23-11a": {
+    "points": [
+      {
+        "id": 1,
+        "marks": 3,
+        "criterion": "Give the output from this SQL query."
+      }
+    ],
+    "instructions": "One mark for each line (max two)\nOne mark for order of lines\nMT12 Pebbles large\nMT06 Cobbles",
+    "page": 9,
+    "source": "https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/2210_w24_ms_23.pdf"
+  },
+  "paper2-w24-23-11bi": {
+    "points": [
+      {
+        "id": 1,
+        "marks": 2,
+        "criterion": "Write SQL to display only the names of materials that are out of stock."
+      }
+    ],
+    "instructions": "One mark for correct SELECT and FROM clauses, one mark for correct WHERE clause\nSELECT Name\nFROM BuildStock\nWHERE NOT InStock // InStock = FALSE / No /\"No\" // WHERE NumberBags = 0;",
+    "page": 10,
+    "source": "https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/2210_w24_ms_23.pdf"
+  },
+  "paper2-w24-23-11bii": {
+    "points": [
+      {
+        "id": 1,
+        "marks": 2,
+        "criterion": "Explain how a different field could be used in another SQL statement to display the same information."
+      }
+    ],
+    "instructions": "Two marks for either point\n• WHERE clause can check the InStock field (1) for FALSE / No (1)\nor\n• WHERE clause can check the NumberBags field (1) for 0 (1)",
+    "page": 10,
+    "source": "https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/2210_w24_ms_23.pdf"
+  },
+  "paper2-w24-23-12": {
+    "points": [
+      {
+        "id": 1,
+        "marks": 9,
+        "criterion": "AO2: apply appropriate programming techniques and data structures."
+      },
+      {
+        "id": 2,
+        "marks": 6,
+        "criterion": "AO3: produce a logical, accurate and clearly explained solution."
+      }
+    ],
+    "instructions": "• AO2 (maximum 9 marks)\n• AO3 (maximum 6 marks)\nData Structures required names shown underlined must match those given in the scenario\n2D Array or list PickerName[], PickedWeight[], PickerCertificate[]\nVariables\nRequirements (techniques)\nR1 Input and validate the weights (input and iteration)\nR2 sort the PickerName[], and PickedWeight[]arrays in descending order of weight (nested iteration and sorting)\nR3 Output top two members and the weights. Storing the members names who will receive a certificate and outputting the\nnumber of certificates (iteration, selection, assignment, counting and output with appropriate messages)\nExample 15-mark answer in pseudocode\nCONSTANT GroupSize = 200 // setting the number of members in the club\nDECLARE Position : Array[1:2} OF STRING\nPosition[1] ← \"Best in Group\"\nPosition[2] ← \"Second best in Group\"\nFOR Index ← 1 TO GroupSize\nREPEAT\nPRINT \"Please enter the weight for \", PickerName[Index],\nINPUT PickedWeight[Index]\nUNTIL PickedWeight[Index] > 0 AND PickedWeight[Index] < 15\nNEXT Index\nLast ← GroupSize\nREPEAT\nSwap ← FALSE\nFOR Index ← 1 TO GroupSize -1\nIF PickedWeight[Index] < PickedWeight[Index + 1]\nTHEN\nTempWeight ← PickedWeight[Index]\nPickedWeight[Index] ← PickedWeight[Index + 1]\nPickedWeight [Index + 1] ← TempWeight\nTempName ← PickerName[Index]\nPickerName[Index] ← PickerName[Index + 1]\nPickerName[Index + 1] ← TempName\nSwap ← TRUE\nENDIF\nNEXT Index\nLast ← Last - 1\nUNTIL NOT Swap or Last = 1\nFOR Index ← 1 TO 2\nOUTPUT Position[Index], PickerName[Index], \" with a weight of \", PickedWeight[Index]\nNEXT Index\nIndex ← 1\nCount ← 0\nWHILE PickedWeight[Index] > 3 DO // count number of certificates required and store names\nCount ← Count + 1\nPickerCertificate[Count] ← PickerName[Index]\nIndex ← Index + 1\nENDWHILE\nOUTPUT \"Number of certificates to be printed is \", Count\nUse BEST-FIT AO2 /9 and AO3 /6 bands from the published scheme. The question does not specify 200 members or a 15 kg maximum: do not require those example-only constants. Accept appropriate array-length handling and reasonable weight validation. Preserve names with weights in the sort. AO2 bands 1–3 limited techniques/data; 4–6 several appropriate techniques and some required data; 7–9 appropriate techniques and structures covering the full scenario. AO3 bands 1–2 limited commenting/meaningful names and inaccurate or illogical attempts; 3–4 mostly meaningful names, some comments, most requirements but some errors; 5–6 meaningful names, relevant comments and a logical accurate complete solution. Ignore minor syntax errors.",
+    "page": 11,
+    "source": "https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/2210_w24_ms_23.pdf"
+  },
+  "paper2-w23-23-1": {
+    "points": [
+      {
+        "id": 1,
+        "marks": 1,
+        "criterion": "Choose Double entry check."
+      }
+    ],
+    "instructions": "Correct option A: Double entry check. Award one mark for this option.",
+    "page": 4,
+    "source": "https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/2210_w23_ms_23.pdf"
+  },
+  "paper2-w23-23-2": {
+    "points": [
+      {
+        "id": 1,
+        "marks": 1,
+        "criterion": "Choose MOD."
+      }
+    ],
+    "instructions": "Correct option B: MOD. Award one mark for this option.",
+    "page": 4,
+    "source": "https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/2210_w23_ms_23.pdf"
+  },
+  "paper2-w23-23-3a": {
+    "points": [
+      {
+        "id": 1,
+        "marks": 4,
+        "criterion": "Match each description to its pseudocode keyword. One keyword is not used."
+      }
+    ],
+    "instructions": "One mark for each correct line from description to pseudocode keyword\nPseudocode description Pseudocode keyword\nstores data in a file\nOUTPUT\nWRITE\nretrieves data from a file\nREAD\ndisplays data on a screen\nOPEN\nenters data from a keyboard\nINPUT\nThe diagram in the published scheme corresponds to stores=WRITE, retrieves=READ, screen=OUTPUT, keyboard=INPUT. One mark each.",
+    "page": 4,
+    "source": "https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/2210_w23_ms_23.pdf"
+  },
+  "paper2-w23-23-3b": {
+    "points": [
+      {
+        "id": 1,
+        "marks": 2,
+        "criterion": "Give two reasons for storing data in a file."
+      }
+    ],
+    "instructions": "One mark for each point (max two)\n• data is stored permanently\n• data can be moved to another computer\n• another copy of data can be made and stored//accessed elsewhere // backup copy",
+    "page": 4,
+    "source": "https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/2210_w23_ms_23.pdf"
+  },
+  "paper2-w23-23-4a": {
+    "points": [
+      {
+        "id": 1,
+        "marks": 2,
+        "criterion": "Name the two required validation checks."
+      }
+    ],
+    "instructions": "One mark for each point\n• type check\n• range check",
+    "page": 5,
+    "source": "https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/2210_w23_ms_23.pdf"
+  },
+  "paper2-w23-23-4b": {
+    "points": [
+      {
+        "id": 1,
+        "marks": 5,
+        "criterion": "Complete the pseudocode so it performs both validation checks."
+      }
+    ],
+    "instructions": "One mark for each point (max five)\n• use of loop for check\n• checking for whole number\n• checking for number greater than or equal to one\n• … and less than or equal to six\n• Appropriate error/reinput message\n• ability to reinput value\nExample:\nWHILE Seats < 1 OR Seats > 6 OR Seats <> ROUND(Seats, 0) DO\nOUTPUT \"Please enter a valid number of seats \"\nINPUT Seats\nENDWHILE",
+    "page": 5,
+    "source": "https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/2210_w23_ms_23.pdf"
+  },
+  "paper2-w23-23-4c": {
+    "points": [
+      {
+        "id": 1,
+        "marks": 2,
+        "criterion": "Give one test value and explain why you chose it."
+      }
+    ],
+    "instructions": "One mark for correct test data, one mark for corresponding reason\nExample:\n7, abnormal data to show that this value would be rejected",
+    "page": 5,
+    "source": "https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/2210_w23_ms_23.pdf"
+  },
+  "paper2-w23-23-5a": {
+    "points": [
+      {
+        "id": 1,
+        "marks": 3,
+        "criterion": "Find three errors in the pseudocode and give a correction for each."
+      }
+    ],
+    "instructions": "One mark for each error identified and correction given\n• Line 06 Password should be NewPassword\n• Line 11 AND should be OR\n• Line 16 INPUT should be OUTPUT",
+    "page": 5,
+    "source": "https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/2210_w23_ms_23.pdf"
+  },
+  "paper2-w23-23-5b": {
+    "points": [
+      {
+        "id": 1,
+        "marks": 6,
+        "criterion": "Complete a flowchart for the corrected algorithm. START and STOP are given."
+      }
+    ],
+    "instructions": "Max six marks from:\nMax four from:\none mark for data entry with message\none mark for initialisation\none mark for checking list // decision box comparing input\nwith array\none mark for updating // updating the two variables\nposition and found\none mark for loop control // second decision box\none mark for setting new password to position in list\none mark for outputs // two outputs\nTwo marks:\none mark for correct use of flow chart symbols\none mark for correct use arrows and labels\nThe student answer is a serialized flowchart, with symbol types and explicit directed edges/Yes/No targets. Assess all supplied nodes and edges as a diagram, not as prose. Four marks maximum for the algorithm content, plus one for appropriate symbols and one for arrows and decision labels. Do not award all six for code text without diagram structure.",
+    "page": 6,
+    "source": "https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/2210_w23_ms_23.pdf"
+  },
+  "paper2-w23-23-6a": {
+    "points": [
+      {
+        "id": 1,
+        "marks": 2,
+        "criterion": "Name the gate and complete its truth table."
+      }
+    ],
+    "instructions": "One mark for correct gate and one mark for correct truth table\nAND\nA B X\n0 0 0\n0 1 0\n1 0 0\n1 1 1\nOne mark for naming AND (equivalent spelling accepted), one mark for the complete correct truth table 0001. The gate name is entered in the working text below the table.",
+    "page": 7,
+    "source": "https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/2210_w23_ms_23.pdf"
+  },
+  "paper2-w23-23-6b": {
+    "points": [
+      {
+        "id": 1,
+        "marks": 2,
+        "criterion": "Name the gate and complete its truth table."
+      }
+    ],
+    "instructions": "One mark for correct gate and one mark for correct truth table\nXOR // EOR\nA B X\n0 0 0\n0 1 1\n1 0 1\n1 1 0\nOne mark for naming XOR (also EOR), one mark for the complete correct truth table 0110. The gate name is entered in the working text below the table.",
+    "page": 7,
+    "source": "https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/2210_w23_ms_23.pdf"
+  },
+  "paper2-w23-23-6c": {
+    "points": [
+      {
+        "id": 1,
+        "marks": 2,
+        "criterion": "Name the gate and complete its truth table."
+      }
+    ],
+    "instructions": "One mark for correct gate and one mark for correct truth table\nNOR\nA B X\n0 0 1\n0 1 0\n1 0 0\n1 1 0\nOne mark for naming NOR (equivalent spelling accepted), one mark for the complete correct truth table 1000. The gate name is entered in the working text below the table.",
+    "page": 8,
+    "source": "https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/2210_w23_ms_23.pdf"
+  },
+  "paper2-w23-23-6d": {
+    "points": [
+      {
+        "id": 1,
+        "marks": 5,
+        "criterion": "Draw the circuit for X = (NOT A OR NOT B) OR NOT C. Every gate may have at most two inputs. Do not simplify the expression."
+      }
+    ],
+    "instructions": "One mark for each correct gate, with the correct input(s) as shown.\nFive marks: one for each correctly connected gate. NOT A, NOT B, first OR combining their outputs, NOT C, final OR combining the first OR output with NOT C. Each gate has at most two inputs. Do not accept a simplified NAND-based answer when simplification was forbidden. The student answer serializes the actual gate types and input wires.",
+    "page": 8,
+    "source": "https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/2210_w23_ms_23.pdf"
+  },
+  "paper2-w23-23-7": {
+    "points": [
+      {
+        "id": 1,
+        "marks": 4,
+        "criterion": "Describe two differences between local and global variables."
+      }
+    ],
+    "instructions": "one mark for first description one mark for matching difference max four\n• local variables - scope is a defined block of code/subroutine/procedure/function\n• global variables – scope is the whole program\n• local variables - value cannot be changed elsewhere in the program\n• global variables – value can be changed anywhere in the program\n",
+    "page": 9,
+    "source": "https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/2210_w23_ms_23.pdf"
+  },
+  "paper2-w23-23-8a": {
+    "points": [
+      {
+        "id": 1,
+        "marks": 5,
+        "criterion": "Complete the trace using Y, Y, Y, N, Y, Y, Y, Y, N, Y, Y, Y, Y."
+      }
+    ],
+    "instructions": "Accept Reject PartOK Error OUTPUT\n0 0\n1 Y\n2 Y\n3 Y\n1 N\n4 Y\n5 Y\n6 Y\n7 Y\n2 N\n8 Y\n9 Y\n10 Y 20\nToo many rejected 20% error\nOne mark for each column\nOne mark per correct column: Accept, Reject, PartOK, Error, OUTPUT. The thirteenth Y is not read. The original flowchart has no data-entry validation.",
+    "page": 10,
+    "source": "https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/2210_w23_ms_23.pdf"
+  },
+  "paper2-w23-23-8b": {
+    "points": [
+      {
+        "id": 1,
+        "marks": 3,
+        "criterion": "Describe how to change the flowchart so either Y or y counts as a successfully manufactured part."
+      }
+    ],
+    "instructions": "One mark for each point max three\n• after the Input box // before the first decision box\n• insert a process box\n• to convert the input to upper case\nOR\n• change the first decision / add another decision box\n• to accept 'y' as well\n• by adding OR PartOK = 'y'",
+    "page": 11,
+    "source": "https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/2210_w23_ms_23.pdf"
+  },
+  "paper2-w23-23-9a": {
+    "points": [
+      {
+        "id": 1,
+        "marks": 2,
+        "criterion": "State the number of records and fields shown in PheasantList."
+      }
+    ],
+    "instructions": "Records: 14\nFields: 5",
+    "page": 11,
+    "source": "https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/2210_w23_ms_23.pdf"
+  },
+  "paper2-w23-23-9bi": {
+    "points": [
+      {
+        "id": 1,
+        "marks": 1,
+        "criterion": "Name a field that could be the primary key."
+      }
+    ],
+    "instructions": "Species/Description",
+    "page": 11,
+    "source": "https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/2210_w23_ms_23.pdf"
+  },
+  "paper2-w23-23-9bii": {
+    "points": [
+      {
+        "id": 1,
+        "marks": 1,
+        "criterion": "Why might the sanctuary decide against using the field from the previous part as its primary key?"
+      }
+    ],
+    "instructions": "Long names that could be easily misspelt // species or description could be duplicated",
+    "page": 11,
+    "source": "https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/2210_w23_ms_23.pdf"
+  },
+  "paper2-w23-23-9biii": {
+    "points": [
+      {
+        "id": 1,
+        "marks": 1,
+        "criterion": "A new field SpeciesID stores a six-character code such as Ph0001. Why would this be a better primary key?"
+      }
+    ],
+    "instructions": "Easy to validate // always unique",
+    "page": 11,
+    "source": "https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/2210_w23_ms_23.pdf"
+  },
+  "paper2-w23-23-9c": {
+    "points": [
+      {
+        "id": 1,
+        "marks": 2,
+        "criterion": "Give the output of this SQL statement."
+      }
+    ],
+    "instructions": "One mark for each correct row or column\nTrue silver white laced top half and black lower half\nBrown eared brown with ear tufts",
+    "page": 11,
+    "source": "https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/2210_w23_ms_23.pdf"
+  },
+  "paper2-w23-23-9d": {
+    "points": [
+      {
+        "id": 1,
+        "marks": 4,
+        "criterion": "Write SQL to display all species whose birds are breeding and have had no young born this year."
+      }
+    ],
+    "instructions": "One mark for each correct addition\nSELECT Species\nFROM PheasantList\nWHERE Breeding or WHERE Young = 0\nAND Young = 0; AND Breeding;",
+    "page": 11,
+    "source": "https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/2210_w23_ms_23.pdf"
+  },
+  "paper2-w23-23-10": {
+    "points": [
+      {
+        "id": 1,
+        "marks": 9,
+        "criterion": "AO2: apply appropriate programming techniques and data structures."
+      },
+      {
+        "id": 2,
+        "marks": 6,
+        "criterion": "AO3: produce a logical, accurate and clearly explained solution."
+      }
+    ],
+    "instructions": "• AO2 (maximum 9 marks)\n• AO3 (maximum 6 marks)\nData Structures required names shown underlined must be used as given in the scenario\n2D Array or list Temperatures\nVariables MaxDay, MinDay, AvDay, MaxWeek, MinWeek, AvWeek\nRequirements (techniques)\nR1 Find maximum and minimum temperatures for each day and calculates the average daily temperature (searching,\ntotalling)\nR2 Find maximum and minimum temperatures for week and calculates the average weekly temperature (nested\nsearching, totalling)\nR3 outputs for each day name, the rounded values for maximum temperature, minimum temperatures and average\ntemperature. Outputs for the week the rounded values for maximum temperature, minimum temperatures and average\ntemperature (output with appropriate messages and rounded values)\nExample 15-mark answer in pseudocode:\n// meaningful identifier names and appropriate data structures to store the data required\nDECLARE DayCounter, HourCounter : INTEGER\nDECLARE AvDay, AvWeek, MaxDay, MinDay, MaxWeek, MinWeek : REAL\nDECLARE DayTotal, WeekTotal : REAL\nDECLARE Day : STRING\nCONSTANT Hours ← 24\nCONSTANT Days ← 7\nMaxWeek ← -1000// initialise max and min temperatures and total for the week\nMinWeek ← 1000\nWeekTotal ← 0\nFOR DayCounter ← 0 TO Days - 1\nMaxDay ← -1000// initialise max and min temperatures and total for each day\nMinDay ← 1000\nDayTotal ← 0\nFOR HourCounter ← 0 TO Hours - 1\nDayTotal ← DayTotal + Temperatures(HourCounter, DayCounter)\n// update total maximum and minimum\nIF Temperatures(HourCounter, DayCounter) > MaxDay\nTHEN\nMaxDay ← Temperatures(HourCounter, DayCounter)\nENDIF\nIF Temperatures(HourCounter, DayCounter) < MinDay\nTHEN\nMinDay ← Temperatures(HourCounter, DayCounter)\nENDIF\nNEXT HourCounter\nCASE OF DayCounter // select message for day\n0 : Day ← \"Monday\"\n1 : Day ← \"Tuesday\"\n2 : Day ← \"Wednesday\"\n3 : Day ← \"Thursday\"\n4 : Day ← \"Friday\"\n5 : Day ← \"Saturday\"\n6 : Day ← \"Sunday\"\nENDCASE\nDayAverage ← DayTotal / Hours // output results for day\nOUTPUT Day // Results from a day\nOUTPUT \"Maximum temperature \", MaxDay\nOUTPUT \"Minimum temperature \", MinDay\nOUTPUT \"Average temperature \", ROUND(DayAverage,2)\nIF MaxDay > MaxWeek // update total maximum and minimum\nTHEN\nMaxWeek ← MaxDay\nENDIF\nIF MinDay > MinWeek\nTHEN\nMinWeek ← MinDay\nENDIF\nWeekTotal ← WeekTotal + DayTotal // update total for week\nNEXT DayCounter\nWeekAverage ← WeekTotal / Days\nOUTPUT \"Maximum temperature for week \", MaxWeek// output results for week\nOUTPUT \"Minimum temperature for week \", MinWeek\nOUTPUT \"Average temperature for Week \", ROUND(WeekAverage,2)\nBEST-FIT AO2 /9 and AO3 /6. R1 daily extrema and average; R2 weekly extrema and average; R3 named daily outputs and weekly outputs, rounded to two decimal places. Accept consistent indexing such as hours 0..23 or 1..24 and either internal array orientation when it is explained consistently. Required given identifiers should be respected. No declarations or input of already stored data are required. AO2: 1–3 limited techniques/data; 4–6 several appropriate techniques and some required data; 7–9 full appropriate techniques/structures. AO3: 1–2 weak commenting/names and inaccurate attempts; 3–4 some comments, mostly suitable names, most requirements with errors; 5–6 clear comments, meaningful names, logical accurate full solution. Ignore minor syntax errors.",
+    "page": 12,
+    "source": "https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/2210_w23_ms_23.pdf"
+  },
+  "paper2-w22-23-1ai": {
+    "points": [
+      {
+        "id": 1,
+        "marks": 3,
+        "criterion": "Identify a constant you could use in Task 1, give its value and explain why it is a constant rather than a variable."
+      }
+    ],
+    "instructions": "Many correct answers, the name used must be meaningful. The name given is an example only.\nOne mark per mark point, max three\nConstant name BasicClean\nValue 10.00\nReason this number will not change whilst the program is running",
+    "page": 4,
+    "source": "https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/2210_w22_ms_23.pdf"
+  },
+  "paper2-w22-23-1aii": {
+    "points": [
+      {
+        "id": 1,
+        "marks": 3,
+        "criterion": "Describe the Task 1 array used to store customer details. Include its name, data type and sample data."
+      }
+    ],
+    "instructions": "Description\nMany correct answers, the name used must be meaningful. The name is an example only.\nOne mark per mark point, max three\nMP1 name e.g. NameAddress\nMP2 appropriate data type e.g. string\nMP3 sample data for the array e.g. Mrs Singh, Park View",
+    "page": 4,
+    "source": "https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/2210_w22_ms_23.pdf"
+  },
+  "paper2-w22-23-1b": {
+    "points": [
+      {
+        "id": 1,
+        "marks": 3,
+        "criterion": "Explain how your program would allow the customer to choose two floors or three floors, but never both."
+      }
+    ],
+    "instructions": "One mark per mark point, max three\nMP1 use a conditional statement // an example of conditional statement used //\nuse an input statement with validation// an example of input statement used\nMP2 any working method – for example, to only store True in the three floors array if the two floors array has not been\nset to True\nMP3 output an appropriate error message when an error condition has occurred //\nchoose appropriate routes through the program depending upon the choice of floors",
+    "page": 4,
+    "source": "https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/2210_w22_ms_23.pdf"
+  },
+  "paper2-w22-23-1c": {
+    "points": [
+      {
+        "id": 1,
+        "marks": 6,
+        "criterion": "Write the Task 2 algorithm that calculates the bill total. The customer’s details and selected services have already been entered. Use pseudocode or programming statements."
+      }
+    ],
+    "instructions": "One mark per mark point, max six\nMP1 initialise bill total to 10\nMP1 check for additional windows\nMP2 … and add in amount to total if required\nMP3 check for 2 floors or 3 floors\nMP4 … multiply by 1.1 or 1.15 as required\nMP5 check for inside and multiply by 1.25 if required\nMP6 check for polish and multiply by 1.05 if required\nMP7 MP2 to MP7 completed in correct order\nMP8 check for solar panels and add 20.00 if required\nSample\nTotal ← 10.00\nExtraWindowsCost ←INT((NumberExtraWindows[Bill] –1) / 5) * 5.00\nTotal ← Total + ExtraWindowsCost\nCASE NumberOfFloors[Bill] OF // check number of floors\n2 : Total ← Total * 1.1\n3 : Total ← Total * 1.15\nENDCASE\nIF Inside[Bill] // check for cleaning inside windows\nTHEN\nTotal ← Total * 1.25\nENDIF\nIF Polish[Bill] // check for polishing windows\nTHEN\nTotal ← Total * 1.05\nENDIF\nIF Solar[Bill] // check for cleaning solar panels\nTHEN\nTotal ← Total + 20.00\nENDIF\nAward at most six from the published points, respecting their alternatives and the order of charges. Accept a correct ceiling/group-of-five calculation. Do not demand the apparent off-by-one typo in the published sample.",
+    "page": 5,
+    "source": "https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/2210_w22_ms_23.pdf"
+  },
+  "paper2-w22-23-1d": {
+    "points": [
+      {
+        "id": 1,
+        "marks": 5,
+        "criterion": "Explain how your program would complete Task 3. Fully explain any code included."
+      }
+    ],
+    "instructions": "Explanation\nOne mark per mark point, max five\nMP1 how the program counted the number of customers using a service\nMP1 … how the program counted this for all services\nMP2 … excluding basic windows and additional windows\nMP3 how the program identified the service with the largest number of customers\nMP4 how the program identified the service with the smallest number of customers\nMP5 how the program calculated a percentage of the total number of bills stored…\nMP6 … for largest and smallest\nMP7 how the program displayed these percentages with suitable messages\nProgramming statements when used must be explained.",
+    "page": 6,
+    "source": "https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/2210_w22_ms_23.pdf"
+  },
+  "paper2-w22-23-2a": {
+    "points": [
+      {
+        "id": 1,
+        "marks": 6,
+        "criterion": "Complete the six blanks in the pseudocode."
+      }
+    ],
+    "instructions": "One mark per mark point in the correct position, max six\n• line 01 50\n• line 08 Value > 50\n• line 12 Reading[Value] + 1\n• line 18 INPUT Value\n• line 23 Reading[Count]\n• line 24 Count + 1",
+    "page": 7,
+    "source": "https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/2210_w22_ms_23.pdf"
+  },
+  "paper2-w22-23-2b": {
+    "points": [
+      {
+        "id": 1,
+        "marks": 3,
+        "criterion": "Describe the changes needed to output the frequencies from highest value to lowest."
+      }
+    ],
+    "instructions": "One mark per place in code and action, max three\n• line 21 set Count to 50 / Count ← 50\n• line 24 subtract 1 from Count / Count ← Count –1\n• line 25 check for Count equal to 34 / check for Count less than 35 / UNTIL Count = 34 / UNTIL Count < 35\nor\nOne mark per place in code and action, max three\n• line 21 set up FOR loop stating at 50 and finishing at 35 / FOR Count ← 50 TO 35 STEP –1\n• Remove lines 22 and 24\n• line 25 End FOR loop / NEXT Count\nExamples\n21 Count ← 50\n22 REPEAT\n23 OUTPUT \"There are \", Reading[Count], \" readings, \" of \", Count\n24 Count ← Count –1\n25 UNTIL Count = 34\n21 FOR Count ← 50 TO 35 STEP –1\n23 OUTPUT \"There are \", Reading[Count], \" readings, \" of \", Count\n25 NEXT Count",
+    "page": 7,
+    "source": "https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/2210_w22_ms_23.pdf"
+  },
+  "paper2-w22-23-3ai": {
+    "points": [
+      {
+        "id": 1,
+        "marks": 1,
+        "criterion": "Calculate the check digit for 69321."
+      }
+    ],
+    "instructions": "• 1",
+    "page": 8,
+    "source": "https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/2210_w22_ms_23.pdf"
+  },
+  "paper2-w22-23-3aii": {
+    "points": [
+      {
+        "id": 1,
+        "marks": 2,
+        "criterion": "Which numbers have incorrect check digits? A: 123455; B: 691400; C: 722855; D: 231200."
+      }
+    ],
+    "instructions": "One mark for each correct letter seen, max two\n• C\n• D",
+    "page": 8,
+    "source": "https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/2210_w22_ms_23.pdf"
+  },
+  "paper2-w22-23-3bi": {
+    "points": [
+      {
+        "id": 1,
+        "marks": 2,
+        "criterion": "Describe an input error that this check-digit method would miss."
+      }
+    ],
+    "instructions": "One mark per mark point, max two\n• two or more digits\n• transposed",
+    "page": 8,
+    "source": "https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/2210_w22_ms_23.pdf"
+  },
+  "paper2-w22-23-3bii": {
+    "points": [
+      {
+        "id": 1,
+        "marks": 2,
+        "criterion": "Describe a more suitable algorithm for calculating this check digit."
+      }
+    ],
+    "instructions": "One mark per mark point, max two\n• multiply each digit by a different number / its place value\n• before adding them together and dividing by a number",
+    "page": 8,
+    "source": "https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/2210_w22_ms_23.pdf"
+  },
+  "paper2-w22-23-3c": {
+    "points": [
+      {
+        "id": 1,
+        "marks": 2,
+        "criterion": "Name two other validation checks suitable for entering this identification number."
+      }
+    ],
+    "instructions": "One mark per mark point, max two\n• length check\n• type check\n• presence check\n• format check",
+    "page": 8,
+    "source": "https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/2210_w22_ms_23.pdf"
+  },
+  "paper2-w22-23-4a": {
+    "points": [
+      {
+        "id": 1,
+        "marks": 4,
+        "criterion": "Complete the trace for Y, Y, Y, Y, Y, Y, N."
+      }
+    ],
+    "instructions": "One mark for each correct column, max four\nStock Total Sale OUTPUT\n10 0\n9 1 Y\n8 2 Y\n7 3 Y\n6 4 Y\n5 5 Y\n4 6 Y\n14\nN Add new stock\n6\nOne mark per correct column. Include the intermediate Stock=4 before replenishing to 14. Output order: Add new stock, then 6.",
+    "page": 9,
+    "source": "https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/2210_w22_ms_23.pdf"
+  },
+  "paper2-w22-23-4b": {
+    "points": [
+      {
+        "id": 1,
+        "marks": 3,
+        "criterion": "Explain how to extend the algorithm to sell more than one wheelbarrow at a time."
+      }
+    ],
+    "instructions": "One mark per mark point, max three\n• input a number / quantity\n• … check that the number is less than (or equal to) the number in stock\n• … after checking for N\n• update Stock by that number / Stock ← Stock – Number\n• update Total by that number / Total ← Total + Number",
+    "page": 9,
+    "source": "https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/2210_w22_ms_23.pdf"
+  },
+  "paper2-w22-23-5a": {
+    "points": [
+      {
+        "id": 1,
+        "marks": 2,
+        "criterion": "Choose the primary-key field and give a reason."
+      }
+    ],
+    "instructions": "One mark per mark point, max two\n• ItemCode\n• uniquely identifies each item",
+    "page": 10,
+    "source": "https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/2210_w22_ms_23.pdf"
+  },
+  "paper2-w22-23-5b": {
+    "points": [
+      {
+        "id": 1,
+        "marks": 3,
+        "criterion": "Complete the query-by-example grid to show only Description and Country for items not in store."
+      }
+    ],
+    "instructions": "One mark per mark point, max three\n• correct rows Field, Table and Sort\n• correct row Show\n• correct Criteria row\nField: Description Country InStore\nTable: MUSEUM MUSEUM MUSEUM\nSort:\nShow: Yes Yes No No\nCriteria: N\nor:\nAccept equivalent valid QBE layouts, including criteria under an unshown InStore column. Three marks: displayed field/table setup, correct Show row, correct not-in-store criterion.",
+    "page": 10,
+    "source": "https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/2210_w22_ms_23.pdf"
+  },
+  "paper2-w21-22-1ai": {
+    "points": [
+      {
+        "id": 1,
+        "marks": 2,
+        "criterion": "Name one variable you could use for Task 2 and state its use."
+      }
+    ],
+    "instructions": "One mark per point\n• Variable PassengerID// StartStage\n• Use Storing the unique ID number of the passenger// Storing/inputting the start stage of the journey",
+    "page": 4,
+    "source": "https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/2210_w21_ms_22.pdf"
+  },
+  "paper2-w21-22-1aii": {
+    "points": [
+      {
+        "id": 1,
+        "marks": 5,
+        "criterion": "Describe the arrays you could use in Task 1. Give each array’s name, data type, use and sample data."
+      }
+    ],
+    "instructions": "One mark per point\nMP1 Name of array\nMP2 Data type of array\nMP3 Sample data for array\nMP4 Use of array\nMP5 At least two complete arrays with all of the above\nArray name Data type Sample data Use\nJourneyStage1 string C1 to store the code for the home to start station\nPriceStage1 real 1.50 to store the price of first stage of the journey\nFive mark points: array name, type, sample data, use, and at least two complete arrays with those details. Accept equivalent sensible structures from the scenario.",
+    "page": 4,
+    "source": "https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/2210_w21_ms_22.pdf"
+  },
+  "paper2-w21-22-1b": {
+    "points": [
+      {
+        "id": 1,
+        "marks": 3,
+        "criterion": "Describe how to validate the journey-stage codes entered in Task 2."
+      }
+    ],
+    "instructions": "One mark per bullet point\nMP1 Use of validation check, e.g. range check, type check, presence check, length check, format check\nMP2 Use of conditional statement to check if the validation fails ...\nMP3 … a re-entry is requested\nMP4 Use of loop to repeat the process until an acceptable answer is input\nMP5 More than one appropriate validation check used / described.",
+    "page": 4,
+    "source": "https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/2210_w21_ms_22.pdf"
+  },
+  "paper2-w21-22-1c": {
+    "points": [
+      {
+        "id": 1,
+        "marks": 6,
+        "criterion": "Write the Task 3 algorithm using pseudocode or programming statements. Assume Tasks 1 and 2 are complete."
+      }
+    ],
+    "instructions": "Any six from:\nMP1 Conditional statement to check departure time against 10:00\nMP2 … calculate 40% discount // calculate 60% of the original price\nMP3 … calculate discounted total price\nMP4 Output the discounted total price\nMP5 Output the booking details with suitable messages\nMP6 Input with prompt for passenger confirmation …\nMP7 … attempt at action following the confirmation input\nMP8 Repeating booking data entry if incorrect\nMP9 Re-checking journey details for correctness\nExample answer\n// Tasks 1 and 2 completed\nIF CollectedTime[Index] > 10:00\nTHEN\nJourneyCost[Index] ← JouneyCost[Index] * 0.6\nENDIF\nPRINT \"Your journey cost is: \", JourneyCost[Index]\nPRINT \"Your journey details are: \", PassengerID[Index], JourneyTime[Index],\nJourneyCodes[Index], JourneyID[Index]\nPRINT \"Are these details correct? (Y or N)\"\nINPUT Correct\nIF Correct = \"N\"\nTHEN\nWHILE Correct = \"N\"\nPRINT \"Re-enter your journey details\"\nPRINT \"Correct passenger ID \"\nINPUT PassengerID[Index]\nPRINT \"Correct journey time \"\nINPUT JourneyTime[Index]\nPRINT \"Correct journey codes \"\nINPUT JourneyCodes[Index]\nPRINT \"Your revised journey details are: \", PassengerID[Index],\nJourneyTime[Index], JourneyCodes[Index]\nPRINT \"Are these details correct? (Y or N)\"\nINPUT Correct\nENDWHILE\nENDIF\n//Program continues",
+    "page": 4,
+    "source": "https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/2210_w21_ms_22.pdf"
+  },
+  "paper2-w21-22-1d": {
+    "points": [
+      {
+        "id": 1,
+        "marks": 4,
+        "criterion": "Explain how to count and store each passenger’s bookings, then give an extra 10% discount on every future booking after the passenger has made ten bookings. Explain any code used."
+      }
+    ],
+    "instructions": "Explanation of how each of the following could be done\nAny four from:\nMP1 Declaring/using a counter to store the number of bookings for each passenger\nMP2 Updating the counter for the number of bookings made by each passenger\nMP3 Attempt to check the number of bookings …\nMP4 … for the correct condition e.g. if the number of bookings is more than 10 / equal to 10\nMP5 Apply the extra discount to the total price of future journeys",
+    "page": 5,
+    "source": "https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/2210_w21_ms_22.pdf"
+  },
+  "paper2-w21-22-2": {
+    "points": [
+      {
+        "id": 1,
+        "marks": 3,
+        "criterion": "Classify each statement as validation, verification or neither."
+      }
+    ],
+    "instructions": "One mark for two correct rows\nTwo marks for three correct rows\nThree marks for four correct rows.\nStatement Validation Verification Neither\n(✓) (✓) (✓)\na check where data is re-entered to make sure no errors have ✓\nbeen introduced during data entry\nan automatic check to make sure the data entered has the correct ✓\nnumber of characters\na check to make sure the data entered is sensible ✓\na check to make sure the data entered is correct ✓\n\n\n\n\nFour correct rows = 3 marks; three correct = 2; two correct = 1; fewer = 0. Do not give one mark per row.",
+    "page": 6,
+    "source": "https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/2210_w21_ms_22.pdf"
+  },
+  "paper2-w21-22-3": {
+    "points": [
+      {
+        "id": 1,
+        "marks": 6,
+        "criterion": "The program accepts numbers from 1 to 100 inclusive. Give normal, extreme and erroneous test data, with a reason for each."
+      }
+    ],
+    "instructions": "One mark per bullet point\nNormal test data\n• Test data e.g. 50 (allow any number between 1 and 100 inclusive)\n• Reason Data that is within range and should be accepted\nExtreme test data\n• Test data 100 / 1\n• Reason Data at the maximum / minimum end of the range and should be accepted\nErroneous test data\n• Test data e.g. 300 (allow anything that isn’t between 1 and 100 inclusive, including other data types)\n• Reason Data outside the range that should be rejected",
+    "page": 6,
+    "source": "https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/2210_w21_ms_22.pdf"
+  },
+  "paper2-w21-22-4a": {
+    "points": [
+      {
+        "id": 1,
+        "marks": 5,
+        "criterion": "Find five errors and give a correction for each so this calculator works."
+      }
+    ],
+    "instructions": "One mark for error identified and suggested correction (Max three)\nLine 8 OUTPUT Value2 – should be INPUT Value2\nLine 9 IF Operator – should be CASE OF Operator\nLine 15 OUTPUT \"The answer is \", Value1 – should be Answer\nThe loop may be corrected using a number of alternative methods:\nOne mark for error identified and suggested correction (Max two)\nMethod 1\nLine 1 Continue ← 1 should be Continue ← 0\nLine 22 UNTIL Continue = 0 should be ENDWHILE // Line 2 WHILE Continue = 0 should be REPEAT and Line\n22 UNTIL Continue = 0 should be Until Continue = 1\nOR\nMethod 2\nLine 2 WHILE Continue = 0 should be REPEAT\nLine 20 Continue ← 1 should be Continue ← 0 // Line 1 Continue ← 1 should be Continue ← 0 and Line\n22 UNTIL Continue = 0 should be Until Continue = 1\nOR\nMethod 3\nLine 2 WHILE Continue = 0 should be WHILE Continue = 1\nLine 20 Continue ← 1 should be Continue ← 0 and Line 22 UNTIL Continue = 0 should be ENDWHILE\nCorrected algorithm example 1\n1 Continue ← 0\n2 WHILE Continue = 0 (DO)\n3 OUTPUT \"Enter 1 for +, 2 for -, 3 for * or 4 for /\"\n4 INPUT Operator\n5 OUTPUT \"Enter the first value\"\n6 INPUT Value1\n7 OUTPUT \"Enter the second value\"\n8 INPUT Value2\n9 CASE OF Operator\n10 1: Answer ← Value1 + Value2\n11 2: Answer ← Value1 - Value2\n12 3: Answer ← Value1 * Value2\n13 4: Answer ← Value1 / Value2\n14 ENDCASE\n15 OUTPUT \"The answer is \", Answer\n16 OUTPUT \"Do you wish to enter more values (Yes or No)?\"\n17 INPUT MoreValues\n18 IF MoreValues = \"No\"\n19 THEN\n20 Continue ← 1\n21 ENDIF\n22 ENDWHILE\nCorrected algorithm example 2\n1 Continue ← 1\n2 REPEAT\n3 OUTPUT \"Enter 1 for +, 2 for -, 3 for * or 4 for /\"\n4 INPUT Operator\n5 OUTPUT \"Enter the first value\"\n6 INPUT Value1\n7 OUTPUT \"Enter the second value\"\n8 INPUT Value2\n9 CASE OF Operator\n10 1: Answer ← Value1 + Value2\n11 2: Answer ← Value1 - Value2\n12 3: Answer ← Value1 * Value2\n13 4: Answer ← Value1 / Value2\n14 ENDCASE\n15 OUTPUT \"The answer is \", Answer\n16 OUTPUT \"Do you wish to enter more values (Yes or No)?\"\n17 INPUT MoreValues\n18 IF MoreValues = \"No\"\n19 THEN\n20 Continue ← 0\n21 ENDIF\n22 UNTIL Continue = 0",
+    "page": 7,
+    "source": "https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/2210_w21_ms_22.pdf"
+  },
+  "paper2-w21-22-4b": {
+    "points": [
+      {
+        "id": 1,
+        "marks": 5,
+        "criterion": "Write pseudocode allowing only 1, 2, 3 or 4 for Operator. State where it should go."
+      }
+    ],
+    "instructions": "One mark per bullet\nMP1 Appropriate loop (begin and end) / otherwise selection\nMP2 Testing both ends of condition\nMP3 Suitable message\nMP4 Input/re-input\nWHILE Operator < 1 OR Operator > 4 (DO)\nOUTPUT \"Enter 1, 2, 3 or 4\"\nINPUT Operator\nENDWHILE\nAlternative answer\nREPEAT\nIF Operator < 1 OR Operator > 4\nTHEN\nOUTPUT \"Enter 1, 2, 3 or 4\"\nINPUT Operator\nENDIF\nUNTIL Operator >= 1 AND Operator <= 4\nOne mark\nAfter line 4 / between lines 2 and 5",
+    "page": 10,
+    "source": "https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/2210_w21_ms_22.pdf"
+  },
+  "paper2-w21-22-5": {
+    "points": [
+      {
+        "id": 1,
+        "marks": 5,
+        "criterion": "Complete the trace for inputs 2, 77, 2, 16, 1, 35, 2, -7, 5, 18, 1, 11, 1, 12, 2, 20, -1, 18."
+      }
+    ],
+    "instructions": "One mark for each correct column\nList Value List1 List2 OUTPUT\n0 0\n2\n77 77\n2\n16 93\n1\n35 35\n2\n-7 86\n5\n\nList Value List1 List2 OUTPUT\n18 Input Error\n1\n11 46\n1\n12 58\n2\n20 106\n-1 List 1 = 58\nList 2 = 106\nList 2 is greatest\nOne mark for each correct column. The final 18 is unused. The diagram input reads List first and reads Value only when List is not -1.",
+    "page": 11,
+    "source": "https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/2210_w21_ms_22.pdf"
+  },
+  "paper2-w21-22-6ai": {
+    "points": [
+      {
+        "id": 1,
+        "marks": 1,
+        "criterion": "Which field could have a Boolean data type?"
+      }
+    ],
+    "instructions": "InStock",
+    "page": 13,
+    "source": "https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/2210_w21_ms_22.pdf"
+  },
+  "paper2-w21-22-6aii": {
+    "points": [
+      {
+        "id": 1,
+        "marks": 1,
+        "criterion": "Which field should be the primary key?"
+      }
+    ],
+    "instructions": "ProductID",
+    "page": 13,
+    "source": "https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/2210_w21_ms_22.pdf"
+  },
+  "paper2-w21-22-6b": {
+    "points": [
+      {
+        "id": 1,
+        "marks": 4,
+        "criterion": "Complete a query-by-example grid for products intended for a cat that are in stock. Show only ProductID and ProductName, sorted by ProductID."
+      }
+    ],
+    "instructions": "One mark for correct fieldnames\nOne mark for correct table names and show fields\nOne mark for correct sort\nOne mark for correct search criteria in all columns\nField: ProductID ProductName Animal InStock\nTable: STOCK STOCK STOCK STOCK\nSort: Ascending\nShow: Yes Yes No No No\nCriteria: =“cat” =Yes\nor:",
+    "page": 13,
+    "source": "https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/2210_w21_ms_22.pdf"
+  },
+  "paper2-w20-22-1ai": {
+    "points": [
+      {
+        "id": 1,
+        "marks": 2,
+        "criterion": "Name an array you could use for Task 1 and state its purpose."
+      }
+    ],
+    "instructions": "Any meaningful name for an array related to Task 1 – one mark e.g.\nSysStore\nSysPrice\nCorrect purpose related to Task 1 – one mark e.g.\n…to store the system (components) that have been purchased\n…to store the (total) price of the system (being purchased)",
+    "page": 3,
+    "source": "https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/2210_w20_ms_22.pdf"
+  },
+  "paper2-w20-22-1aii": {
+    "points": [
+      {
+        "id": 1,
+        "marks": 2,
+        "criterion": "Name a variable you could use for Task 2 and state its purpose."
+      }
+    ],
+    "instructions": "Any meaningful name for a variable related to Task 2 – one mark e.g.\nComponent\nTotalPrice\nCorrect purpose related to Task 2 - one mark e.g.\n… to allow input of a component code\n… to store/calculate the running total price of the system",
+    "page": 3,
+    "source": "https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/2210_w20_ms_22.pdf"
+  },
+  "paper2-w20-22-1aiii": {
+    "points": [
+      {
+        "id": 1,
+        "marks": 2,
+        "criterion": "Name a constant you could use for Task 3 and state its purpose."
+      }
+    ],
+    "instructions": "Any meaningful name for a constant related to Task 3 – one mark e.g.\nOffer5\nOffer10\nCorrect purpose related to Task 3 - one mark e.g.\n… to store the one option discount rate\n… to store the two-option discount rate",
+    "page": 3,
+    "source": "https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/2210_w20_ms_22.pdf"
+  },
+  "paper2-w20-22-1b": {
+    "points": [
+      {
+        "id": 1,
+        "marks": 2,
+        "criterion": "Explain the benefits of storing Price using a real data type."
+      }
+    ],
+    "instructions": "Mark as either:\nTwo distinct different points\nOR\nOne point and an expansion\nExample answers:\nReal data can be used in calculations directly (which is required of the Price\ndata) (1)\nData can be stored with decimal places (1)\nReal numbers can be used in calculations (1) which is not possible with strings\n(1)",
+    "page": 3,
+    "source": "https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/2210_w20_ms_22.pdf"
+  },
+  "paper2-w20-22-1c": {
+    "points": [
+      {
+        "id": 1,
+        "marks": 6,
+        "criterion": "Write the Task 1 algorithm. You do not need to show array setup or initialisation. Use pseudocode or programming statements."
+      }
+    ],
+    "instructions": "Any six from:\nMP1 At least one input (case, RAM, HDD)\nMP2 All three inputs fully prompted\nMP3 An attempt at validation of input\nMP4 One complete validation of input with error message\nMP5 Finding the price for one chosen item\nMP6 Finding the prices of the other two chosen items correctly\nMP7 Calculation of price of the chosen items\nMP8 …add the basic components cost to the cost of the chosen items\nMP9 Storage of chosen items\nMP10 Output to show chosen items and price of the computer (with\nappropriate message)\nExample answer:\nOUTPUT \"Which type of Case would you like? Input the Item\nCode\"\nComponentFlag ← False\nWHILE ComponentFlag = False\nINPUT CaseCode\nCount ← 0\nWHILE Count<2 DO\nIF CaseCode = ComponentCode[Count]\nTHEN\nCaseIndex ← Count\nComponentFlag ← True\nCount ← 2\nENDIF\nCount ← Count + 1\nENDWHILE\nIF ComponentFlag = False\nTHEN\nOUTPUT \"Your case Item Code doesn’t exist, please\ntry again\"\nENDIF\nENDWHILE\nOUTPUT \"Which type of RAM would you like? Input the Item\nCode\"\nComponentFlag ← False\nWHILE ComponentFlag = False\nINPUT RAMCode\nCount ← 2\nWHILE Count<5 DO\nIF RAMCode = ComponentCode[Count]\nTHEN\nRAMIndex ← Count\nComponentFlag ← True\nCount ← 5\nENDIF\nCount ← Count + 1\nENDWHILE\nIF ComponentFlag = False\nTHEN\nOUTPUT \"Your RAM Item Code doesn’t exist, please try\nagain\"\nENDIF\nENDWHILE\nOUTPUT \"Which type of Primary Hard Disk Drive would you\nlike? Input the Item Code\"\nComponentFlag ← False\nWHILE ComponentFlag = False\nINPUT PHDDCode\nCount ← 5\nWHILE Count<8 DO\nIF PHDDCode = ComponentCode[Count]\nTHEN\nHDDIndex ← Count\nComponentFlag ← True\nCount ← 8\nENDIF\nCount ← Count + 1\nENDWHILE\nIF ComponentFlag = False\nTHEN\nOUTPUT \"Your Primary HDD Item Code doesn’t exist,\nplease try again\"\nENDIF\nENDWHILE\nTotalPrice ← 200 + ComponentPrice[CaseIndex] +\nComponentPrice[RAMIndex] + ComponentPrice[HDDIndex]\nOUTPUT \"Your computer consists of \",\nDescription[CaseIndex], \" case, \", Description[RAMIndex],\n\" RAM and \", Description[HDDIndex], \" Primary Hard Disk\nDrive.\"\nOUTPUT \"The total price of your computer is $\", TotalPrice",
+    "page": 4,
+    "source": "https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/2210_w20_ms_22.pdf"
+  },
+  "paper2-w20-22-1d": {
+    "points": [
+      {
+        "id": 1,
+        "marks": 4,
+        "criterion": "Explain how your program completes Task 3. Fully explain any code used."
+      }
+    ],
+    "instructions": "Any four from:\nMP1 Explanation of how the number of additional parts is stored\nMP2 Explanation of counting of additional parts being added to the system\nMP3 Explanation of determination of additional parts being 1, or more\nthan 1\nMP4 Explanation of using the correct percentage discount\nMP5 Explanation of calculating the money saved and finding the new price\nMP6 Explanation of correct output of money saved and new price",
+    "page": 5,
+    "source": "https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/2210_w20_ms_22.pdf"
+  },
+  "paper2-w20-22-1e": {
+    "points": [
+      {
+        "id": 1,
+        "marks": 2,
+        "criterion": "Describe how to change your program so a customer can buy more than one computer."
+      }
+    ],
+    "instructions": "Any two from:\nMP1 Prompt and input to ask buyer how many computers they wish to\npurchase (at the start) // When the first computer is complete, prompt\nand input to ask if they would like to purchase another computer\nMP2 Introduce an appropriate loop structure\nMP3 New storage for more than one computer // Enable the ordering of\nmultiple computers of the same specification",
+    "page": 5,
+    "source": "https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/2210_w20_ms_22.pdf"
+  },
+  "paper2-w20-22-2": {
+    "points": [
+      {
+        "id": 1,
+        "marks": 2,
+        "criterion": "Mark each statement about subroutines True or False."
+      }
+    ],
+    "instructions": "true false\nStatement\n(✓) (✓)\nA subroutine is called from within a program. ✓\nA subroutine is not a complete program. ✓\nA subroutine is a self-contained piece of code. ✓\nA subroutine must return a value to the code from ✓\nwhich it was called.\nTwo marks for four correct rows\nOne mark for any two correct rows\nThe published allocation is 1 mark for 2 or 3 correct rows, 2 marks for 4 correct rows, and 0 otherwise.",
+    "page": 6,
+    "source": "https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/2210_w20_ms_22.pdf"
+  },
+  "paper2-w20-22-3": {
+    "points": [
+      {
+        "id": 1,
+        "marks": 6,
+        "criterion": "Give three different types of test data for this validation algorithm. For each type, give a test value and explain your choice."
+      }
+    ],
+    "instructions": "One mark for each correct type of test and one mark for each correct\naccompanying example of test data and reason (max six) e.g.\n• Extreme data\n• 5000\n• to check it is accepted\n• Normal data\n• 300\n• To check it is accepted\n• Abnormal data\n• 10000\n• To check it is rejected",
+    "page": 6,
+    "source": "https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/2210_w20_ms_22.pdf"
+  },
+  "paper2-w20-22-4": {
+    "points": [
+      {
+        "id": 1,
+        "marks": 6,
+        "criterion": "Extend and rewrite the algorithm to count how many stored numbers are greater than 500 using Higher. Output Higher once, with a suitable message."
+      }
+    ],
+    "instructions": "Any six from:\nMP1 Initialisation of Higher to 0 before the loop\nMP2 Use of IF statement\nMP3 Correct condition in IF statement\nMP4 Correct counting statement inside loop\nMP5 OUTPUT/PRINT statement with correct reference to Higher\nMP6 Appropriate message in output\nMP7 Correct location of OUTPUT and IF statements\nHigher ← 0\nFOR Count ← 1 TO 5000\nINPUT Number[Count]\nIF Number[Count] > 500\nTHEN\nHigher ← Higher + 1\nENDIF\nNEXT Count\nOUTPUT \"There are \", Higher, \" values that are greater than\n500\"",
+    "page": 7,
+    "source": "https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/2210_w20_ms_22.pdf"
+  },
+  "paper2-w20-22-5a": {
+    "points": [
+      {
+        "id": 1,
+        "marks": 5,
+        "criterion": "Complete the trace, starting with Num = [45, 56, 30, 12, 15], indexed from 0 to 4."
+      }
+    ],
+    "instructions": "\nFive marks: Flag column; Count column; Num[0] and Num[1] together; Num[2], Num[3], Num[4] together; Store column. Follow changes exactly; do not require repeated unchanged values.",
+    "page": 8,
+    "source": "https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/2210_w20_ms_22.pdf"
+  },
+  "paper2-w20-22-5b": {
+    "points": [
+      {
+        "id": 1,
+        "marks": 2,
+        "criterion": "Describe the purpose of this algorithm."
+      }
+    ],
+    "instructions": "Any two from:\n• The algorithm sorts/orders numbers\n• … into descending order / from largest to smallest",
+    "page": 8,
+    "source": "https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/2210_w20_ms_22.pdf"
+  },
+  "paper2-w20-22-6": {
+    "points": [
+      {
+        "id": 1,
+        "marks": 2,
+        "criterion": "Draw an Input/Output flowchart symbol and a Decision symbol."
+      }
+    ],
+    "instructions": "Input/Output Decision\nOne mark for each correct symbol\nOne mark for a parallelogram representing Input/Output, one for a diamond representing Decision. The app records the drawn symbol type and label.",
+    "page": 8,
+    "source": "https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/2210_w20_ms_22.pdf"
+  },
+  "paper2-w20-22-7a": {
+    "points": [
+      {
+        "id": 1,
+        "marks": 1,
+        "criterion": "How many records are shown in AUDIOPARTS?"
+      }
+    ],
+    "instructions": "17",
+    "page": 9,
+    "source": "https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/2210_w20_ms_22.pdf"
+  },
+  "paper2-w20-22-7b": {
+    "points": [
+      {
+        "id": 1,
+        "marks": 2,
+        "criterion": "Choose the most suitable primary key and explain your choice."
+      }
+    ],
+    "instructions": "One mark for correct fieldname and one mark for correct reason\nPartNum\nThe data stored in this field is unique for each record",
+    "page": 9,
+    "source": "https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/2210_w20_ms_22.pdf"
+  },
+  "paper2-w20-22-7c": {
+    "points": [
+      {
+        "id": 1,
+        "marks": 4,
+        "criterion": "Complete a query-by-example grid showing all fields for items with fewer than 10 in stock. Sort by Cost in descending order."
+      }
+    ],
+    "instructions": "Field: PartNum Description Cost Quantity\nTable: AUDIOPARTS AUDIOPARTS AUDIOPARTS AUDIOPARTS\nSort: Descending\nShow: Yes Yes Yes Yes\nCriteria: <10\nor:\nOne mark for correct field and table rows\nOne mark for sort row\nOne mark for show row\nOne mark for correct criteria",
+    "page": 9,
+    "source": "https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/2210_w20_ms_22.pdf"
+  }
+}

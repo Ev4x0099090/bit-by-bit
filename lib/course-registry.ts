@@ -7,6 +7,9 @@ import {algorithmEntries} from './course-algorithms';
 import {programmingEntries} from './course-programming';
 import {databaseEntries,logicEntries} from './course-data-logic';
 export const courseEntries=[...softwareEntries,...webEntries,...automationEntries,...algorithmEntries,...programmingEntries,...databaseEntries,...logicEntries];
+// Introduce operators before the decisions and loops that rely on them.
+const controlEntry=courseEntries.find(e=>e.id==='8.1.4');
+if(controlEntry){const index=controlEntry.sections.findIndex(s=>s[0]==='Use arithmetic and comparisons');if(index>1){const [operators]=controlEntry.sections.splice(index,1);controlEntry.sections.splice(1,0,operators)}}
 export const courseById=Object.fromEntries(courseEntries.map(e=>[e.id,e]));
 export const courseLessons:Lesson[]=courseEntries.map(e=>({id:e.id,title:e.title,minutes:e.minutes,goal:e.mission,intro:e.opening,detail:e.sections.map(s=>s[1]),example:e.another,misconception:e.mistake,tip:e.exam,summary:e.takeaways.join(' '),lab:'course'}));
 export const courseTeaching:Record<string,TeachingPlan>=Object.fromEntries(courseEntries.map(e=>[e.id,{hook:e.opening,ideaTitles:e.sections.map(s=>s[0]),bridge:e.mission,worked:e.worked,practice:e.practice,takeaways:e.takeaways}]));
